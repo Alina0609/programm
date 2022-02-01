@@ -1,0 +1,3 @@
+C:/Users/user/CLionProjects/course/libs/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir
+C:/Users/user/CLionProjects/course/libs/data_structures/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/user/CLionProjects/course/libs/data_structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
