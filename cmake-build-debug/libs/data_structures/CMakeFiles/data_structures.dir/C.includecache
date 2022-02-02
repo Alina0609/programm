@@ -7,4 +7,24 @@
 #IncludeRegexTransform: 
 
 C:/Users/user/CLionProjects/course/libs/data_structures/vector/vector.c
+stdio.h
+-
+vector.h
+C:/Users/user/CLionProjects/course/libs/data_structures/vector/vector.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/vector/vector.h
+malloc.h
+-
+stdint.h
+-
+assert.h
+-
+memory.h
+-
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
 

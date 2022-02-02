@@ -182,6 +182,12 @@
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/vector/vector.h">
 			<Option target="data_structures"/>
 		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/vector/voidVector.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/vector/voidVector.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/main.c">
 			<Option target="course"/>
 		</Unit>
