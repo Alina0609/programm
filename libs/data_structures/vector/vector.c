@@ -4,11 +4,12 @@
 #include "vector.h"
 
 vector createVector(size_t n) {
-    if (malloc(sizeof(int) * n) == NULL) {
+    int *memory = malloc(sizeof(int) * n);
+    if (memory == NULL) {
         fprintf(stderr, "bad alloc ");
         exit(1);
     } else
-        return (vector) {malloc(sizeof(int) * n), 0, n};
+        return (vector) {memory, 0, n};
 }
 
 void reserve(vector *v, size_t newCapacity) {
@@ -30,10 +31,10 @@ void clear(vector *v) {
     v->size = 0;
 }
 
-void shrinkToFit(vector *v){
+void shrinkToFit(vector *v) {
     reserve(v, v->size);
 }
 
-void deleteVector(vector *v){
+void deleteVector(vector *v) {
     free(v->data);
 }

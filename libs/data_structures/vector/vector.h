@@ -34,6 +34,12 @@ void shrinkToFit(vector *v);
 //освобождает память, выделенную вектору
 void deleteVector(vector *v);
 
+//проверяет является ли вектор пустым
+bool isEmpty(vector *v);
+
+//проверяет явдяется ли вектор полным
+bool isFull(vector *v);
+
 //возвращает i-ый элемент вектора v
 int getVectorValue(vector *v, size_t i);
 
