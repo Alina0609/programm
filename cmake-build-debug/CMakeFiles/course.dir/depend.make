@@ -8,4 +8,5 @@ CMakeFiles/course.dir/main.c.obj: \
  ../libs/data_structures/ordered_array_set/ordered_array_set.h \
  ../libs/data_structures/unordered_array_set/unordered_array_set.h \
  ../libs/data_structures/vector/vector.h \
+ ../libs/data_structures/vector/voidVector.h \
  ../main.c

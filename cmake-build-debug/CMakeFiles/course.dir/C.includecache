@@ -74,6 +74,16 @@ stdbool.h
 stdlib.h
 -
 
+C:/Users/user/CLionProjects/course/libs/data_structures/vector/voidVector.h
+limits.h
+-
+stdio.h
+-
+malloc.h
+-
+stdlib.h
+-
+
 C:/Users/user/CLionProjects/course/main.c
 libs/algorithms/array/array.h
 C:/Users/user/CLionProjects/course/libs/algorithms/array/array.h
@@ -87,4 +97,6 @@ libs/data_structures/ordered_array_set/ordered_array_set.h
 C:/Users/user/CLionProjects/course/libs/data_structures/ordered_array_set/ordered_array_set.h
 libs/data_structures/vector/vector.h
 C:/Users/user/CLionProjects/course/libs/data_structures/vector/vector.h
+libs/data_structures/vector/voidVector.h
+C:/Users/user/CLionProjects/course/libs/data_structures/vector/voidVector.h
 

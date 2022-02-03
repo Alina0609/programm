@@ -6,24 +6,16 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/user/CLionProjects/course/libs/data_structures/vector/vector.c
-stdio.h
--
-vector.h
-C:/Users/user/CLionProjects/course/libs/data_structures/vector/vector.h
+C:/Users/user/CLionProjects/course/libs/data_structures/vector/voidVector.c
+voidVector.h
+C:/Users/user/CLionProjects/course/libs/data_structures/vector/voidVector.h
 
-C:/Users/user/CLionProjects/course/libs/data_structures/vector/vector.h
-malloc.h
--
-stdint.h
--
-assert.h
--
-memory.h
+C:/Users/user/CLionProjects/course/libs/data_structures/vector/voidVector.h
+limits.h
 -
 stdio.h
 -
-stdbool.h
+malloc.h
 -
 stdlib.h
 -
