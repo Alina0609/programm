@@ -55,7 +55,7 @@ int *atVector(vector *v, size_t index);
 // возвращает указатель на последний элемент вектора
 int *back(vector *v);
 
-//возвращает указатель на последний элемент вектора
+//возвращает указатель на первый элемент вектора
 int *front(vector *v);
 
 #endif //COURSE_VECTOR_H

@@ -837,13 +837,23 @@ void test_ordered_array_set_complement() {
 
 void test_createVector() {
     vector v = createVector(7);
+
     assert(v.size == 0);
     assert(v.capacity == 7);
 
     deleteVector(&v);
 }
 
-void test_reserve() {
+void test_createZeroVector() {
+    vector v = createVector(0);
+
+    assert(v.size == 0);
+    assert(v.capacity == 0);
+
+    deleteVector(&v);
+}
+
+void test_reserve1() {
     vector v = createVector(7);
     v.size = 5;
     reserve(&v, 6);
@@ -852,6 +862,22 @@ void test_reserve() {
     assert(v.capacity == 6);
 
     deleteVector(&v);
+}
+
+void test_reserve2() {
+    vector v = createVector(7);
+    v.size = 5;
+    reserve(&v, 4);
+
+    assert(v.size == 4);
+    assert(v.capacity == 4);
+
+    deleteVector(&v);
+}
+
+void test_reserve() {
+    test_reserve1();
+    test_reserve2();
 }
 
 void test_shrinkToFit() {
@@ -984,6 +1010,7 @@ void test_atVector_requestToLastElement() {
 
 void test_back_oneElementInVector() {
     vector v = createVector(1);
+    v.size = 1;
 
     assert(back(&v) == v.data);
 
@@ -999,8 +1026,8 @@ void test_front_oneElementInVector() {
 }
 
 void test_back() {
-    vector v = createVector(6);
-    v.size = 5;
+    vector v = createVector(7);
+    v.size = 6;
 
     assert(back(&v) == &v.data[5]);
 
@@ -1041,6 +1068,7 @@ void test() {
     test_ordered_array_set_complement();
 
     test_createVector();
+    test_createZeroVector();
     test_reserve();
     test_shrinkToFit();
     test_isEmpty();

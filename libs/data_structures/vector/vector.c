@@ -58,7 +58,7 @@ void pushBack(vector *v, int x) {
         reserve(v, 2 * v->capacity);
 
     v->data[v->size] = x;
-    (v->size)++;
+    v->size++;
 }
 
 void popBack(vector *v) {
@@ -66,7 +66,7 @@ void popBack(vector *v) {
         fprintf(stderr, "is empty");
         exit(1);
     } else
-        (v->size)--;
+        v->size--;
 }
 
 int *atVector(vector *v, size_t index) {
@@ -80,7 +80,7 @@ int *atVector(vector *v, size_t index) {
 }
 
 int *back(vector *v) {
-    return atVector(v, v->size);
+    return atVector(v, v->size - 1);
 }
 
 int *front(vector *v) {
