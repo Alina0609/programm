@@ -19,4 +19,8 @@ malloc.h
 -
 stdlib.h
 -
+stdbool.h
+-
+memory.h
+-
 

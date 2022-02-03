@@ -83,6 +83,10 @@ malloc.h
 -
 stdlib.h
 -
+stdbool.h
+-
+memory.h
+-
 
 C:/Users/user/CLionProjects/course/main.c
 libs/algorithms/array/array.h
