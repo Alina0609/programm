@@ -835,6 +835,123 @@ void test_ordered_array_set_complement() {
     test_ordered_array_set_complement3();
 }
 
+void test_createVector() {
+    vector v = createVector(7);
+    assert(v.size == 0);
+    assert(v.capacity == 7);
+
+    deleteVector(&v);
+}
+
+void test_reserve() {
+    vector v = createVector(7);
+    v.size = 5;
+    reserve(&v, 6);
+
+    assert(v.size == 5);
+    assert(v.capacity == 6);
+
+    deleteVector(&v);
+}
+
+void test_shrinkToFit() {
+    vector v = createVector(4);
+    v.size = 2;
+    shrinkToFit(&v);
+
+    assert(v.size == v.capacity);
+
+    deleteVector(&v);
+}
+
+void test_isEmpty() {
+    vector v = createVector(4);
+
+    assert(isEmpty(&v));
+
+    deleteVector(&v);
+}
+
+void test_isFull() {
+    vector v = createVector(4);
+    v.size = 4;
+
+    assert(isFull(&v));
+
+    deleteVector(&v);
+}
+
+void test_getVectorValue1() {
+    vector v = createVector(4);
+    v.data[2] = 45;
+
+    assert(getVectorValue(&v, 2) == v.data[2]);
+
+    deleteVector(&v);
+}
+
+void test_getVectorValue2() {
+    vector v = createVector(10);
+    v.data[10] = 12;
+
+    assert(getVectorValue(&v, 10) == v.data[10]);
+
+    deleteVector(&v);
+}
+
+void test_getVectorValue3() {
+    vector v = createVector(5);
+    v.data[0] = 1;
+
+    assert(getVectorValue(&v, 0) == v.data[0]);
+
+    deleteVector(&v);
+}
+
+void test_getVectorValue(){
+    test_getVectorValue1();
+    test_getVectorValue2();
+    test_getVectorValue3();
+}
+
+
+void test_pushBack_emptyVector() {
+    vector v = createVector(10);
+    pushBack(&v, 15);
+
+    assert(v.data[0] == 15);
+    assert(v.size == 1);
+    assert(v.capacity == 10);
+
+    deleteVector(&v);
+}
+
+void test_pushBack_fullVector() {
+    vector v = createVector(4);
+    v.size = 4;
+    pushBack(&v, 1);
+
+    assert(v.data[4] == 1);
+    assert(v.size == 5);
+    assert(v.capacity == 8);
+
+    deleteVector(&v);
+}
+
+void test_popBack_notEmptyVector() {
+    vector v = createVector(0);
+    pushBack(&v, 10);
+
+    assert (v.size == 1);
+    popBack(&v);
+
+    assert (v.size == 0);
+//    printf("%zu", v.capacity);
+    assert (v.capacity == 1);
+
+    deleteVector(&v);
+}
+
 void test() {
     test_unordered_array_set_in();
     test_unordered_array_set_isEqual();
@@ -857,6 +974,16 @@ void test() {
     test_ordered_array_set_difference();
     test_ordered_array_set_symmetricDifference();
     test_ordered_array_set_complement();
+
+    test_createVector();
+    test_reserve();
+    test_shrinkToFit();
+    test_isEmpty();
+    test_isFull();
+    test_getVectorValue();
+    test_pushBack_emptyVector();
+    test_pushBack_fullVector();
+    test_popBack_notEmptyVector();
 }
 
 int main() {
