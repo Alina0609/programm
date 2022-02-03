@@ -18,5 +18,7 @@
    // если вектор хранит float -
    // то поле baseTypeSize = sizeof(float)
    } vectorVoid ;
+
+
 #endif
 
