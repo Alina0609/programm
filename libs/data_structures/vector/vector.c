@@ -61,11 +61,30 @@ void pushBack(vector *v, int x) {
     (v->size)++;
 }
 
-void popBack(vector *v){
-    if(isEmpty(v)){
+void popBack(vector *v) {
+    if (isEmpty(v)) {
         fprintf(stderr, "is empty");
         exit(1);
-    }
-    else
+    } else
         (v->size)--;
 }
+
+int *atVector(vector *v, size_t index) {
+    if (index > v->capacity)
+        fprintf(stderr, "IndexError: a[%zu] is not exists", index);
+    else if (v->capacity == 0 && index < 0) {
+        fprintf(stderr, "bad alloc ");
+        exit(1);
+    }
+    return (int *) &v->data[index];
+}
+
+int *back(vector *v) {
+    return atVector(v, v->size);
+}
+
+int *front(vector *v) {
+    return v->data;
+}
+
+

@@ -901,14 +901,14 @@ void test_getVectorValue2() {
 
 void test_getVectorValue3() {
     vector v = createVector(5);
-    v.data[0] = 1;
+    *v.data = 1;
 
-    assert(getVectorValue(&v, 0) == v.data[0]);
+    assert(getVectorValue(&v, 0) == *v.data);
 
     deleteVector(&v);
 }
 
-void test_getVectorValue(){
+void test_getVectorValue() {
     test_getVectorValue1();
     test_getVectorValue2();
     test_getVectorValue3();
@@ -919,7 +919,7 @@ void test_pushBack_emptyVector() {
     vector v = createVector(10);
     pushBack(&v, 15);
 
-    assert(v.data[0] == 15);
+    assert(*v.data == 15);
     assert(v.size == 1);
     assert(v.capacity == 10);
 
@@ -948,6 +948,71 @@ void test_popBack_notEmptyVector() {
     assert (v.size == 0);
 //    printf("%zu", v.capacity);
     assert (v.capacity == 1);
+
+    deleteVector(&v);
+}
+
+void test_atVector_notEmptyVector() {
+    vector v = createVector(5);
+    v.size = 3;
+
+    assert(atVector(&v, 2) == &v.data[2]);
+
+    deleteVector(&v);
+}
+
+void test_atVector_requestToLastElement1() {
+    vector v = createVector(5);
+
+    assert(atVector(&v, 5) == &v.data[5]);
+
+    deleteVector(&v);
+}
+
+void test_atVector_requestToLastElement2() {
+    vector v = createVector(5);
+
+    assert(atVector(&v, 0) == v.data);
+
+    deleteVector(&v);
+}
+
+void test_atVector_requestToLastElement() {
+    test_atVector_requestToLastElement1();
+    test_atVector_requestToLastElement2();
+}
+
+void test_back_oneElementInVector() {
+    vector v = createVector(1);
+
+    assert(back(&v) == v.data);
+
+    deleteVector(&v);
+}
+
+void test_front_oneElementInVector() {
+    vector v = createVector(1);
+
+    assert(front(&v) == v.data);
+
+    deleteVector(&v);
+}
+
+void test_back() {
+    vector v = createVector(6);
+    v.size = 5;
+
+    assert(back(&v) == &v.data[5]);
+
+    deleteVector(&v);
+}
+
+void test_front() {
+    vector v = createVector(6);
+
+    v.size = 5;
+
+    assert(front(&v) == v.data);
 
     deleteVector(&v);
 }
@@ -984,12 +1049,18 @@ void test() {
     test_pushBack_emptyVector();
     test_pushBack_fullVector();
     test_popBack_notEmptyVector();
+    test_atVector_notEmptyVector();
+    test_atVector_requestToLastElement();
+    test_back_oneElementInVector();
+    test_front_oneElementInVector();
+    test_back();
+    test_front();
 }
 
 int main() {
     test();
 
-    vector v = createVector(SIZE_MAX);
+    //vector v = createVector(SIZE_MAX);
 
     return 0;
 }
