@@ -28,6 +28,18 @@ matrix *getMemArrayOfMatrices(int nMatrices, int nRows, int nCols);
 void freeMemMatrix(matrix m);
 
 // освобождает память, выделенную под хранение массива ms из nMatrices матриц
-void freeMemArrayOfMatrices(matrix *ms, int nMatrices);
+void freeMemMatrices(matrix *ms, int nMatrices);
+
+// ввод матрицы m
+void inputMatrix(matrix m);
+
+// ввод массива ms из nMatrices матриц
+void inputMatrices(matrix *ms, int nMatrices);
+
+// вывод матрицы m
+void outputMatrix(matrix m);
+
+// вывод массива ms из nMatrices матриц
+void outputMatrices(matrix *ms, int nMatrices);
 
 #endif //COURSE_MATRIX_H
