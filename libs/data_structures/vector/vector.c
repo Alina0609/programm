@@ -14,17 +14,20 @@ vector createVector(size_t n) {
 
 void reserve(vector *v, size_t newCapacity) {
     v->data = (int *) realloc(v->data, sizeof(int) * newCapacity);
-    if (v->data == NULL) {
-        fprintf(stderr, "bad alloc ");
-        exit(1);
-    }
-    if (newCapacity == 0)
-        v->data = NULL;
 
     if (newCapacity < v->size)
         v->size = newCapacity;
 
     v->capacity = newCapacity;
+
+    if (newCapacity == 0)
+        return;
+
+
+    if (v->data == NULL) {
+        fprintf(stderr, "bad alloc ");
+        exit(1);
+    }
 }
 
 void clear(vector *v) {

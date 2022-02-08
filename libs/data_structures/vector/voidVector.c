@@ -14,17 +14,19 @@ vectorVoid createVectorV(size_t n, size_t baseTypeSize) {
 
 void reserveV(vectorVoid *v, size_t newCapacity) {
     v->data = (int *) realloc(v->data, v->baseTypeSize * newCapacity);
-    if (v->data == NULL) {
-        fprintf(stderr, "bad alloc ");
-        exit(1);
-    }
-    if (newCapacity == 0)
-        v->data = NULL;
 
     if (newCapacity < v->size)
         v->size = newCapacity;
 
     v->capacity = newCapacity;
+
+    if (newCapacity == 0)
+        return;
+
+    if (v->data == NULL) {
+        fprintf(stderr, "bad alloc ");
+        exit(1);
+    }
 }
 
 void shrinkToFitV(vectorVoid *v) {
@@ -50,7 +52,6 @@ bool isFullV(vectorVoid *v) {
 void getVectorValueV(vectorVoid *v, size_t index, void *destination) {
     char *source = (char *) v->data + index * v->baseTypeSize;
     memcpy(destination, source, v->baseTypeSize);
-
 }
 
 void setVectorValueV(vectorVoid *v, size_t index, void *source) {
