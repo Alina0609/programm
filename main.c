@@ -5,6 +5,7 @@
 #include "libs/data_structures/ordered_array_set/ordered_array_set.h"
 #include "libs/data_structures/vector/vector.h"
 #include "libs/data_structures/vector/voidVector.h"
+#include "libs/data_structures/matrix/matrix.h"
 
 void test_unordered_array_set_create1() {
     unordered_array_set set1 = unordered_array_set_create(3);
@@ -1045,6 +1046,89 @@ void test_front() {
     deleteVector(&v);
 }
 
+void test_getMemMatrix() {
+    int n = 3;
+    int testMatrix[][2] = {
+            {3, 5},
+            {8, 2},
+            {0, 1}
+    };
+
+    for (int i = 0; i < n; ++i) {
+        int nRows = testMatrix[i][0];
+        int nCols = testMatrix[i][1];
+        matrix m = getMemMatrix(nRows, nCols);
+
+        assert(m.nRows == nRows);
+        assert(m.nCols == nCols);
+
+        freeMemMatrix(m);
+    }
+}
+
+void test_getMemArrayOfMatrices() {
+
+}
+
+void test_freeMemMatrix() {
+    int n = 3;
+    int testMatrix[][2] = {
+            {3, 4},
+            {7, 9},
+            {-2, 9},
+            {0, 11}
+    };
+    for (int i = 0; i < n; i++){
+        int nRows = testMatrix[i][0];
+        int nCols = testMatrix[i][1];
+        matrix m = getMemMatrix(nRows, nCols);
+        int** memory = m.values;
+
+        assert(m.nCols == 0 && m.nRows == 0);
+        assert(m.values == NULL);
+    }
+}
+
+void test_freeMemMatrices() {
+
+}
+
+void test_swapRows() {
+int values[] = {3, 5, 7,
+                1, 9, 0,
+                45, 66, 13};
+int n = 3;
+
+}
+
+void test_swapColumns() {
+
+}
+
+void test_insertionSortRowsMatrixByRowCriteria() {
+
+}
+
+void test_insertionSortColsMatrixByColCriteria() {
+
+}
+
+void test_isSquareMatrix() {
+
+}
+
+void test_twoMatricesEqual() {
+
+}
+
+void test_isEMatrix() {
+
+}
+
+void test_isSymmetricMatrix() {
+
+}
+
 void test() {
     test_unordered_array_set_in();
     test_unordered_array_set_isEqual();
@@ -1084,6 +1168,25 @@ void test() {
     test_front_oneElementInVector();
     test_back();
     test_front();
+
+    test_getMemMatrix();
+    test_getMemArrayOfMatrices();
+    test_freeMemMatrix();
+    test_freeMemMatrices();
+    test_inputMatrix();
+    test_inputMatrices();
+    test_outputMatrix();
+    test_outputMatrices();
+    test_swapRows();
+    test_swapColumns();
+    test_insertionSortRowsMatrixByRowCriteria();
+    test_insertionSortColsMatrixByColCriteria();
+    test_isSquareMatrix();
+    test_twoMatricesEqual();
+    test_isEMatrix();
+    test_isSymmetricMatrix();
+
+
 }
 
 int main() {

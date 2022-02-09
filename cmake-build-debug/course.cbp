@@ -164,7 +164,10 @@
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/bitset/bitset.h">
 			<Option target="data_structures"/>
 		</Unit>
-		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/matrix/martrix.c">
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/ordered_array_set/ordered_array_set.c">

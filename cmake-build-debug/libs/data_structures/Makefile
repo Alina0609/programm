@@ -153,29 +153,29 @@ bitset/bitset.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.s
 .PHONY : bitset/bitset.c.s
 
-matrix/martrix.obj: matrix/martrix.c.obj
-.PHONY : matrix/martrix.obj
+matrix/matrix.obj: matrix/matrix.c.obj
+.PHONY : matrix/matrix.obj
 
 # target to build an object file
-matrix/martrix.c.obj:
-	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/martrix.c.obj
-.PHONY : matrix/martrix.c.obj
+matrix/matrix.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj
+.PHONY : matrix/matrix.c.obj
 
-matrix/martrix.i: matrix/martrix.c.i
-.PHONY : matrix/martrix.i
+matrix/matrix.i: matrix/matrix.c.i
+.PHONY : matrix/matrix.i
 
 # target to preprocess a source file
-matrix/martrix.c.i:
-	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/martrix.c.i
-.PHONY : matrix/martrix.c.i
+matrix/matrix.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.i
+.PHONY : matrix/matrix.c.i
 
-matrix/martrix.s: matrix/martrix.c.s
-.PHONY : matrix/martrix.s
+matrix/matrix.s: matrix/matrix.c.s
+.PHONY : matrix/matrix.s
 
 # target to generate assembly for a file
-matrix/martrix.c.s:
-	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/martrix.c.s
-.PHONY : matrix/martrix.c.s
+matrix/matrix.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.s
+.PHONY : matrix/matrix.c.s
 
 ordered_array_set/ordered_array_set.obj: ordered_array_set/ordered_array_set.c.obj
 .PHONY : ordered_array_set/ordered_array_set.obj
@@ -285,9 +285,9 @@ help:
 	@echo ... bitset/bitset.obj
 	@echo ... bitset/bitset.i
 	@echo ... bitset/bitset.s
-	@echo ... matrix/martrix.obj
-	@echo ... matrix/martrix.i
-	@echo ... matrix/martrix.s
+	@echo ... matrix/matrix.obj
+	@echo ... matrix/matrix.i
+	@echo ... matrix/matrix.s
 	@echo ... ordered_array_set/ordered_array_set.obj
 	@echo ... ordered_array_set/ordered_array_set.i
 	@echo ... ordered_array_set/ordered_array_set.s
