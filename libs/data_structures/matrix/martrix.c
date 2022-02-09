@@ -7,6 +7,7 @@
 #include <stdio.h>
 
 #include "matrix.h"
+#include "../../algorithms/algorithm.h"
 
 matrix getMemMatrix(int nRows, int nCols) {
     int **values = (int **) malloc(nRows * sizeof(int *));
@@ -81,3 +82,14 @@ void outputMatrices(matrix *ms, int nMatrices) {
         outputMatrix(ms[i]);
     }
 }
+
+void swapRows(matrix m, int i1, int i2) {
+    universalSwap(m.values[i1], m.values[i2], sizeof(int *));
+}
+
+void swapColumns(matrix m, int j1, int j2) {
+    for (int i = 0; i < m.nRows; i++) {
+        universalSwap(&m.values[i][j1], &m.values[i][j2], sizeof(int));
+    }
+}
+

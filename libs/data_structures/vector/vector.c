@@ -23,7 +23,6 @@ void reserve(vector *v, size_t newCapacity) {
     if (newCapacity == 0)
         return;
 
-
     if (v->data == NULL) {
         fprintf(stderr, "bad alloc ");
         exit(1);
