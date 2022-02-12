@@ -6,21 +6,33 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/user/CLionProjects/course/libs/data_structures/vector/voidVector.c
-voidVector.h
-C:/Users/user/CLionProjects/course/libs/data_structures/vector/voidVector.h
+C:/Users/user/CLionProjects/course/libs/algorithms/algorithm.h
+stdlib.h
+-
 
-C:/Users/user/CLionProjects/course/libs/data_structures/vector/voidVector.h
-limits.h
--
-stdio.h
--
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.c
 malloc.h
 -
 stdlib.h
 -
+stdio.h
+-
 stdbool.h
 -
-memory.h
+assert.h
+-
+matrix.h
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h
+../../algorithms/algorithm.h
+C:/Users/user/CLionProjects/course/libs/algorithms/algorithm.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h
+stdbool.h
+-
+
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/test_matrix.c
+matrix.h
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h
+assert.h
 -
 

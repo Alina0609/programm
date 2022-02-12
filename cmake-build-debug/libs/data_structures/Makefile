@@ -177,6 +177,30 @@ matrix/matrix.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.s
 .PHONY : matrix/matrix.c.s
 
+matrix/test_matrix.obj: matrix/test_matrix.c.obj
+.PHONY : matrix/test_matrix.obj
+
+# target to build an object file
+matrix/test_matrix.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.obj
+.PHONY : matrix/test_matrix.c.obj
+
+matrix/test_matrix.i: matrix/test_matrix.c.i
+.PHONY : matrix/test_matrix.i
+
+# target to preprocess a source file
+matrix/test_matrix.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.i
+.PHONY : matrix/test_matrix.c.i
+
+matrix/test_matrix.s: matrix/test_matrix.c.s
+.PHONY : matrix/test_matrix.s
+
+# target to generate assembly for a file
+matrix/test_matrix.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.s
+.PHONY : matrix/test_matrix.c.s
+
 ordered_array_set/ordered_array_set.obj: ordered_array_set/ordered_array_set.c.obj
 .PHONY : ordered_array_set/ordered_array_set.obj
 
@@ -201,6 +225,54 @@ ordered_array_set/ordered_array_set.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.s
 .PHONY : ordered_array_set/ordered_array_set.c.s
 
+ordered_array_set/test_ordered_array_set.obj: ordered_array_set/test_ordered_array_set.c.obj
+.PHONY : ordered_array_set/test_ordered_array_set.obj
+
+# target to build an object file
+ordered_array_set/test_ordered_array_set.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/test_ordered_array_set.c.obj
+.PHONY : ordered_array_set/test_ordered_array_set.c.obj
+
+ordered_array_set/test_ordered_array_set.i: ordered_array_set/test_ordered_array_set.c.i
+.PHONY : ordered_array_set/test_ordered_array_set.i
+
+# target to preprocess a source file
+ordered_array_set/test_ordered_array_set.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/test_ordered_array_set.c.i
+.PHONY : ordered_array_set/test_ordered_array_set.c.i
+
+ordered_array_set/test_ordered_array_set.s: ordered_array_set/test_ordered_array_set.c.s
+.PHONY : ordered_array_set/test_ordered_array_set.s
+
+# target to generate assembly for a file
+ordered_array_set/test_ordered_array_set.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/test_ordered_array_set.c.s
+.PHONY : ordered_array_set/test_ordered_array_set.c.s
+
+unordered_array_set/test_unordered_array_set.obj: unordered_array_set/test_unordered_array_set.c.obj
+.PHONY : unordered_array_set/test_unordered_array_set.obj
+
+# target to build an object file
+unordered_array_set/test_unordered_array_set.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/test_unordered_array_set.c.obj
+.PHONY : unordered_array_set/test_unordered_array_set.c.obj
+
+unordered_array_set/test_unordered_array_set.i: unordered_array_set/test_unordered_array_set.c.i
+.PHONY : unordered_array_set/test_unordered_array_set.i
+
+# target to preprocess a source file
+unordered_array_set/test_unordered_array_set.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/test_unordered_array_set.c.i
+.PHONY : unordered_array_set/test_unordered_array_set.c.i
+
+unordered_array_set/test_unordered_array_set.s: unordered_array_set/test_unordered_array_set.c.s
+.PHONY : unordered_array_set/test_unordered_array_set.s
+
+# target to generate assembly for a file
+unordered_array_set/test_unordered_array_set.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/test_unordered_array_set.c.s
+.PHONY : unordered_array_set/test_unordered_array_set.c.s
+
 unordered_array_set/unordered_array_set.obj: unordered_array_set/unordered_array_set.c.obj
 .PHONY : unordered_array_set/unordered_array_set.obj
 
@@ -224,6 +296,30 @@ unordered_array_set/unordered_array_set.s: unordered_array_set/unordered_array_s
 unordered_array_set/unordered_array_set.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/unordered_array_set.c.s
 .PHONY : unordered_array_set/unordered_array_set.c.s
+
+vector/test_vector.obj: vector/test_vector.c.obj
+.PHONY : vector/test_vector.obj
+
+# target to build an object file
+vector/test_vector.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/test_vector.c.obj
+.PHONY : vector/test_vector.c.obj
+
+vector/test_vector.i: vector/test_vector.c.i
+.PHONY : vector/test_vector.i
+
+# target to preprocess a source file
+vector/test_vector.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/test_vector.c.i
+.PHONY : vector/test_vector.c.i
+
+vector/test_vector.s: vector/test_vector.c.s
+.PHONY : vector/test_vector.s
+
+# target to generate assembly for a file
+vector/test_vector.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/test_vector.c.s
+.PHONY : vector/test_vector.c.s
 
 vector/vector.obj: vector/vector.c.obj
 .PHONY : vector/vector.obj
@@ -288,12 +384,24 @@ help:
 	@echo ... matrix/matrix.obj
 	@echo ... matrix/matrix.i
 	@echo ... matrix/matrix.s
+	@echo ... matrix/test_matrix.obj
+	@echo ... matrix/test_matrix.i
+	@echo ... matrix/test_matrix.s
 	@echo ... ordered_array_set/ordered_array_set.obj
 	@echo ... ordered_array_set/ordered_array_set.i
 	@echo ... ordered_array_set/ordered_array_set.s
+	@echo ... ordered_array_set/test_ordered_array_set.obj
+	@echo ... ordered_array_set/test_ordered_array_set.i
+	@echo ... ordered_array_set/test_ordered_array_set.s
+	@echo ... unordered_array_set/test_unordered_array_set.obj
+	@echo ... unordered_array_set/test_unordered_array_set.i
+	@echo ... unordered_array_set/test_unordered_array_set.s
 	@echo ... unordered_array_set/unordered_array_set.obj
 	@echo ... unordered_array_set/unordered_array_set.i
 	@echo ... unordered_array_set/unordered_array_set.s
+	@echo ... vector/test_vector.obj
+	@echo ... vector/test_vector.i
+	@echo ... vector/test_vector.s
 	@echo ... vector/vector.obj
 	@echo ... vector/vector.i
 	@echo ... vector/vector.s

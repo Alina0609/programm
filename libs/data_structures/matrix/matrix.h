@@ -5,6 +5,8 @@
 #ifndef COURSE_MATRIX_H
 #define COURSE_MATRIX_H
 
+#include <stdbool.h>
+
 typedef struct matrix {
     int **values; //элементы матрицы
     int nRows; //количество рядов
@@ -25,7 +27,7 @@ matrix getMemMatrix(int nRows, int nCols);
 matrix *getMemArrayOfMatrices(int nMatrices, int nRows, int nCols);
 
 //освобождает память, выделенную под матрицу m
-void freeMemMatrix(matrix m);
+void freeMemMatrix(matrix* m);
 
 //освобождает память, выделенную под хранение массива ms из nMatrices матриц
 void freeMemMatrices(matrix *ms, int nMatrices);
@@ -69,5 +71,14 @@ bool isEMatrix(matrix m);
 //возвращает значение ’истина’, если
 //матрица m является симметричной, ложь – в противном случае
 bool isSymmetricMatrix(matrix m);
+
+//транспонирует квадратную матрицу m
+void transposeSquareMatrix(matrix m);
+
+//возвращает позицию минимального элемента матрицы m
+position getMinValuePos(matrix m);
+
+//возвращает позицию максимального элемента матрицы m
+position getMaxValuePos(matrix m);
 #endif //COURSE_MATRIX_H
 

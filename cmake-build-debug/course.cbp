@@ -170,16 +170,40 @@
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h">
 			<Option target="data_structures"/>
 		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/matrix/test_matrix.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/matrix/test_matrix.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/ordered_array_set/ordered_array_set.c">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/ordered_array_set/ordered_array_set.h">
 			<Option target="data_structures"/>
 		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/ordered_array_set/test_ordered_array_set.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/ordered_array_set/test_ordered_array_set.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/unordered_array_set/test_unordered_array_set.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/unordered_array_set/test_unordered_array_set.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/unordered_array_set/unordered_array_set.c">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/unordered_array_set/unordered_array_set.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/vector/test_vector.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/vector/test_vector.h">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/vector/vector.c">

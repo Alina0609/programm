@@ -4,16 +4,39 @@
 libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj: \
  ../libs/data_structures/bitset/bitset.c \
  ../libs/data_structures/bitset/bitset.h
+libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj: \
+ ../libs/algorithms/algorithm.h \
+ ../libs/data_structures/matrix/matrix.c \
+ ../libs/data_structures/matrix/matrix.h
+libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.obj: \
+ ../libs/data_structures/matrix/matrix.h \
+ ../libs/data_structures/matrix/test_matrix.c
 libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj: \
  ../libs/algorithms/algorithm.h \
  ../libs/algorithms/array/array.h \
  ../libs/data_structures/ordered_array_set/ordered_array_set.c \
  ../libs/data_structures/ordered_array_set/ordered_array_set.h
+libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/test_ordered_array_set.c.obj: \
+ ../libs/algorithms/algorithm.h \
+ ../libs/algorithms/array/array.h \
+ ../libs/data_structures/ordered_array_set/ordered_array_set.h \
+ ../libs/data_structures/ordered_array_set/test_ordered_array_set.c \
+ ../libs/data_structures/ordered_array_set/test_ordered_array_set.h
+libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/test_unordered_array_set.c.obj: \
+ ../libs/algorithms/algorithm.h \
+ ../libs/algorithms/array/array.h \
+ ../libs/data_structures/unordered_array_set/test_unordered_array_set.c \
+ ../libs/data_structures/unordered_array_set/test_unordered_array_set.h \
+ ../libs/data_structures/unordered_array_set/unordered_array_set.h
 libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/unordered_array_set.c.obj: \
  ../libs/algorithms/algorithm.h \
  ../libs/algorithms/array/array.h \
  ../libs/data_structures/unordered_array_set/unordered_array_set.c \
  ../libs/data_structures/unordered_array_set/unordered_array_set.h
+libs/data_structures/CMakeFiles/data_structures.dir/vector/test_vector.c.obj: \
+ ../libs/data_structures/vector/test_vector.c \
+ ../libs/data_structures/vector/test_vector.h \
+ ../libs/data_structures/vector/vector.h
 libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj: \
  ../libs/data_structures/vector/vector.c \
  ../libs/data_structures/vector/vector.h
