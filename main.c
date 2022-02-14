@@ -1,13 +1,22 @@
-#include <assert.h>
-#include "libs/data_structures/matrix/matrix.h"
-#include "libs/data_structures/ordered_array_set/test_ordered_array_set.h"
+#include <stdio.h>
 #include "libs/data_structures/matrix/test_matrix.h"
+#include "libs/data_structures/matrix/matrix.h"
+#include "libs/data_structures/matrix/tasks.h"
 
 int main() {
-//testVector();
-//test_unordered_array_set();
-//test_ordered_array_set();
-test_matrix();
+//test_matrix();
+
+    matrix testMatrix = createMatrixFromArray(
+            (int[]) {
+                    1, 2, 3,
+                    4, 66, 6,
+                    7, 8, 99
+            },
+            3, 3);
+
+    swapRowsWithMinAndMaxValues(testMatrix);
+    outputMatrix(testMatrix);
+
 
     return 0;
 }

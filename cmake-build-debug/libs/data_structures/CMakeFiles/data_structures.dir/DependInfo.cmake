@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/user/CLionProjects/course/libs/data_structures/bitset/bitset.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj"
+  "C:/Users/user/CLionProjects/course/libs/data_structures/matrix/tasks.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/matrix/tasks.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/matrix/test_matrix.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/ordered_array_set/ordered_array_set.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/ordered_array_set/test_ordered_array_set.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/test_ordered_array_set.c.obj"

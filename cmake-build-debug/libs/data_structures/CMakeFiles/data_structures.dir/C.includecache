@@ -10,9 +10,11 @@ C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h
 stdbool.h
 -
 
-C:/Users/user/CLionProjects/course/libs/data_structures/matrix/test_matrix.c
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/tasks.c
 matrix.h
 C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h
-assert.h
--
+tasks.h
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/tasks.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/tasks.h
 

@@ -8,6 +8,10 @@ libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj: \
  ../libs/algorithms/algorithm.h \
  ../libs/data_structures/matrix/matrix.c \
  ../libs/data_structures/matrix/matrix.h
+libs/data_structures/CMakeFiles/data_structures.dir/matrix/tasks.c.obj: \
+ ../libs/data_structures/matrix/matrix.h \
+ ../libs/data_structures/matrix/tasks.c \
+ ../libs/data_structures/matrix/tasks.h
 libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.obj: \
  ../libs/data_structures/matrix/matrix.h \
  ../libs/data_structures/matrix/test_matrix.c

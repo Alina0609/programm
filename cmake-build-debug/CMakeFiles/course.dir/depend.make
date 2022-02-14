@@ -3,6 +3,6 @@
 
 CMakeFiles/course.dir/main.c.obj: \
  ../libs/data_structures/matrix/matrix.h \
+ ../libs/data_structures/matrix/tasks.h \
  ../libs/data_structures/matrix/test_matrix.h \
- ../libs/data_structures/ordered_array_set/test_ordered_array_set.h \
  ../main.c

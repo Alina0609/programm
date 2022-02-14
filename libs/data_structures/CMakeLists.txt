@@ -8,5 +8,6 @@ add_library(data_structures
         matrix/test_matrix.c
         vector/test_vector.c
         ordered_array_set/test_ordered_array_set.c
-        unordered_array_set/test_unordered_array_set.c)
+        unordered_array_set/test_unordered_array_set.c
+        matrix/tasks.c)
 

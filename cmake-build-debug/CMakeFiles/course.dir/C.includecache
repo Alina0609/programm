@@ -10,17 +10,17 @@ C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h
 stdbool.h
 -
 
-C:/Users/user/CLionProjects/course/libs/data_structures/matrix/test_matrix.h
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/tasks.h
 
-C:/Users/user/CLionProjects/course/libs/data_structures/ordered_array_set/test_ordered_array_set.h
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/test_matrix.h
 
 C:/Users/user/CLionProjects/course/main.c
-assert.h
+stdio.h
 -
-libs/data_structures/matrix/matrix.h
-C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h
-libs/data_structures/ordered_array_set/test_ordered_array_set.h
-C:/Users/user/CLionProjects/course/libs/data_structures/ordered_array_set/test_ordered_array_set.h
 libs/data_structures/matrix/test_matrix.h
 C:/Users/user/CLionProjects/course/libs/data_structures/matrix/test_matrix.h
+libs/data_structures/matrix/matrix.h
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h
+libs/data_structures/matrix/tasks.h
+C:/Users/user/CLionProjects/course/libs/data_structures/matrix/tasks.h
 

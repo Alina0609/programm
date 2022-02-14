@@ -170,6 +170,12 @@
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h">
 			<Option target="data_structures"/>
 		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/matrix/tasks.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/matrix/tasks.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/matrix/test_matrix.c">
 			<Option target="data_structures"/>
 		</Unit>

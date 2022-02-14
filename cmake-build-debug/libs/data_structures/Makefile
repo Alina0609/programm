@@ -177,6 +177,30 @@ matrix/matrix.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.s
 .PHONY : matrix/matrix.c.s
 
+matrix/tasks.obj: matrix/tasks.c.obj
+.PHONY : matrix/tasks.obj
+
+# target to build an object file
+matrix/tasks.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/tasks.c.obj
+.PHONY : matrix/tasks.c.obj
+
+matrix/tasks.i: matrix/tasks.c.i
+.PHONY : matrix/tasks.i
+
+# target to preprocess a source file
+matrix/tasks.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/tasks.c.i
+.PHONY : matrix/tasks.c.i
+
+matrix/tasks.s: matrix/tasks.c.s
+.PHONY : matrix/tasks.s
+
+# target to generate assembly for a file
+matrix/tasks.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/tasks.c.s
+.PHONY : matrix/tasks.c.s
+
 matrix/test_matrix.obj: matrix/test_matrix.c.obj
 .PHONY : matrix/test_matrix.obj
 
@@ -384,6 +408,9 @@ help:
 	@echo ... matrix/matrix.obj
 	@echo ... matrix/matrix.i
 	@echo ... matrix/matrix.s
+	@echo ... matrix/tasks.obj
+	@echo ... matrix/tasks.i
+	@echo ... matrix/tasks.s
 	@echo ... matrix/test_matrix.obj
 	@echo ... matrix/test_matrix.i
 	@echo ... matrix/test_matrix.s
