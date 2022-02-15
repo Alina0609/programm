@@ -244,3 +244,17 @@ matrix *createArrayOfMatrixFromArray(const int *values, int nMatrices, int nRows
 
     return ms;
 }
+
+matrix mulMatrices(matrix m1, matrix m2) {
+    matrix mulMatrix = getMemMatrix(m1.nRows, m2.nCols);
+
+    for (int i = 0; i < m1.nRows; ++i) {
+        for (int j = 0; j < m2.nCols; ++j) {
+            mulMatrix.values[i][j] = 0;
+            for (int k = 0; k < m1.nCols; ++k) {
+                mulMatrix.values[i][j] += m1.values[i][k] * m2.values[k][j];
+            }
+        }
+    }
+    return mulMatrix;
+}

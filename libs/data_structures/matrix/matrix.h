@@ -90,7 +90,8 @@ matrix  createMatrixFromArray(const int *a, int nRows, int nCols);
 matrix *createArrayOfMatrixFromArray(const int *values,
                                      int nMatrices, int nRows, int nCols);
 
-
+//возвращает произведение двух матриц m1 и m2
+matrix mulMatrices(matrix m1, matrix m2);
 
 
 

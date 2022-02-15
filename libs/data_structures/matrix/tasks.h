@@ -13,15 +13,21 @@ void test_swapRowsWithMinAndMaxValues();
 
 int getMax(int *a, int n);
 
+//Упорядочить строки матрицы по неубыванию наибольших элементов строк
 void sortRowsByMaxElement(matrix m);
 
 void test_sortRowsByMaxElement();
 
 int getMin(int *a, int n);
 
+//Дана прямоугольная матрица. Упорядочить столбцы матрицы по неубыванию
+//минимальных элементов столбцов:
 void sortColsByMinElement(matrix m);
 
 void test_sortColsByMinElement();
+
+//Если данная квадратная матрица 𝐴 симметрична, то заменить 𝐴 ее квадратом
+void getSquareOfMatrixIfSymmetric(matrix *m);
 
 void tests();
 

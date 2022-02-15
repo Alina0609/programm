@@ -3,7 +3,6 @@
 //
 
 #include <assert.h>
-
 #include "matrix.h"
 #include "tasks.h"
 
@@ -92,24 +91,55 @@ void sortColsByMinElement(matrix m) {
     insertionSortColsMatrixByColCriteria(m, getMin);
 }
 
-void test_sortColsByMinElement() {
+//void test_sortColsByMinElement() {
+//    matrix testMatrix = createMatrixFromArray(
+//            (int[]) {
+//                    5, 8, 0, 9,
+//                    2, 3, 7, 5
+//            },
+//            2, 4);
+//    matrix endMatrix = createMatrixFromArray(
+//            (int[]) {
+//                    0, 5, 8, 9,
+//                    7, 2, 3, 5
+//            },
+//            2, 4);
+//
+//    sortColsByMinElement(testMatrix);
+//
+//    assert(twoMatricesEqual(testMatrix, endMatrix));
+//
+//    freeMemMatrix(&testMatrix);
+//    freeMemMatrix(&endMatrix);
+//}
+
+void getSquareOfMatrixIfSymmetric(matrix *m) {
+    if (!isSymmetricMatrix(*m))
+        return;
+
+    matrix squareMatrix = mulMatrices(*m, *m);
+
+    *m = squareMatrix;
+}
+
+void test_getSquareOfMatrixIfSymmetric() {
     matrix testMatrix = createMatrixFromArray(
             (int[]) {
-                    7, 8, 99,
-                    4, 66, 6,
-                    3, 4, 2,
+                    1, 4, 3,
+                    4, 5, 6,
+                    3, 6, 2
             }, 3, 3
     );
-    
-    sortColsByMinElement(testMatrix);
 
     matrix endMatrix = createMatrixFromArray(
             (int[]) {
-                    99, 7, 8,
-                    6, 4, 66,
-                    2, 3, 4,
+                    26, 42, 33,
+                    42, 77, 54,
+                    33, 54, 49
             }, 3, 3
     );
+
+    getSquareOfMatrixIfSymmetric(&testMatrix);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
 
@@ -117,8 +147,16 @@ void test_sortColsByMinElement() {
     freeMemMatrix(&endMatrix);
 }
 
+void transposeIfMatrixHasNotEqualSumOfRows(matrix m) {
+
+}
+
+//void test_transposeIfMatrixHasNotEqualSumOfRows
+
 void tests() {
     test_swapRowsWithMinAndMaxValues();
     test_sortRowsByMaxElement();
-    test_sortColsByMinElement();
+    //test_sortColsByMinElement();
+    test_getSquareOfMatrixIfSymmetric();
+
 }

@@ -42,6 +42,9 @@ void test_swapRows1() {
     swapRows(testMatrix, 0, 1);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void test_swapRows2() {
@@ -63,6 +66,9 @@ void test_swapRows2() {
     swapRows(testMatrix, 1, 2);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void test_swapRows3() {
@@ -83,6 +89,9 @@ void test_swapRows3() {
     swapRows(testMatrix, 0, 2);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void test_swapRows() {
@@ -109,6 +118,9 @@ void test_swapColumns1() {
     swapColumns(testMatrix, 0, 2);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void test_swapColumns2() {
@@ -129,6 +141,9 @@ void test_swapColumns2() {
     swapColumns(testMatrix, 1, 2);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void test_swapColumns3() {
@@ -149,6 +164,9 @@ void test_swapColumns3() {
     swapColumns(testMatrix, 0, 1);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void test_swapColumns() {
@@ -156,7 +174,6 @@ void test_swapColumns() {
     test_swapColumns2();
     test_swapColumns3();
 }
-
 
 void test_isSquareMatrix1() {
     matrix testMatrix = createMatrixFromArray(
@@ -167,6 +184,8 @@ void test_isSquareMatrix1() {
             },
             3, 3);
     assert(isSquareMatrix(testMatrix));
+
+    freeMemMatrix(&testMatrix);
 }
 
 void test_isSquareMatrix2() {
@@ -179,6 +198,9 @@ void test_isSquareMatrix2() {
             },
             4, 4);
     assert(isSquareMatrix(testMatrix));
+
+    freeMemMatrix(&testMatrix);
+
 }
 
 void test_isSquareMatrix() {
@@ -203,6 +225,9 @@ void test_twoMatricesEqual1() {
             3, 3);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void test_twoMatricesEqual2() {
@@ -220,6 +245,9 @@ void test_twoMatricesEqual2() {
             2, 4);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void test_twoMatricesEqual() {
@@ -236,6 +264,8 @@ void test_isEMatrix() {
             },
             3, 3);
     assert(isEMatrix(testMatrix));
+
+    freeMemMatrix(&testMatrix);
 }
 
 void test_isSymmetricMatrix1() {
@@ -248,8 +278,9 @@ void test_isSymmetricMatrix1() {
             3, 3);
 
     assert(isSymmetricMatrix(testMatrix));
-}
 
+    freeMemMatrix(&testMatrix);
+}
 
 void test_isSymmetricMatrix2() {
     matrix testMatrix = createMatrixFromArray(
@@ -259,6 +290,8 @@ void test_isSymmetricMatrix2() {
             1, 1);
 
     assert(isSymmetricMatrix(testMatrix));
+
+    freeMemMatrix(&testMatrix);
 }
 
 void test_isSymmetricMatrix3() {
@@ -270,6 +303,9 @@ void test_isSymmetricMatrix3() {
             2, 2);
 
     assert(isSymmetricMatrix(testMatrix));
+
+    freeMemMatrix(&testMatrix);
+
 }
 
 void test_isSymmetricMatrix() {
@@ -296,6 +332,9 @@ void test_transposeSquareMatrix1() {
     transposeSquareMatrix(testMatrix);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void test_transposeSquareMatrix2() {
@@ -314,6 +353,9 @@ void test_transposeSquareMatrix2() {
     transposeSquareMatrix(testMatrix);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void test_transposeSquareMatrix3() {
@@ -334,8 +376,10 @@ void test_transposeSquareMatrix3() {
     transposeSquareMatrix(testMatrix);
 
     assert(twoMatricesEqual(testMatrix, endMatrix));
-}
 
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
+}
 
 void test_transposeSquareMatrix() {
     test_transposeSquareMatrix1();
@@ -355,6 +399,8 @@ void test_getMinValuePos1() {
     position minVauePos = {0, 2};
 
     assert(pos.rowIndex == minVauePos.rowIndex && pos.colIndex == minVauePos.colIndex);
+
+    freeMemMatrix(&testMatrix);
 }
 
 void test_getMinValuePos2() {
@@ -370,6 +416,7 @@ void test_getMinValuePos2() {
 
     assert(pos.rowIndex == minVauePos.rowIndex && pos.colIndex == minVauePos.colIndex);
 
+    freeMemMatrix(&testMatrix);
 }
 
 void test_getMinValuePos3() {
@@ -384,6 +431,8 @@ void test_getMinValuePos3() {
     position minVauePos = {2, 2};
 
     assert(pos.rowIndex == minVauePos.rowIndex && pos.colIndex == minVauePos.colIndex);
+
+    freeMemMatrix(&testMatrix);
 }
 
 void test_getMinValuePos4() {
@@ -398,6 +447,8 @@ void test_getMinValuePos4() {
     position minVauePos = {2, 0};
 
     assert(pos.rowIndex == minVauePos.rowIndex && pos.colIndex == minVauePos.colIndex);
+
+    freeMemMatrix(&testMatrix);
 }
 
 void test_getMinValuePos() {
@@ -419,6 +470,8 @@ void test_getMaxValuePos1() {
     position maxVauePos = {2, 2};
 
     assert(pos.rowIndex == maxVauePos.rowIndex && pos.colIndex == maxVauePos.colIndex);
+
+    freeMemMatrix(&testMatrix);
 }
 
 void test_getMaxValuePos2() {
@@ -433,6 +486,8 @@ void test_getMaxValuePos2() {
     position maxVauePos = {0, 1};
 
     assert(pos.rowIndex == maxVauePos.rowIndex && pos.colIndex == maxVauePos.colIndex);
+
+    freeMemMatrix(&testMatrix);
 }
 
 void test_getMaxValuePos3() {
@@ -447,6 +502,8 @@ void test_getMaxValuePos3() {
     position maxVauePos = {2, 0};
 
     assert(pos.rowIndex == maxVauePos.rowIndex && pos.colIndex == maxVauePos.colIndex);
+
+    freeMemMatrix(&testMatrix);
 }
 
 void test_getMaxValuePos4() {
@@ -461,6 +518,8 @@ void test_getMaxValuePos4() {
     position maxVauePos = {1, 2};
 
     assert(pos.rowIndex == maxVauePos.rowIndex && pos.colIndex == maxVauePos.colIndex);
+
+    freeMemMatrix(&testMatrix);
 }
 
 void test_getMaxValuePos() {
