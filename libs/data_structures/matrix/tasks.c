@@ -3,6 +3,7 @@
 //
 
 #include <assert.h>
+#include <malloc.h>
 #include "matrix.h"
 #include "tasks.h"
 
@@ -148,15 +149,62 @@ void test_getSquareOfMatrixIfSymmetric() {
 }
 
 void transposeIfMatrixHasNotEqualSumOfRows(matrix m) {
+    int *sum = malloc(sizeof(int) * m.nRows);
+
+    for (int i = 0; i < m.nRows; ++i) {
+        sum[i] = getSum(m.values[i], m.nCols);
+    }
+
+    if (!isUniqueArray(sum, m.nRows))
+        return;
+
+    transposeSquareMatrix(m);
+}
+
+void test_transposeIfMatrixHasNotEqualSumOfRows() {
+    matrix testMatrix = createMatrixFromArray(
+            (int[]) {
+                    1, 4, 3,
+                    8, 5, 6,
+                    3, 0, 2
+            }, 3, 3
+    );
+
+    matrix endMatrix = createMatrixFromArray(
+            (int[]) {
+                    1, 8, 3,
+                    4, 5, 0,
+                    3, 6, 2
+
+            }, 3, 3
+    );
+
+    transposeIfMatrixHasNotEqualSumOfRows(testMatrix);
+
+    assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
+}
+
+bool isMutuallyInverseMatrices(matrix m1, matrix m2){
+if(m1.nRows != m2.nRows || m1.nCols != m2.nCols)
+    return false;
+
+matrix m = mulMatrices(m1, m2);
+
+    return isEMatrix(m);
+}
+
+void test_isMutuallyInverseMatrices(){
 
 }
 
-//void test_transposeIfMatrixHasNotEqualSumOfRows
 
 void tests() {
     test_swapRowsWithMinAndMaxValues();
     test_sortRowsByMaxElement();
     //test_sortColsByMinElement();
     test_getSquareOfMatrixIfSymmetric();
-
+    test_transposeIfMatrixHasNotEqualSumOfRows();
 }

@@ -6,6 +6,7 @@
 #include <limits.h>
 #include <assert.h>
 #include "array.h"
+#include <stdbool.h>
 
 int compare_ints(const void *a, const void *b) {
     int arg1 = *(const int *) a;
@@ -347,6 +348,24 @@ size_t linearSearchLastMinIndex(const int *a, const size_t n) {
 int linearSearchMin(const int *a, const size_t n) {
     size_t index = linearSearchLastMinIndex(a, n);
     return a[index];
+}
+
+bool isUniqueArray(const int *a, const size_t n) {
+    for (size_t i = 0; i < n - 1; i++) {
+        for (size_t j = i + 1; j < n; ++j) {
+            if (a[i] == a[j])
+                return false;
+        }
+    }
+    return true;
+}
+
+long long getSum(const int *a, const size_t n) {
+    int sum = 0;
+    for (size_t i = 0; i < n; i++) {
+        sum += a[i];
+    }
+    return sum;
 }
 
 

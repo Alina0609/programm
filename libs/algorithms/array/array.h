@@ -6,6 +6,7 @@
 #define INC_ARRAY_H
 
 #include <stddef.h>
+#include <stdbool.h>
 
 //d
 int compare_ints(const void *a, const void *b);
@@ -135,11 +136,16 @@ int all(const int *a, const size_t size, int (*f)(int));
 //разделяет элементы массива a размера sizeA на элементы, удовлетворяющие функции-предикату f, сохраняя в массиве b размера sizeB, иначе - в массиве c размера sizeC
 void arraySplit(const int *a, size_t sizeA, int *b, size_t *sizeB, int *c, size_t *sizeC, int (*pred )(int));
 
-size_t linearSearchFirstMaxIndex(const int* a, const size_t n);
+size_t linearSearchFirstMaxIndex(const int *a, const size_t n);
 
-int linearSearchMax(const int* a, const size_t n);
+int linearSearchMax(const int *a, const size_t n);
 
-size_t linearSearchLastMinIndex(const int* a, const size_t n);
+size_t linearSearchLastMinIndex(const int *a, const size_t n);
 
-int linearSearchMin(const int* a, const size_t n);
+int linearSearchMin(const int *a, const size_t n);
+
+long long getSum(const int *a, const size_t n);
+
+bool isUniqueArray(const int *a, const size_t n);
+
 #endif

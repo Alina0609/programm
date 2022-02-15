@@ -29,6 +29,19 @@ void test_sortColsByMinElement();
 //Если данная квадратная матрица 𝐴 симметрична, то заменить 𝐴 ее квадратом
 void getSquareOfMatrixIfSymmetric(matrix *m);
 
+void test_getSquareOfMatrixIfSymmetric();
+
+//Дана квадратная матрица. Если среди сумм элементов строк матрицы нет равных, то транспонировать матрицу
+void transposeIfMatrixHasNotEqualSumOfRows(matrix m);
+
+void test_transposeIfMatrixHasNotEqualSumOfRows();
+
+//Даны две квадратные матрицы 𝐴 и 𝐵. Определить, являются ли они взаимно
+//обратными
+bool isMutuallyInverseMatrices(matrix m1, matrix m2);
+
+void test_isMutuallyInverseMatrices();
+
 void tests();
 
 #endif //COURSE_TASKS_H
