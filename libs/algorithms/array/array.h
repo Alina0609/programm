@@ -76,4 +76,70 @@ int countIf_(const int *a, size_t n, int (*predicate )(int));
 // массива
 void deleteIf_(int *a, size_t *n, int (*deletePredicate )(int));
 
+//возвращает индекс i элемента со значением x с начала массива а размера n, если элемент найден, иначе: -1
+int getPositionithGivenValue(const int *a, const size_t n, const int x);
+
+//возвращает индекс i первого отрицательного элемента массива а размера n, если элемент найден, иначе: -1
+int findFirsNegativeIndex(const int *a, const size_t n);
+
+//возвращает индекс i элемента с начала массива а размера n (по функции-предикату) f, если элемент найден, иначе: -1
+int findIndexIf(const int *a, const size_t n, int (*f)(int));
+
+//возвращает индекс i последнего чётного элемента массива a размера  n если элемент найден, иначе: -1
+int findLastEvenIndex(const int *a, const size_t n);
+
+
+//возвращает индекс i элемента с конца массива а размера n (по функции-предикату) f, если элемент найден, иначе: -1
+int findIndexLastIf(const int *a, const size_t n, int (*f)(int));
+
+//возвращает количество отрицательных элементов в массиве a размера n
+int getNegativeCount(const int *a, const size_t n);
+
+//возвращает количество элементов массива a размера n, удовлетворяющих функции f
+int getCountIf(const int *a, const size_t n, int (*f)(int));
+
+//обменивает значения по адресам переменных a и b
+void swap(int *a, int *b);
+
+//изменяет порядок элементов массива a размера n на обратный
+void reverseArray(int *a, size_t n);
+
+//возвращает "истина", если последовательность является паминдромом, иначе "ложь"
+int isPalindrom(const int *a, const size_t n);
+
+//сортировка выбором массива a размераом n
+void sortChoice(int *a, size_t n);
+
+//удаляет из массива a размера n все нечётные элементы
+void removeAllOddElements(int *a, size_t *n);
+
+//вставляет элемент x  в позицию pos массива a размера n с сохранением относительного порядка других элементов
+void insertAnElement(int *a, size_t *n, size_t pos, int x);
+
+
+//удаляет элемент x на позиции pos из массива a размером n с сохранением относительного порядка других элементов
+void deleteByPosSaveOrder(int *a, size_t *n, const size_t pos);
+
+//удаляет элемент x на позиции pos из массива a размером n без сохранения порядка элементов
+void deleteByPosUnsaveOrder(int *a, size_t *n, size_t pos);
+
+//применяет функцию f к элементам массива a размера size
+void forEach(int *a, const size_t size, void (*f)(int *));
+
+//возвращает значение "истина", если хотя бы один из элементов массива a размера size удовлетворяет условию функции-предикату f, иначе - "ложь"
+int any(const int *a, const size_t size, int (*f)(int));
+
+//возвращает значение "истина", если все элементы массива a размера size удовлетворяют условию функции-предикату f, иначе - "ложь"
+int all(const int *a, const size_t size, int (*f)(int));
+
+//разделяет элементы массива a размера sizeA на элементы, удовлетворяющие функции-предикату f, сохраняя в массиве b размера sizeB, иначе - в массиве c размера sizeC
+void arraySplit(const int *a, size_t sizeA, int *b, size_t *sizeB, int *c, size_t *sizeC, int (*pred )(int));
+
+size_t linearSearchFirstMaxIndex(const int* a, const size_t n);
+
+int linearSearchMax(const int* a, const size_t n);
+
+size_t linearSearchLastMinIndex(const int* a, const size_t n);
+
+int linearSearchMin(const int* a, const size_t n);
 #endif
