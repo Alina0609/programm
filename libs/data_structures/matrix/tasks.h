@@ -17,4 +17,12 @@ void sortRowsByMaxElement(matrix m);
 
 void test_sortRowsByMaxElement();
 
+int getMin(int *a, int n);
+
+void sortColsByMinElement(matrix m);
+
+void test_sortColsByMinElement();
+
+void tests();
+
 #endif //COURSE_TASKS_H

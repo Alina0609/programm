@@ -5,6 +5,7 @@
 
 int main() {
 //test_matrix();
+    tests();
 
     return 0;
 }
