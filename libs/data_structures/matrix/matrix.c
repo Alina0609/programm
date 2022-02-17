@@ -92,7 +92,7 @@ void swapRows(matrix m, int i1, int i2) {
 }
 
 void swapColumns(matrix m, int j1, int j2) {
-    assert(j1 < m.nRows && j2 < m.nRows);
+    assert(j1 < m.nCols && j2 < m.nCols);
 
     for (int rIndex = 0; rIndex < m.nRows; rIndex++) {
         universalSwap(&m.values[rIndex][j1], &m.values[rIndex][j2], sizeof(int));

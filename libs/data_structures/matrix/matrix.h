@@ -27,7 +27,7 @@ matrix getMemMatrix(int nRows, int nCols);
 matrix *getMemArrayOfMatrices(int nMatrices, int nRows, int nCols);
 
 //освобождает память, выделенную под матрицу m
-void freeMemMatrix(matrix* m);
+void freeMemMatrix(matrix *m);
 
 //освобождает память, выделенную под хранение массива ms из nMatrices матриц
 void freeMemMatrices(matrix *ms, int nMatrices);
@@ -83,7 +83,7 @@ position getMaxValuePos(matrix m);
 
 //возвращает матрицу, размера nRows на nCols, построенного
 //из элементов массива a, размещенную в динамической памяти
-matrix  createMatrixFromArray(const int *a, int nRows, int nCols);
+matrix createMatrixFromArray(const int *a, int nRows, int nCols);
 
 //возвращает указатель на нулевую матрицу массива из nMatrices матриц, размещенных
 //в динамической памяти, построенных из элементов массива a
@@ -92,8 +92,6 @@ matrix *createArrayOfMatrixFromArray(const int *values,
 
 //возвращает произведение двух матриц m1 и m2
 matrix mulMatrices(matrix m1, matrix m2);
-
-
 
 
 #endif //COURSE_MATRIX_H
