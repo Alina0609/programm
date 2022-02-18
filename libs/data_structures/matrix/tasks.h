@@ -70,6 +70,8 @@ void test_countEqClassesByRowsSum();
 //элемент "особым" , если он больше суммы остальных элементов своего столбца
 int getNSpecialElement(matrix m);
 
+void test_getNSpecialElement();
+
 void tests();
 
 #endif //COURSE_TASKS_H

@@ -333,9 +333,45 @@ void test_countEqClassesByRowsSum() {
     freeMemMatrix(&testMatrix);
 }
 
-int getNSpecialElement(matrix m){
+int getNSpecialElement(matrix m) {
     int *sum = malloc(sizeof(int) * m.nRows);
+    int *col = malloc(sizeof(int) * m.nRows);
 
+    for (int i = 0; i < m.nCols; ++i) {
+        for (int j = 0; j < m.nRows; ++j)
+            col[j] = m.values[j][i];
+        sum[i] = getSum(col, m.nRows);
+    }
+
+    int count = 0;
+
+    for (int i = 0; i < m.nRows; ++i) {
+        for (int j = 0; j < m.nCols; ++j) {
+            if (m.values[i][j] > sum[j] - m.values[i][j])
+                count++;
+        }
+    }
+
+    free(sum);
+    free(col);
+
+    return count;
+}
+
+void test_getNSpecialElement(){
+    matrix testMatrix = createMatrixFromArray(
+            (int[]) {
+                  3, 5, 5, 4,
+                  2, 3, 6, 7,
+                  12, 2, 1, 2
+            }, 3, 4
+    );
+
+    int res = 2;
+
+    assert(res ==getNSpecialElement(testMatrix));
+
+    freeMemMatrix(&testMatrix);
 }
 
 void tests() {
@@ -349,4 +385,5 @@ void tests() {
     test_getMinInArea();
     test_sortByDistances();
     test_countEqClassesByRowsSum();
+    test_getNSpecialElement();
 }
