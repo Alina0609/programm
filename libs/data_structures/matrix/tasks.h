@@ -72,6 +72,14 @@ int getNSpecialElement(matrix m);
 
 void test_getNSpecialElement();
 
+position getLeftMin(matrix m);
+
+//Дана квадратная матрица. Заменить предпоследнюю строку матрицы первым
+//из столбцов, в котором находится минимальный элемент матрицы
+void swapPenultimateRow(matrix m);
+
+void test_swapPenultimateRow();
+
 void tests();
 
 #endif //COURSE_TASKS_H

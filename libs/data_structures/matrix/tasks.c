@@ -6,7 +6,7 @@
 #include <malloc.h>
 #include "matrix.h"
 #include "tasks.h"
-
+#include <memory.h>
 #include "../../algorithms/array/array.h"
 
 void swapRowsWithMinAndMaxValues(matrix m) {
@@ -358,20 +358,72 @@ int getNSpecialElement(matrix m) {
     return count;
 }
 
-void test_getNSpecialElement(){
+void test_getNSpecialElement() {
     matrix testMatrix = createMatrixFromArray(
             (int[]) {
-                  3, 5, 5, 4,
-                  2, 3, 6, 7,
-                  12, 2, 1, 2
+                    3, 5, 5, 4,
+                    2, 3, 6, 7,
+                    12, 2, 1, 2
             }, 3, 4
     );
 
     int res = 2;
 
-    assert(res ==getNSpecialElement(testMatrix));
+    assert(res == getNSpecialElement(testMatrix));
 
     freeMemMatrix(&testMatrix);
+}
+
+position getLeftMin(matrix m) {
+    position minPos = {0, 0};
+
+    for (int rIndex = 0; rIndex < m.nRows; ++rIndex) {
+        for (int cIndex = 0; cIndex < m.nCols; ++cIndex) {
+            position pos = {rIndex, cIndex};
+            if (m.values[rIndex][cIndex] < m.values[minPos.rowIndex][minPos.colIndex] ||
+                m.values[rIndex][cIndex] == m.values[minPos.rowIndex][minPos.colIndex] && cIndex < minPos.colIndex)
+                minPos = pos;
+        }
+    }
+    return minPos;
+}
+
+void swapPenultimateRow(matrix m) {
+    position minPos = getLeftMin(m);
+
+    int *col = malloc(sizeof(int) * m.nRows);
+
+    for (int rIndex = 0; rIndex < m.nRows; ++rIndex)
+        col[rIndex] = m.values[rIndex][minPos.colIndex];
+
+    memcpy(m.values[m.nRows - 2], col, sizeof(int) * m.nCols);
+
+    free(col);
+}
+
+void test_swapPenultimateRow() {
+    matrix testMatrix = createMatrixFromArray(
+            (int[]) {
+                    1, 2, 3,
+                    4, 5, 6,
+                    7, 8, 1
+            }, 3, 3
+    );
+
+    swapPenultimateRow(testMatrix);
+
+    matrix endMatrix = createMatrixFromArray(
+            (int[]) {
+                    1, 2, 3,
+                    1, 4, 7,
+                    7, 8, 1
+            }, 3, 3
+    );
+
+    assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
 }
 
 void tests() {
@@ -386,4 +438,5 @@ void tests() {
     test_sortByDistances();
     test_countEqClassesByRowsSum();
     test_getNSpecialElement();
+    test_swapPenultimateRow();
 }
