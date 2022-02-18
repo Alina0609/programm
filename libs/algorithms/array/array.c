@@ -7,6 +7,7 @@
 #include <assert.h>
 #include "array.h"
 #include <stdbool.h>
+#include <math.h>
 
 int compare_ints(const void *a, const void *b) {
     int arg1 = *(const int *) a;
@@ -367,5 +368,14 @@ long long getSum(const int *a, const size_t n) {
     }
     return sum;
 }
+
+float getDistance(int *a, int n) {
+    int sum = 0;
+    for (int i = 0; i < n; i++)
+        sum += a[i] * a[i];
+
+    return sqrt(sum);
+}
+
 
 

@@ -148,4 +148,6 @@ long long getSum(const int *a, const size_t n);
 
 bool isUniqueArray(const int *a, const size_t n);
 
+float getDistance(int *a, int n);
+
 #endif

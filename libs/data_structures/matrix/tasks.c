@@ -265,10 +265,50 @@ void test_getMinInArea() {
 
     int res = -5;
 
-    assert( res == getMinInArea(testMatrix));
+    assert(res == getMinInArea(testMatrix));
 
     freeMemMatrix(&testMatrix);
 }
+
+void sortByDistances(matrix m) {
+    insertionSortRowsMatrixByRowCriteriaFloat(m, getDistance);
+}
+
+void test_sortByDistances() {
+    matrix testMatrix = createMatrixFromArray(
+            (int[]) {
+                    1, 3, 0, 8,
+                    4, 1, 2, 7,
+                    0, 9, 5, 3
+            }, 3, 4
+    );
+
+    sortByDistances(testMatrix);
+
+    matrix endMatrix = createMatrixFromArray(
+            (int[]) {
+                    4, 1, 2, 7,
+                    1, 3, 0, 8,
+                    0, 9, 5, 3
+            }, 3, 4
+    );
+
+    assert(twoMatricesEqual(testMatrix, endMatrix));
+
+    freeMemMatrix(&testMatrix);
+    freeMemMatrix(&endMatrix);
+}
+
+int compare_ints(const void *a, const void *b) {
+    int arg1 = *(const int *) a;
+    int arg2 = *(const int *) b;
+    if (arg1 < arg2)
+        return -1;
+    if (arg1 > arg2)
+        return 1;
+    return 0;
+}
+
 
 void tests() {
     test_swapRowsWithMinAndMaxValues();
@@ -279,5 +319,6 @@ void tests() {
     test_isMutuallyInverseMatrices();
     test_findSumOfMaxesOfPseudoDiagonal();
     test_getMinInArea();
+    test_sortByDistances();
 
 }

@@ -54,6 +54,9 @@ void swapColumns(matrix m, int j1, int j2);
 //применяемой для строк
 void insertionSortRowsMatrixByRowCriteria(matrix m, int (*criteria)(int *, int));
 
+
+void insertionSortRowsMatrixByRowCriteriaFloat(matrix m, float (*criteria)(int *, int));
+
 //выполняет сортировку вставками столбцов матрицы m по неубыванию значения
 //функции criteria применяемой для столбцов
 void insertionSortColsMatrixByColCriteria(matrix m, int (*criteria)(int *, int));

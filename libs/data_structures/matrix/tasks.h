@@ -54,6 +54,12 @@ int getMinInArea(matrix m);
 
 void test_getMinInArea();
 
+// Упорядочить точки по неубыванию их
+//расстояний до начала координат
+void sortByDistances(matrix m);
+
+void test_sortByDistances();
+
 void tests();
 
 #endif //COURSE_TASKS_H

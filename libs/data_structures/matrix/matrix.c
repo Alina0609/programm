@@ -115,6 +115,22 @@ void insertionSortRowsMatrixByRowCriteria(matrix m, int (*criteria)(int *, int))
     }
 }
 
+void insertionSortRowsMatrixByRowCriteriaFloat(matrix m, float (*criteria)(int *, int)) {
+    float *rows = (float *) malloc(sizeof(float ) * m.nRows);
+
+    for (int rIndex = 0; rIndex < m.nRows; ++rIndex)
+        rows[rIndex] = criteria(m.values[rIndex], m.nCols);
+
+    for (int rIndex = 1; rIndex < m.nRows; ++rIndex) {
+        int curIndex = rIndex;
+        while (curIndex > 0 && rows[curIndex] < rows[curIndex - 1]) {
+            swapRows(m, curIndex, curIndex - 1);
+            universalSwap(&rows[curIndex], &rows[curIndex - 1], sizeof(int));
+            curIndex--;
+        }
+    }
+}
+
 void insertionSortColsMatrixByColCriteria(matrix m, int (*criteria)(int *, int)) {
     int *cols = (int *) malloc(sizeof(int) * m.nCols);
     int *curCols = malloc(sizeof(int) * m.nRows);
