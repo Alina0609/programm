@@ -155,10 +155,10 @@ void transposeIfMatrixHasNotEqualSumOfRows(matrix m) {
         sum[i] = getSum(m.values[i], m.nCols);
     }
 
-    if (!isUniqueArray(sum, m.nRows))
-        return;
+    if (isUniqueArray(sum, m.nRows))
+        transposeSquareMatrix(m);
 
-    transposeSquareMatrix(m);
+    free(sum);
 }
 
 void test_transposeIfMatrixHasNotEqualSumOfRows() {
@@ -192,8 +192,11 @@ bool isMutuallyInverseMatrices(matrix m1, matrix m2) {
         return false;
 
     matrix m = mulMatrices(m1, m2);
+    bool res = isEMatrix(m);
 
-    return isEMatrix(m);
+    freeMemMatrix(&m);
+
+    return res;
 }
 
 void test_isMutuallyInverseMatrices() {
@@ -299,16 +302,41 @@ void test_sortByDistances() {
     freeMemMatrix(&endMatrix);
 }
 
-int compare_ints(const void *a, const void *b) {
-    int arg1 = *(const int *) a;
-    int arg2 = *(const int *) b;
-    if (arg1 < arg2)
-        return -1;
-    if (arg1 > arg2)
-        return 1;
-    return 0;
+int countEqClassesByRowsSum(matrix m) {
+    long long *sum = malloc(sizeof(long long) * m.nRows);
+
+    for (int i = 0; i < m.nRows; ++i)
+        sum[i] = getSum(m.values[i], m.nCols);
+    int res = countNUnique(sum, m.nRows);
+
+    free(sum);
+
+    return res;
 }
 
+void test_countEqClassesByRowsSum() {
+    matrix testMatrix = createMatrixFromArray(
+            (int[]) {
+                    1, 4,
+                    5, 6,
+                    9, 0,
+                    7, 4,
+                    2, 3,
+                    7, 2
+            }, 6, 2
+    );
+
+    int res = 3;
+
+    assert(res == countEqClassesByRowsSum(testMatrix));
+
+    freeMemMatrix(&testMatrix);
+}
+
+int getNSpecialElement(matrix m){
+    int *sum = malloc(sizeof(int) * m.nRows);
+
+}
 
 void tests() {
     test_swapRowsWithMinAndMaxValues();
@@ -320,5 +348,5 @@ void tests() {
     test_findSumOfMaxesOfPseudoDiagonal();
     test_getMinInArea();
     test_sortByDistances();
-
+    test_countEqClassesByRowsSum();
 }

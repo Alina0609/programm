@@ -7,9 +7,16 @@
 
 #include <stddef.h>
 #include <stdbool.h>
+#include <stdlib.h>
 
 //d
 int compare_ints(const void *a, const void *b);
+
+//
+int cmp_long_long(const void *pa, const void *pb);
+
+//
+int countNUnique(long long *a, int n);
 
 //сортировка вставкой
 void insertionSort(int *a, const size_t size);

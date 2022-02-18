@@ -11,6 +11,8 @@ stddef.h
 -
 stdbool.h
 -
+stdlib.h
+-
 
 C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h
 stdbool.h

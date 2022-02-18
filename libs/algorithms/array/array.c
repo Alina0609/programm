@@ -19,6 +19,27 @@ int compare_ints(const void *a, const void *b) {
     return 0;
 }
 
+int cmp_long_long(const void *pa, const void *pb) {
+    long long arg1 = *(const long long *) pa;
+    long long arg2 = *(const long long *) pb;
+    if (arg1 < arg2)
+        return -1;
+    if (arg1 > arg2)
+        return 1;
+    return 0;
+}
+
+int countNUnique(long long *a, int n) {
+    qsort(a, n, sizeof(long long), cmp_long_long);
+
+    int count = 1;
+    for (int i = 1; i < n; ++i) {
+        if (a[i] != a[i - 1])
+            count++;
+    }
+    return count;
+}
+
 void insertionSort(int *a, const size_t size) {
     for (size_t i = 1; i < size; i++) {
 
