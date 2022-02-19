@@ -80,6 +80,14 @@ void swapPenultimateRow(matrix m);
 
 void test_swapPenultimateRow();
 
+
+bool hasAllNonDescendingRows(matrix m);
+
+//
+int countNonDescendingRowsMatrices(matrix *ms, int nMatrix);
+
+void test_countNonDescendingRowsMatrices();
+
 void tests();
 
 #endif //COURSE_TASKS_H

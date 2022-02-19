@@ -337,17 +337,17 @@ int getNSpecialElement(matrix m) {
     int *sum = malloc(sizeof(int) * m.nRows);
     int *col = malloc(sizeof(int) * m.nRows);
 
-    for (int i = 0; i < m.nCols; ++i) {
-        for (int j = 0; j < m.nRows; ++j)
-            col[j] = m.values[j][i];
-        sum[i] = getSum(col, m.nRows);
+    for (int cIndex = 0; cIndex < m.nCols; ++cIndex) {
+        for (int rIndex = 0; rIndex < m.nRows; ++rIndex)
+            col[rIndex] = m.values[rIndex][cIndex];
+        sum[cIndex] = getSum(col, m.nRows);
     }
 
     int count = 0;
 
-    for (int i = 0; i < m.nRows; ++i) {
-        for (int j = 0; j < m.nCols; ++j) {
-            if (m.values[i][j] > sum[j] - m.values[i][j])
+    for (int rIndex = 0; rIndex < m.nRows; ++rIndex) {
+        for (int cIndex = 0; cIndex < m.nCols; ++cIndex) {
+            if (m.values[rIndex][cIndex] > sum[cIndex] - m.values[rIndex][cIndex])
                 count++;
         }
     }
@@ -426,6 +426,47 @@ void test_swapPenultimateRow() {
     freeMemMatrix(&endMatrix);
 }
 
+
+bool hasAllNonDescendingRows(matrix m) {
+    for (int rIndex = 0; rIndex < m.nRows; ++rIndex) {
+        if (!isNonDescendingSorted(m.values[rIndex], m.nCols))
+            return false;
+    }
+    return true;
+}
+
+
+int countNonDescendingRowsMatrices(matrix *ms, int nMatrix) {
+    int count = 0;
+    for (int iMatrix = 0; iMatrix < nMatrix; ++iMatrix) {
+        if (hasAllNonDescendingRows(ms[iMatrix]))
+            count++;
+    }
+    return count;
+}
+
+void test_countNonDescendingRowsMatrices() {
+    matrix *testMatrixs = createArrayOfMatrixFromArray(
+            (int[]) {
+                    1, 2, 3,
+                    4, 5, 6,
+
+                    7, 8, 1,
+                    8, 9, 0,
+
+                    1, 1, 1,
+                    3, 4, 6
+
+            }, 3, 2, 3
+    );
+
+    int count = 2;
+
+    assert(countNonDescendingRowsMatrices(testMatrixs, 3) == count);
+
+    freeMemMatrices(testMatrixs, 2);
+}
+
 void tests() {
     test_swapRowsWithMinAndMaxValues();
     test_sortRowsByMaxElement();
@@ -439,4 +480,5 @@ void tests() {
     test_countEqClassesByRowsSum();
     test_getNSpecialElement();
     test_swapPenultimateRow();
+    test_countNonDescendingRowsMatrices();
 }

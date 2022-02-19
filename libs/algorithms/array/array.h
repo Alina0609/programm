@@ -157,4 +157,5 @@ bool isUniqueArray(const int *a, const size_t n);
 
 float getDistance(int *a, int n);
 
+bool isNonDescendingSorted(int *a, int n);
 #endif
