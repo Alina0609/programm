@@ -122,6 +122,8 @@ void getSquareOfMatrixIfSymmetric(matrix *m) {
     matrix squareMatrix = mulMatrices(*m, *m);
 
     *m = squareMatrix;
+
+    freeMemMatrix(m);
 }
 
 void test_getSquareOfMatrixIfSymmetric() {
@@ -226,19 +228,17 @@ void test_isMutuallyInverseMatrices() {
 
 long long findSumOfMaxesOfPseudoDiagonal(matrix m) {
     int nDiagonal = m.nRows + m.nCols - 1;
-    int *diagMaxEl = calloc(nDiagonal, sizeof(int));
+    int *diagMaxEl = malloc(sizeof(int) * nDiagonal);
     int dStartIndex = m.nRows - 1;
 
     for (int rIndex = 0; rIndex < m.nRows; ++rIndex) {
         for (int cIndex = 0; cIndex < m.nCols; ++cIndex) {
-            position pos = {rIndex, cIndex};
-
             int dIndex = dStartIndex + cIndex - rIndex;
 
-            if (pos.rowIndex == 0 || pos.colIndex == 0)
-                diagMaxEl[dIndex] = m.values[pos.rowIndex][pos.colIndex];
+            if (rIndex == 0 || cIndex == 0)
+                diagMaxEl[dIndex] = m.values[rIndex][cIndex];
             else
-                diagMaxEl[dIndex] = maximum(diagMaxEl[dIndex], m.values[pos.rowIndex][pos.colIndex]);
+                diagMaxEl[dIndex] = maximum(diagMaxEl[dIndex], m.values[rIndex][cIndex]);
         }
     }
     diagMaxEl[dStartIndex] = 0;
@@ -290,7 +290,7 @@ int getMinInArea(matrix m) {
 
         rIndex--;
     }
-    
+
     return minV;
 }
 
