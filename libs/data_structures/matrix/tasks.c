@@ -224,7 +224,11 @@ void test_isMutuallyInverseMatrices() {
 }
 
 long long findSumOfMaxesOfPseudoDiagonal(matrix m) {
+    long long sum = 0;
+    for (int rIndex = 0; rIndex < m.nRows; ++rIndex) {
 
+
+    }
 }
 
 void test_findSumOfMaxesOfPseudoDiagonal() {
@@ -512,7 +516,7 @@ int getNorm(matrix ms) {
     position minPos = getMinValuePos(ms);
     position maxPos = getMaxValuePos(ms);
     int norm = maximum(abs(ms.values[maxPos.rowIndex][maxPos.colIndex]),
-                      abs(ms.values[minPos.rowIndex][minPos.colIndex]));
+                       abs(ms.values[minPos.rowIndex][minPos.colIndex]));
 
     return norm;
 }
@@ -532,7 +536,56 @@ void printOfMatricesInTheMinNorm(matrix *ms, int nMatrix) {
 
 }
 
+int getNSpecialElement2(matrix m) {
+    int count = 0;
 
+    for (int rIndex = 0; rIndex < m.nRows; ++rIndex) {
+        for (int cIndex = 0; cIndex < m.nCols; ++cIndex) {
+            bool left = false;
+            if (cIndex == 0)
+                left = true;
+
+            if (!left) {
+                int max = getMax(m.values[rIndex], cIndex);
+                if (max < m.values[rIndex][cIndex])
+                    left = true;
+            }
+
+            bool right = false;
+            if (m.nCols - 1 == cIndex)
+                right = true;
+
+            if (!right) {
+                int min = getMin(m.values[rIndex] + cIndex + 1, m.nCols - cIndex - 1);
+                if (min > m.values[rIndex][cIndex])
+                    right = true;
+            }
+            if (left && right)
+                count++;
+        }
+    }
+    return count;
+}
+
+void test_getNSpecialElement2() {
+    matrix testMatrix = createMatrixFromArray(
+            (int[]) {
+                    2, 3, 5, 5, 4,
+                    6, 2, 3, 8, 12,
+                    12, 12, 2, 1, 2
+            }, 3, 5
+    );
+
+    int count = 4;
+
+    assert(getNSpecialElement2(testMatrix) == count);
+
+
+}
+
+double getScalarProduct(int *a, int *b, int n){
+
+}
 void tests() {
     test_swapRowsWithMinAndMaxValues();
     test_sortRowsByMaxElement();
@@ -548,4 +601,5 @@ void tests() {
     test_swapPenultimateRow();
     test_countNonDescendingRowsMatrices();
     test_countZeroRows();
+    test_getNSpecialElement2();
 }
