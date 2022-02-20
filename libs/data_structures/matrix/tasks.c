@@ -467,6 +467,47 @@ void test_countNonDescendingRowsMatrices() {
     freeMemMatrices(testMatrixs, 2);
 }
 
+int countZeroRows(matrix m) {
+    int count = 0;
+    for (int rIndex = 0; rIndex < m.nRows; ++rIndex) {
+        if (countValues(m.values[rIndex], m.nCols, 0) == m.nCols)
+            count++;
+    }
+    return count;
+}
+
+void printMatrixWithMaxZeroRows(matrix *ms, int nMatrix) {
+    int *msZeroRows = malloc(sizeof(int) * nMatrix);
+    int max = 0;
+
+    for (int iMatrix = 0; iMatrix < nMatrix; ++iMatrix) {
+        msZeroRows[iMatrix] = countZeroRows(ms[iMatrix]);
+        max = maximum(max, countZeroRows(ms[iMatrix]));
+    }
+    for (int i = 0; i < nMatrix; ++i) {
+        if (msZeroRows[i] == max)
+            outputMatrix(ms[i]);
+    }
+
+    free(msZeroRows);
+}
+
+void test_countZeroRows() {
+    matrix testMatrix = createMatrixFromArray(
+            (int[]) {
+                    1, 2, 3,
+                    0, 0, 0,
+                    0, 0, 0
+            }, 3, 3
+    );
+
+    int res = 2;
+
+    assert(res == countZeroRows(testMatrix));
+
+    freeMemMatrix(&testMatrix);
+}
+
 void tests() {
     test_swapRowsWithMinAndMaxValues();
     test_sortRowsByMaxElement();
@@ -481,4 +522,5 @@ void tests() {
     test_getNSpecialElement();
     test_swapPenultimateRow();
     test_countNonDescendingRowsMatrices();
+    test_countZeroRows();
 }

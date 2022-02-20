@@ -158,4 +158,8 @@ bool isUniqueArray(const int *a, const size_t n);
 float getDistance(int *a, int n);
 
 bool isNonDescendingSorted(int *a, int n);
+
+int countValues(const int *a, int n, int value);
+
+int maximum(int a, int b);
 #endif

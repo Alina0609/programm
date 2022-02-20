@@ -405,4 +405,15 @@ bool isNonDescendingSorted(int *a, int n) {
     return true;
 }
 
+int countValues(const int *a, int n, int value) {
+    int count = 0;
+    for (int i = 0; i < n; ++i) {
+        if (a[i] == value)
+            count++;
+    }
+    return count;
+}
 
+int maximum(int a, int b) {
+    return a > b ? a : b;
+}

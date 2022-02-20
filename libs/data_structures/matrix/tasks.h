@@ -83,10 +83,17 @@ void test_swapPenultimateRow();
 
 bool hasAllNonDescendingRows(matrix m);
 
-//
+//Дан массив матриц одного размера. Определить число матриц,
+//строки которых упорядочены по неубыванию элементов
 int countNonDescendingRowsMatrices(matrix *ms, int nMatrix);
 
 void test_countNonDescendingRowsMatrices();
+
+int countZeroRows(matrix m);
+
+//Дан массив целочисленных матриц. Вывести матрицы,
+//имеющие наибольшее число нулевых строк
+void printMatrixWithMaxZeroRows(matrix *ms, int nMatrix);
 
 void tests();
 
