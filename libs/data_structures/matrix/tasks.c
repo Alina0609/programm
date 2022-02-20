@@ -484,9 +484,9 @@ void printMatrixWithMaxZeroRows(matrix *ms, int nMatrix) {
         msZeroRows[iMatrix] = countZeroRows(ms[iMatrix]);
         max = maximum(max, countZeroRows(ms[iMatrix]));
     }
-    for (int i = 0; i < nMatrix; ++i) {
-        if (msZeroRows[i] == max)
-            outputMatrix(ms[i]);
+    for (int iMatrix = 0; iMatrix < nMatrix; ++iMatrix) {
+        if (msZeroRows[iMatrix] == max)
+            outputMatrix(ms[iMatrix]);
     }
 
     free(msZeroRows);
@@ -507,6 +507,31 @@ void test_countZeroRows() {
 
     freeMemMatrix(&testMatrix);
 }
+
+int getNorm(matrix ms) {
+    position minPos = getMinValuePos(ms);
+    position maxPos = getMaxValuePos(ms);
+    int norm = maximum(abs(ms.values[maxPos.rowIndex][maxPos.colIndex]),
+                      abs(ms.values[minPos.rowIndex][minPos.colIndex]));
+
+    return norm;
+}
+
+void printOfMatricesInTheMinNorm(matrix *ms, int nMatrix) {
+    int *normMatrix = malloc(sizeof(int) * nMatrix);
+
+    for (int iMatrix = 0; iMatrix < nMatrix; ++iMatrix)
+        normMatrix[iMatrix] = getNorm(ms[iMatrix]);
+
+    int minNorm = getMin(normMatrix, nMatrix);
+
+    for (int iMatrix = 0; iMatrix < nMatrix; ++iMatrix) {
+        if (minNorm == normMatrix[iMatrix])
+            outputMatrix(ms[iMatrix]);
+    }
+
+}
+
 
 void tests() {
     test_swapRowsWithMinAndMaxValues();
