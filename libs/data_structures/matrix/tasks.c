@@ -533,7 +533,7 @@ void printOfMatricesInTheMinNorm(matrix *ms, int nMatrix) {
         if (minNorm == normMatrix[iMatrix])
             outputMatrix(ms[iMatrix]);
     }
-
+    free(normMatrix);
 }
 
 int getNSpecialElement2(matrix m) {
@@ -576,16 +576,59 @@ void test_getNSpecialElement2() {
             }, 3, 5
     );
 
-    int count = 4;
+    int res = 4;
 
-    assert(getNSpecialElement2(testMatrix) == count);
+    assert(getNSpecialElement2(testMatrix) == res);
 
+    freeMemMatrix(&testMatrix);
+}
+
+int getScalarProduct(int *a, int *b, int n) {
+    int res = 0;
+
+    for (int i = 0; i < n; ++i)
+        res += a[i] * b[i];
+
+    return res;
 
 }
 
-double getScalarProduct(int *a, int *b, int n){
+long long getScalarProductRowAndCol(matrix m, int i, int j) {
+    int *col = malloc(sizeof(int) * m.nRows);
 
+    for (int rIndex = 0; rIndex < m.nRows; ++rIndex)
+        col[rIndex] = m.values[rIndex][j];
+
+    int res = getScalarProduct(m.values[i], col, m.nCols);
+
+    free(col);
+
+    return res;
 }
+
+long long getSpecialScalarProduct(matrix m, int n) {
+    position maxPosRow = getMaxValuePos(m);
+    position minPosCol = getMinValuePos(m);
+
+    return getScalarProductRowAndCol(m, maxPosRow.rowIndex, minPosCol.colIndex);
+}
+
+void test_getSpecialScalarProduct() {
+    matrix testMatrix = createMatrixFromArray(
+            (int[]) {
+                    1, 3, 4,
+                    6, 7, 8,
+                    2, 5, 9
+            }, 3, 3
+    );
+
+    int res = 50;
+
+    assert(getSpecialScalarProduct(testMatrix, 3) == res);
+
+    freeMemMatrix(&testMatrix);
+}
+
 void tests() {
     test_swapRowsWithMinAndMaxValues();
     test_sortRowsByMaxElement();
@@ -602,4 +645,5 @@ void tests() {
     test_countNonDescendingRowsMatrices();
     test_countZeroRows();
     test_getNSpecialElement2();
+    test_getSpecialScalarProduct();
 }

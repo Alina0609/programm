@@ -111,8 +111,17 @@ int getNSpecialElement2(matrix m);
 
 void test_getNSpecialElement2();
 
-//
-double getScalarProduct(int *a, int *b, int n);
+//получить скалярное произведение
+int getScalarProduct(int *a, int *b, int n);
+
+long long getScalarProductRowAndCol(matrix m, int i, int j);
+
+//*Дана целочисленная квадратная матрица, все элементы которой различны.
+//Найти скалярное произведение строки, в которой находится наибольший элемент
+//матрицы, на столбец с наименьшим элементом
+long long getSpecialScalarProduct(matrix m, int n);
+
+void test_getSpecialScalarProduct();
 
 void tests();
 
