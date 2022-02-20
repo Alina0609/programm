@@ -99,6 +99,7 @@ void test_sortColsByMinElement() {
                     2, 3, 7, 5
             },
             2, 4);
+
     matrix endMatrix = createMatrixFromArray(
             (int[]) {
                     0, 5, 8, 9,
@@ -224,15 +225,45 @@ void test_isMutuallyInverseMatrices() {
 }
 
 long long findSumOfMaxesOfPseudoDiagonal(matrix m) {
-    long long sum = 0;
+    int nDiagonal = m.nRows + m.nCols - 1;
+    int *diagMaxEl = calloc(nDiagonal, sizeof(int));
+    int dStartIndex = m.nRows - 1;
+
     for (int rIndex = 0; rIndex < m.nRows; ++rIndex) {
+        for (int cIndex = 0; cIndex < m.nCols; ++cIndex) {
+            position pos = {rIndex, cIndex};
 
+            int dIndex = dStartIndex + cIndex - rIndex;
 
+            if (pos.rowIndex == 0 || pos.colIndex == 0)
+                diagMaxEl[dIndex] = m.values[pos.rowIndex][pos.colIndex];
+            else
+                diagMaxEl[dIndex] = maximum(diagMaxEl[dIndex], m.values[pos.rowIndex][pos.colIndex]);
+        }
     }
+    diagMaxEl[dStartIndex] = 0;
+
+    long long res = getSum(diagMaxEl, nDiagonal);
+
+    free(diagMaxEl);
+
+    return res;
 }
 
 void test_findSumOfMaxesOfPseudoDiagonal() {
+    matrix testMatrix = createMatrixFromArray(
+            (int[]) {
+                    3, 2, 5, 4,
+                    1, 3, 6, 3,
+                    3, 2, 1, 2
+            }, 3, 4
+    );
 
+    int res = 20;
+
+    assert(res == findSumOfMaxesOfPseudoDiagonal(testMatrix));
+
+    freeMemMatrix(&testMatrix);
 }
 
 int min(int a, int b) {
@@ -256,8 +287,10 @@ int getMinInArea(matrix m) {
 
         if (rightCols + 1 < m.nCols)
             rightCols++;
+
         rIndex--;
     }
+    
     return minV;
 }
 
