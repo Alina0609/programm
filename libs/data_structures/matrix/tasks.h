@@ -123,6 +123,6 @@ long long getSpecialScalarProduct(matrix m, int n);
 
 void test_getSpecialScalarProduct();
 
-void tests();
+void tests_matrixTasks();
 
 #endif //COURSE_TASKS_H

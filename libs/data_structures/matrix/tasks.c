@@ -662,7 +662,7 @@ void test_getSpecialScalarProduct() {
     freeMemMatrix(&testMatrix);
 }
 
-void tests() {
+void tests_matrixTasks() {
     test_swapRowsWithMinAndMaxValues();
     test_sortRowsByMaxElement();
     test_sortColsByMinElement();

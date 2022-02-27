@@ -12,7 +12,10 @@ add_library(data_structures
         matrix/matrix.c
         matrix/test_matrix.c
 
-        matrix/tasks.c)
+        matrix/tasks.c
+
+        string_/string_.c
+        string_/test_string_.c )
 
 target_link_libraries(data_structures algorithms)
 
