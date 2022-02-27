@@ -106,10 +106,32 @@ void test_findNonSpaceReverse() {
     test_findNonSpaceReverse2();
 }
 
+void test_strcmp1(){
+    char *str = "djwijan 83";
+    char *res = "djwijan 83";
+
+    assert(!strcmp(str, res));
+}
+
+void test_strcmp2(){
+    char *str = "djwn 83";
+    char *res = "djwijan 83";
+
+    assert(strcmp(str, res));
+}
+
+void test_strcmp(){
+    test_strcmp1();
+    test_strcmp2();
+}
+
+
 void test_str() {
     test_find();
     test_findNonSpace();
     test_findSpace();
     test_findNonSpaceReverse();
     test_findSpaceReverse();
+
+    test_strcmp();
 }

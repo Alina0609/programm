@@ -40,4 +40,10 @@ void test_findSpaceReverse();
 
 void test_str();
 
+void test_strcmp1();
+
+void test_strcmp2();
+
+void test_strcmp();
+
 #endif //COURSE_TEST_STRING__H
