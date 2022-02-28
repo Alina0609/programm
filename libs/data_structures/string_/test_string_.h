@@ -7,6 +7,8 @@
 
 #include "string_.h"
 #include "assert.h"
+#include "malloc.h"
+#include "stdbool.h"
 
 void test_find1();
 
@@ -45,5 +47,24 @@ void test_strcmp1();
 void test_strcmp2();
 
 void test_strcmp();
+
+void test_copy1();
+
+void test_copy2();
+
+void test_copy();
+
+void test_copyIf1();
+
+void test_copyIf2();
+
+void test_copyIf();
+
+void test_copyIfReverse1();
+
+void test_copyIfReverse2();
+
+void test_copyIfReverse();
+
 
 #endif //COURSE_TEST_STRING__H

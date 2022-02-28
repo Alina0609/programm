@@ -19,12 +19,18 @@ stddef.h
 -
 ctype.h
 -
+memory.h
+-
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/test_string_.h
 string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 assert.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/assert.h
+malloc.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/malloc.h
+stdbool.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/stdbool.h
 
 C:/Users/user/CLionProjects/course/main.c
 stdio.h

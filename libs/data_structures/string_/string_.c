@@ -56,3 +56,34 @@ int strcmp(const char *lhs, const char *rhs) {
     return *lhs - *rhs;
 }
 
+char *copy(const char *beginSource, const char *endSource,
+           char *beginDestination) {
+    memcpy(beginDestination, beginSource,
+           sizeof(char) * (endSource - beginSource));
+
+    return beginDestination + (endSource - beginSource);
+}
+
+char *copyIf(char *beginSource, const char *endSource,
+             char *beginDestination, int (*f)(int)) {
+    while (endSource > beginSource) {
+        if (f(*beginSource)) {
+            memcpy(beginDestination, beginSource, sizeof(char));
+            beginDestination++;
+        }
+        beginSource++;
+    }
+    return beginDestination;
+}
+
+char *copyIfReverse(char *rbeginSource, const char *rendSource,
+                    char *beginDestination, int (*f)(int)) {
+    while (rbeginSource > rendSource) {
+        if (f(*rbeginSource)) {
+            memcpy(beginDestination, rbeginSource, sizeof(char));
+            beginDestination++;
+        }
+        rbeginSource--;
+    }
+    return beginDestination;
+}
