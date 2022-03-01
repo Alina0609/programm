@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
-stddef.h
--
-ctype.h
--
-memory.h
--
-
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.c
 memory.h
 -
@@ -21,20 +13,4 @@ removeAdjacentEqualLetters.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h
-
-C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.h
-../../string_/string_.h
-C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
-
-C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.c
-test_tasks_string.h
-C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.h
-removeAdjacentEqualLetters.h
-C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h
-
-C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.h
-stdio.h
-C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdio.h
-removeNonLetters.h
-C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.h
 

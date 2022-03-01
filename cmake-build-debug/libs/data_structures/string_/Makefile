@@ -177,6 +177,30 @@ tasks/removeAdjacentEqualLetters.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeAdjacentEqualLetters.c.s
 .PHONY : tasks/removeAdjacentEqualLetters.c.s
 
+tasks/removeExtraSpaces.obj: tasks/removeExtraSpaces.c.obj
+.PHONY : tasks/removeExtraSpaces.obj
+
+# target to build an object file
+tasks/removeExtraSpaces.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj
+.PHONY : tasks/removeExtraSpaces.c.obj
+
+tasks/removeExtraSpaces.i: tasks/removeExtraSpaces.c.i
+.PHONY : tasks/removeExtraSpaces.i
+
+# target to preprocess a source file
+tasks/removeExtraSpaces.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.i
+.PHONY : tasks/removeExtraSpaces.c.i
+
+tasks/removeExtraSpaces.s: tasks/removeExtraSpaces.c.s
+.PHONY : tasks/removeExtraSpaces.s
+
+# target to generate assembly for a file
+tasks/removeExtraSpaces.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.s
+.PHONY : tasks/removeExtraSpaces.c.s
+
 tasks/removeNonLetters.obj: tasks/removeNonLetters.c.obj
 .PHONY : tasks/removeNonLetters.obj
 
@@ -240,6 +264,9 @@ help:
 	@echo ... tasks/removeAdjacentEqualLetters.obj
 	@echo ... tasks/removeAdjacentEqualLetters.i
 	@echo ... tasks/removeAdjacentEqualLetters.s
+	@echo ... tasks/removeExtraSpaces.obj
+	@echo ... tasks/removeExtraSpaces.i
+	@echo ... tasks/removeExtraSpaces.s
 	@echo ... tasks/removeNonLetters.obj
 	@echo ... tasks/removeNonLetters.i
 	@echo ... tasks/removeNonLetters.s

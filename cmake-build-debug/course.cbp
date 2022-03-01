@@ -244,6 +244,12 @@
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h">
 			<Option target="string_"/>
 		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeExtraSpaces.c">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeExtraSpaces.h">
+			<Option target="string_"/>
+		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.c">
 			<Option target="string_"/>
 		</Unit>

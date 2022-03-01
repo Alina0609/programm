@@ -117,12 +117,26 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeAdjacentEqualLet
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/string_.dir/tasks/removeAdjacentEqualLetters.c.s"
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\removeAdjacentEqualLetters.c -o CMakeFiles\string_.dir\tasks\removeAdjacentEqualLetters.c.s
 
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj: libs/data_structures/string_/CMakeFiles/string_.dir/flags.make
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj: ../libs/data_structures/string_/tasks/removeExtraSpaces.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\string_.dir\tasks\removeExtraSpaces.c.obj -c C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\removeExtraSpaces.c
+
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.i"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\removeExtraSpaces.c > CMakeFiles\string_.dir\tasks\removeExtraSpaces.c.i
+
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.s"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\removeExtraSpaces.c -o CMakeFiles\string_.dir\tasks\removeExtraSpaces.c.s
+
 # Object files for target string_
 string__OBJECTS = \
 "CMakeFiles/string_.dir/string_.c.obj" \
 "CMakeFiles/string_.dir/tasks/removeNonLetters.c.obj" \
 "CMakeFiles/string_.dir/tasks/test_tasks_string.c.obj" \
-"CMakeFiles/string_.dir/tasks/removeAdjacentEqualLetters.c.obj"
+"CMakeFiles/string_.dir/tasks/removeAdjacentEqualLetters.c.obj" \
+"CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj"
 
 # External object files for target string_
 string__EXTERNAL_OBJECTS =
@@ -131,9 +145,10 @@ libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFil
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeNonLetters.c.obj
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.obj
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeAdjacentEqualLetters.c.obj
+libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/build.make
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libstring_.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libstring_.a"
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && $(CMAKE_COMMAND) -P CMakeFiles\string_.dir\cmake_clean_target.cmake
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\string_.dir\link.txt --verbose=$(VERBOSE)
 
