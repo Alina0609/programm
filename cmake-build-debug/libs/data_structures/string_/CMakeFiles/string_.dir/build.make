@@ -156,6 +156,32 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToEndRevers.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/string_.dir/tasks/digitToEndRevers.c.s"
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\digitToEndRevers.c -o CMakeFiles\string_.dir\tasks\digitToEndRevers.c.s
 
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.obj: libs/data_structures/string_/CMakeFiles/string_.dir/flags.make
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.obj: ../libs/data_structures/string_/tasks/replaceNumbersWithSpaces.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.obj"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\string_.dir\tasks\replaceNumbersWithSpaces.c.obj -c C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\replaceNumbersWithSpaces.c
+
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.i"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\replaceNumbersWithSpaces.c > CMakeFiles\string_.dir\tasks\replaceNumbersWithSpaces.c.i
+
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.s"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\replaceNumbersWithSpaces.c -o CMakeFiles\string_.dir\tasks\replaceNumbersWithSpaces.c.s
+
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.obj: libs/data_structures/string_/CMakeFiles/string_.dir/flags.make
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.obj: ../libs/data_structures/string_/tasks/getCountPalindromWords.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.obj"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\string_.dir\tasks\getCountPalindromWords.c.obj -c C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\getCountPalindromWords.c
+
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.i"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\getCountPalindromWords.c > CMakeFiles\string_.dir\tasks\getCountPalindromWords.c.i
+
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.s"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\getCountPalindromWords.c -o CMakeFiles\string_.dir\tasks\getCountPalindromWords.c.s
+
 # Object files for target string_
 string__OBJECTS = \
 "CMakeFiles/string_.dir/string_.c.obj" \
@@ -164,7 +190,9 @@ string__OBJECTS = \
 "CMakeFiles/string_.dir/tasks/removeAdjacentEqualLetters.c.obj" \
 "CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj" \
 "CMakeFiles/string_.dir/tasks/digitToStart.c.obj" \
-"CMakeFiles/string_.dir/tasks/digitToEndRevers.c.obj"
+"CMakeFiles/string_.dir/tasks/digitToEndRevers.c.obj" \
+"CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.obj" \
+"CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.obj"
 
 # External object files for target string_
 string__EXTERNAL_OBJECTS =
@@ -176,9 +204,11 @@ libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFil
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToStart.c.obj
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToEndRevers.c.obj
+libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.obj
+libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.obj
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/build.make
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libstring_.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libstring_.a"
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && $(CMAKE_COMMAND) -P CMakeFiles\string_.dir\cmake_clean_target.cmake
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\string_.dir\link.txt --verbose=$(VERBOSE)
 

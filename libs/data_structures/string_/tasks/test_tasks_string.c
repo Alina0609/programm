@@ -151,11 +151,34 @@ void test_digitToEndRevers() {
     test_digitToEndRevers2();
 }
 
+void test_getCountPalindromWords1() {
+    char str[] = "f33f, rey423, hhhhhh, ui55iu";
+
+   int res = 3;
+
+    assert(res == getCountPalindromWords(str));
+}
+
+void test_getCountPalindromWords2() {
+    char str[] = "gg543x, 333, jwrrwj, 0p]q";
+
+    int res = 2;
+
+    assert(res == getCountPalindromWords(str));
+}
+
+void test_getCountPalindromWords() {
+    test_getCountPalindromWords1();
+    test_getCountPalindromWords2();
+}
+
+
 void test_tasks_string() {
     test_removeNonLetters();
     test_removeAdjacentEqualLetters();
     test_removeExtraSpaces();
     test_digitToStart();
     test_digitToEndRevers();
+    test_getCountPalindromWords();
 
 }

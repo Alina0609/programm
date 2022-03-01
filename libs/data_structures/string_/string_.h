@@ -5,7 +5,6 @@
 #ifndef COURSE_STRING__H
 #define COURSE_STRING__H
 
-#include <stddef.h>
 #include <ctype.h>
 #include <memory.h>
 
@@ -78,9 +77,18 @@ char *getEndOfString(char *str);
 //вернёт значение 0, если слово не было считано, в противном
 //случае будет возвращено значение 1 и в переменную word типа WordDescriptor
 //будут записаны позиции начала слова, и первого символа после конца слова
-int getWord( char * beginSearch , WordDescriptor * word ) ;
+int getWord(char *beginSearch, WordDescriptor *word);
 
 
 int getWordRevers(char *rbegin, char *rend, WordDescriptor *word);
+
+//возвращает указатель на первую запятую, расположенную на ленте
+// памяти начиная с адреса begin или на первый ноль-символ
+char *findComma(char *begin);
+
+//вернёт значение 0, если слово не было считано, в противном
+//случае будет возвращено значение 1 и в переменную word типа WordDescriptor
+//будут записаны позиции начала слова, и первого символа после конца слова
+int getWordSeparatedByComma(char *beginSearch, WordDescriptor *word);
 
 #endif //COURSE_STRING__H

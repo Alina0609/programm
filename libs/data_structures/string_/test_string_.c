@@ -264,11 +264,6 @@ void test_getEndOfString() {
     test_getEndOfString2();
 }
 
-
-//void test_(){
-//
-//}
-
 void test_str() {
     test_find();
     test_findNonSpace();

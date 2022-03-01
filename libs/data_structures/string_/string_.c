@@ -116,3 +116,24 @@ int getWordRevers(char *rbegin, char *rend, WordDescriptor *word) {
     return 1;
 
 }
+
+char *findComma(char *begin) {
+    while (*begin != '\0') {
+        if (*begin == ',')
+            return begin;
+
+        begin++;
+    }
+
+    return begin;
+}
+
+int getWordSeparatedByComma(char *beginSearch, WordDescriptor *word) {
+    word->begin = findNonSpace(beginSearch);
+    if (*word->begin == '\0')
+        return 0;
+
+    word->end = findComma(word->begin);
+
+    return 1;
+}

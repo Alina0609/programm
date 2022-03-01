@@ -201,6 +201,30 @@ tasks/digitToStart.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToStart.c.s
 .PHONY : tasks/digitToStart.c.s
 
+tasks/getCountPalindromWords.obj: tasks/getCountPalindromWords.c.obj
+.PHONY : tasks/getCountPalindromWords.obj
+
+# target to build an object file
+tasks/getCountPalindromWords.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.obj
+.PHONY : tasks/getCountPalindromWords.c.obj
+
+tasks/getCountPalindromWords.i: tasks/getCountPalindromWords.c.i
+.PHONY : tasks/getCountPalindromWords.i
+
+# target to preprocess a source file
+tasks/getCountPalindromWords.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.i
+.PHONY : tasks/getCountPalindromWords.c.i
+
+tasks/getCountPalindromWords.s: tasks/getCountPalindromWords.c.s
+.PHONY : tasks/getCountPalindromWords.s
+
+# target to generate assembly for a file
+tasks/getCountPalindromWords.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.s
+.PHONY : tasks/getCountPalindromWords.c.s
+
 tasks/removeAdjacentEqualLetters.obj: tasks/removeAdjacentEqualLetters.c.obj
 .PHONY : tasks/removeAdjacentEqualLetters.obj
 
@@ -273,6 +297,30 @@ tasks/removeNonLetters.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeNonLetters.c.s
 .PHONY : tasks/removeNonLetters.c.s
 
+tasks/replaceNumbersWithSpaces.obj: tasks/replaceNumbersWithSpaces.c.obj
+.PHONY : tasks/replaceNumbersWithSpaces.obj
+
+# target to build an object file
+tasks/replaceNumbersWithSpaces.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.obj
+.PHONY : tasks/replaceNumbersWithSpaces.c.obj
+
+tasks/replaceNumbersWithSpaces.i: tasks/replaceNumbersWithSpaces.c.i
+.PHONY : tasks/replaceNumbersWithSpaces.i
+
+# target to preprocess a source file
+tasks/replaceNumbersWithSpaces.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.i
+.PHONY : tasks/replaceNumbersWithSpaces.c.i
+
+tasks/replaceNumbersWithSpaces.s: tasks/replaceNumbersWithSpaces.c.s
+.PHONY : tasks/replaceNumbersWithSpaces.s
+
+# target to generate assembly for a file
+tasks/replaceNumbersWithSpaces.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.s
+.PHONY : tasks/replaceNumbersWithSpaces.c.s
+
 tasks/test_tasks_string.obj: tasks/test_tasks_string.c.obj
 .PHONY : tasks/test_tasks_string.obj
 
@@ -315,6 +363,9 @@ help:
 	@echo ... tasks/digitToStart.obj
 	@echo ... tasks/digitToStart.i
 	@echo ... tasks/digitToStart.s
+	@echo ... tasks/getCountPalindromWords.obj
+	@echo ... tasks/getCountPalindromWords.i
+	@echo ... tasks/getCountPalindromWords.s
 	@echo ... tasks/removeAdjacentEqualLetters.obj
 	@echo ... tasks/removeAdjacentEqualLetters.i
 	@echo ... tasks/removeAdjacentEqualLetters.s
@@ -324,6 +375,9 @@ help:
 	@echo ... tasks/removeNonLetters.obj
 	@echo ... tasks/removeNonLetters.i
 	@echo ... tasks/removeNonLetters.s
+	@echo ... tasks/replaceNumbersWithSpaces.obj
+	@echo ... tasks/replaceNumbersWithSpaces.i
+	@echo ... tasks/replaceNumbersWithSpaces.s
 	@echo ... tasks/test_tasks_string.obj
 	@echo ... tasks/test_tasks_string.i
 	@echo ... tasks/test_tasks_string.s

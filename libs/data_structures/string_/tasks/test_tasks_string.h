@@ -6,6 +6,7 @@
 #define COURSE_TEST_TASKS_STRING_H
 
 #include "stdio.h"
+#include "assert.h"
 #include "../../string_/string_.h"
 
 #include "removeNonLetters.h"
@@ -13,7 +14,8 @@
 #include "removeExtraSpaces.h"
 #include "digitToStart.h"
 #include "digitToEndRevers.h"
-
+#include "replaceNumbersWithSpaces.h"
+#include "getCountPalindromWords.h"
 
 void test_removeNonLetters1();
 
@@ -40,5 +42,11 @@ void test_digitToEndRevers1();
 void test_digitToEndRevers2();
 
 void test_digitToEndRevers();
+
+void test_getCountPalindromWords1();
+
+void test_getCountPalindromWords2();
+
+void test_getCountPalindromWords();
 
 #endif //COURSE_TEST_TASKS_STRING_H

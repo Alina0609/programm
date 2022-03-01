@@ -5,4 +5,4 @@ add_library(string_
         tasks/removeAdjacentEqualLetters.c
         tasks/removeExtraSpaces.c
         tasks/digitToStart.c
-        tasks/digitToEndRevers.c)
+        tasks/digitToEndRevers.c tasks/replaceNumbersWithSpaces.c tasks/getCountPalindromWords.c)

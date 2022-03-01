@@ -241,10 +241,16 @@
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.c">
 			<Option target="string_"/>
 		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.h">
+			<Option target="string_"/>
+		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.c">
 			<Option target="string_"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.c">
 			<Option target="string_"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.c">
@@ -263,6 +269,12 @@
 			<Option target="string_"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.h">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.c">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h">
 			<Option target="string_"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.c">

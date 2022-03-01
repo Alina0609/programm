@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
-stddef.h
--
 ctype.h
 -
 memory.h
@@ -22,6 +20,10 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToSta
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeExtraSpaces.h
@@ -32,6 +34,10 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonL
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.c
 test_tasks_string.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.h
@@ -39,6 +45,8 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.h
 stdio.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdio.h
+assert.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/assert.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 removeNonLetters.h
@@ -51,4 +59,8 @@ digitToStart.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h
 digitToEndRevers.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.h
+replaceNumbersWithSpaces.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h
+getCountPalindromWords.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.h
 
