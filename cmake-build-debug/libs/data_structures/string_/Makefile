@@ -153,6 +153,54 @@ string_.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/string_.c.s
 .PHONY : string_.c.s
 
+tasks/digitToEndRevers.obj: tasks/digitToEndRevers.c.obj
+.PHONY : tasks/digitToEndRevers.obj
+
+# target to build an object file
+tasks/digitToEndRevers.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToEndRevers.c.obj
+.PHONY : tasks/digitToEndRevers.c.obj
+
+tasks/digitToEndRevers.i: tasks/digitToEndRevers.c.i
+.PHONY : tasks/digitToEndRevers.i
+
+# target to preprocess a source file
+tasks/digitToEndRevers.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToEndRevers.c.i
+.PHONY : tasks/digitToEndRevers.c.i
+
+tasks/digitToEndRevers.s: tasks/digitToEndRevers.c.s
+.PHONY : tasks/digitToEndRevers.s
+
+# target to generate assembly for a file
+tasks/digitToEndRevers.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToEndRevers.c.s
+.PHONY : tasks/digitToEndRevers.c.s
+
+tasks/digitToStart.obj: tasks/digitToStart.c.obj
+.PHONY : tasks/digitToStart.obj
+
+# target to build an object file
+tasks/digitToStart.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToStart.c.obj
+.PHONY : tasks/digitToStart.c.obj
+
+tasks/digitToStart.i: tasks/digitToStart.c.i
+.PHONY : tasks/digitToStart.i
+
+# target to preprocess a source file
+tasks/digitToStart.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToStart.c.i
+.PHONY : tasks/digitToStart.c.i
+
+tasks/digitToStart.s: tasks/digitToStart.c.s
+.PHONY : tasks/digitToStart.s
+
+# target to generate assembly for a file
+tasks/digitToStart.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToStart.c.s
+.PHONY : tasks/digitToStart.c.s
+
 tasks/removeAdjacentEqualLetters.obj: tasks/removeAdjacentEqualLetters.c.obj
 .PHONY : tasks/removeAdjacentEqualLetters.obj
 
@@ -261,6 +309,12 @@ help:
 	@echo ... string_.obj
 	@echo ... string_.i
 	@echo ... string_.s
+	@echo ... tasks/digitToEndRevers.obj
+	@echo ... tasks/digitToEndRevers.i
+	@echo ... tasks/digitToEndRevers.s
+	@echo ... tasks/digitToStart.obj
+	@echo ... tasks/digitToStart.i
+	@echo ... tasks/digitToStart.s
 	@echo ... tasks/removeAdjacentEqualLetters.obj
 	@echo ... tasks/removeAdjacentEqualLetters.i
 	@echo ... tasks/removeAdjacentEqualLetters.s

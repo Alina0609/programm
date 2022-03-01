@@ -22,6 +22,20 @@ ctype.h
 memory.h
 -
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeExtraSpaces.h
+ctype.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/ctype.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
@@ -29,8 +43,18 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.h
 stdio.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdio.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 removeNonLetters.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.h
+removeAdjacentEqualLetters.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h
+removeExtraSpaces.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeExtraSpaces.h
+digitToStart.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h
+digitToEndRevers.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/test_string_.h
 string_.h

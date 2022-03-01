@@ -9,6 +9,17 @@
 #include <ctype.h>
 #include <memory.h>
 
+#define MAX_STRING_SIZE 100
+#define MAX_N_WORDS_IN_STRING 100
+#define MAX_WORD_SIZE 20
+
+char _stringBuffer[MAX_STRING_SIZE + 1];
+
+typedef struct WordDescriptor {
+    char *begin; // позиция начала слова
+    char *end; // позиция первого символа, после последнего символа слова
+} WordDescriptor;
+
 //возвращает количество символов в строке (не считая ноль-символ)
 size_t strlen_(const char *begin);
 
@@ -52,17 +63,24 @@ char *copy(const char *beginSource, const char *endSource,
 //записывает по адресу beginDestination элементы из фрагмента памяти начиная с beginSource
 //заканчивая endSource, удовлетворяющие функции-предикату f. Функция
 //возвращает указатель на следующий свободный для записи фрагмент в памяти
-char* copyIf(char *beginSource, const char *endSource,
-               char *beginDestination, int (*f)(int));
+char *copyIf(char *beginSource, const char *endSource,
+             char *beginDestination, int (*f)(int));
 
 //записывает по адресу beginDestination элементы из фрагмента памяти начиная с rbeginSource
 //заканчивая rendSource, удовлетворяющие функции-предикату f. Функция возвращает значение
 //beginDestination по окончанию работы функции
-char* copyIfReverse(char *rbeginSource, const char *rendSource,
+char *copyIfReverse(char *rbeginSource, const char *rendSource,
                     char *beginDestination, int (*f)(int));
 
-//
+//возвращает конец строки
 char *getEndOfString(char *str);
 
+//вернёт значение 0, если слово не было считано, в противном
+//случае будет возвращено значение 1 и в переменную word типа WordDescriptor
+//будут записаны позиции начала слова, и первого символа после конца слова
+int getWord( char * beginSearch , WordDescriptor * word ) ;
+
+
+int getWordRevers(char *rbegin, char *rend, WordDescriptor *word);
 
 #endif //COURSE_STRING__H

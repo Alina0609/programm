@@ -4,16 +4,30 @@
 libs/data_structures/string_/CMakeFiles/string_.dir/string_.c.obj: \
  ../libs/data_structures/string_/string_.c \
  ../libs/data_structures/string_/string_.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToEndRevers.c.obj: \
+ ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/digitToEndRevers.c \
+ ../libs/data_structures/string_/tasks/digitToEndRevers.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToStart.c.obj: \
+ ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/digitToStart.c \
+ ../libs/data_structures/string_/tasks/digitToStart.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeAdjacentEqualLetters.c.obj: \
  ../libs/data_structures/string_/tasks/removeAdjacentEqualLetters.c \
  ../libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj: \
+ ../libs/data_structures/string_/tasks/removeExtraSpaces.c \
+ ../libs/data_structures/string_/tasks/removeExtraSpaces.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeNonLetters.c.obj: \
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/removeNonLetters.c \
  ../libs/data_structures/string_/tasks/removeNonLetters.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.obj: \
  ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/digitToEndRevers.h \
+ ../libs/data_structures/string_/tasks/digitToStart.h \
  ../libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h \
+ ../libs/data_structures/string_/tasks/removeExtraSpaces.h \
  ../libs/data_structures/string_/tasks/removeNonLetters.h \
  ../libs/data_structures/string_/tasks/test_tasks_string.c \
  ../libs/data_structures/string_/tasks/test_tasks_string.h
