@@ -5,7 +5,7 @@
 #include "test_string_.h"
 
 void test_find1() {
-    char *str = "fh&shwuk2jj4";
+    char str[] = "fh&shwuk2jj4";
     int lenghtStr = 7;
     char *res = str + lenghtStr;
 
@@ -13,7 +13,7 @@ void test_find1() {
 }
 
 void test_find2() {
-    char *str = "sdguuns46edn37";
+    char str[] = "sdguuns46edn37";
     int lenghtStr = 14;
     char *res = &str[3];
 
@@ -26,14 +26,14 @@ void test_find() {
 }
 
 void test_findNonSpace1() {
-    char *str = "  6shwjw8";
+    char str[] = "  6shwjw8";
     char *res = &str[2];
 
     assert(findNonSpace(str) == res);
 }
 
 void test_findNonSpace2() {
-    char *str = "   ";
+    char str[] = "   ";
     char *res = &str[3];
 
     assert(findNonSpace(str) == res);
@@ -46,14 +46,14 @@ void test_findNonSpace() {
 
 
 void test_findSpace1() {
-    char *str = "ge272eh";
+    char str[] = "ge272eh";
     char *res = &str[7];
 
     assert(findSpace(str) == res);
 }
 
 void test_findSpace2() {
-    char *str = "gyf g43 4t";
+    char str[] = "gyf g43 4t";
     char *res = &str[3];
 
     assert(findSpace(str) == res);
@@ -65,7 +65,7 @@ void test_findSpace() {
 }
 
 void test_findSpaceReverse1() {
-    char *str = "hsd 6e g";
+    char str[] = "hsd 6e g";
     char *res = &str[6];
     int lenghtStr = 8;
 
@@ -73,7 +73,7 @@ void test_findSpaceReverse1() {
 }
 
 void test_findSpaceReverse2() {
-    char *str = "idh234xs";
+    char str[] = "idh234xs";
     char *res = str;
     int lenghtStr = 8;
 
@@ -86,7 +86,7 @@ void test_findSpaceReverse() {
 }
 
 void test_findNonSpaceReverse1() {
-    char *str = "  \t  f";
+    char str[] = "  \t  f";
     char *res = &str[5];
     int lenghtStr = 6;
 
@@ -94,7 +94,7 @@ void test_findNonSpaceReverse1() {
 }
 
 void test_findNonSpaceReverse2() {
-    char *str = "   ";
+    char str[] = "   ";
     char *res = str;
     int lenghtStr = 3;
 
@@ -107,15 +107,15 @@ void test_findNonSpaceReverse() {
 }
 
 void test_strcmp1() {
-    char *str = "djwijan 83";
-    char *res = "djwijan 83";
+    char str[] = "djwijan 83";
+    char res[] = "djwijan 83";
 
     assert(!strcmp(str, res));
 }
 
 void test_strcmp2() {
-    char *str = "djwn 83";
-    char *res = "djwijan 83";
+    char str[] = "djwn 83";
+    char res[] = "djwijan 83";
 
     assert(strcmp(str, res));
 }
@@ -126,10 +126,10 @@ void test_strcmp() {
 }
 
 void test_copy1() {
-    char *str = "lds3993";
+    char str[] = "lds3993";
     int lenghtStr = 7;
 
-    char *endStr = "s39";
+    char endStr[] = "s39";
 
     char *resBegin = malloc(sizeof(char) * (lenghtStr + 1));
 
@@ -142,7 +142,7 @@ void test_copy1() {
 }
 
 void test_copy2() {
-    char *str = "lds3993";
+    char str[] = "lds3993";
     int lenghtStr = 7;
 
     char *resBegin = malloc(sizeof(char) * (lenghtStr + 1));     //"s39"
@@ -169,10 +169,10 @@ int isNotDigit(int x) {
 }
 
 void test_copyIf1() {
-    char *str = "d34f 8xwj0q x";
+    char str[] = "d34f 8xwj0q x";
     int lenghtStr = 13;
 
-    char *endStr = "3480";
+    char endStr[] = "3480";
 
     char *resBegin = malloc(sizeof(char) * (lenghtStr + 1));
 
@@ -185,10 +185,10 @@ void test_copyIf1() {
 }
 
 void test_copyIf2() {
-    char *str = "d34f 8xwj0q x";
+    char str[] = "d34f 8xwj0q x";
     int lenghtStr = 13;
 
-    char *endStr = "df xwjq x";
+    char endStr[] = "df xwjq x";
 
     char *resBegin = malloc(sizeof(char) * (lenghtStr + 1));
 
@@ -206,10 +206,10 @@ void test_copyIf() {
 }
 
 void test_copyIfReverse1() {
-    char *str = "je4 6 4c3flr";
+    char str[] = "je4 6 4c3flr";
     int lenghtStr = 12;
 
-    char *endStr = "3464";
+    char endStr[] = "3464";
 
     char *resBegin = malloc(sizeof(char) * (lenghtStr + 1));
 
@@ -222,14 +222,14 @@ void test_copyIfReverse1() {
 }
 
 void test_copyIfReverse2() {
-    char *str = "je4 6 4c3flr";
+    char str[] = "je4 6 4c3flr";
     int lenghtStr = 11;
 
-    char *endStr = "rlfc  e";
+    char endStr[] = "rlfc  e";
 
     char *resBegin = malloc(sizeof(char) * (lenghtStr + 1));
 
-    char *resEnd = copyIfReverse(str + lenghtStr , str, resBegin, isNotDigit);
+    char *resEnd = copyIfReverse(str + lenghtStr, str, resBegin, isNotDigit);
     *resEnd = '\0';
 
     assert(!strcmp(endStr, resBegin));
@@ -238,9 +238,32 @@ void test_copyIfReverse2() {
 }
 
 void test_copyIfReverse() {
-   test_copyIfReverse1();
+    test_copyIfReverse1();
     test_copyIfReverse2();
 }
+
+void test_getEndOfString1() {
+    char str[] = "je4 6 4c3flr";
+    int lenghtStr = 12;
+
+    char *res = str + lenghtStr;
+
+    assert(getEndOfString(str) == res);
+}
+
+void test_getEndOfString2() {
+    char str[] = "";
+
+    char *res = str;
+
+    assert(getEndOfString(str) == res);
+}
+
+void test_getEndOfString() {
+    test_getEndOfString1();
+    test_getEndOfString2();
+}
+
 
 //void test_(){
 //
@@ -258,4 +281,7 @@ void test_str() {
     test_copy();
     test_copyIf();
     test_copyIfReverse();
+
+    test_getEndOfString();
+
 }

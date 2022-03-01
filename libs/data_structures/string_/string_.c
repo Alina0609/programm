@@ -87,3 +87,10 @@ char *copyIfReverse(char *rbeginSource, const char *rendSource,
     }
     return beginDestination;
 }
+
+char *getEndOfString(char *str){
+    while (*str)
+        str++;
+
+    return str;
+}

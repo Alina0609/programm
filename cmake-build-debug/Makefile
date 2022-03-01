@@ -142,6 +142,19 @@ data_structures/fast:
 .PHONY : data_structures/fast
 
 #=============================================================================
+# Target rules for targets named string_
+
+# Build rule for target.
+string_: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 string_
+.PHONY : string_
+
+# fast build rule for target.
+string_/fast:
+	$(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/build
+.PHONY : string_/fast
+
+#=============================================================================
 # Target rules for targets named algorithms
 
 # Build rule for target.
@@ -189,6 +202,7 @@ help:
 	@echo ... algorithms
 	@echo ... course
 	@echo ... data_structures
+	@echo ... string_
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

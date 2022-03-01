@@ -34,6 +34,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../libs/CMakeLists.txt"
   "../libs/algorithms/CMakeLists.txt"
   "../libs/data_structures/CMakeLists.txt"
+  "../libs/data_structures/string_/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -47,6 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "libs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "libs/data_structures/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/data_structures/string_/CMakeFiles/CMakeDirectoryInformation.cmake"
   "libs/algorithms/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -54,5 +56,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/course.dir/DependInfo.cmake"
   "libs/data_structures/CMakeFiles/data_structures.dir/DependInfo.cmake"
+  "libs/data_structures/string_/CMakeFiles/string_.dir/DependInfo.cmake"
   "libs/algorithms/CMakeFiles/algorithms.dir/DependInfo.cmake"
   )

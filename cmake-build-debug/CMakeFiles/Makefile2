@@ -113,21 +113,39 @@ libs/algorithms/clean: libs/algorithms/CMakeFiles/algorithms.dir/clean
 
 # Recursive "all" directory target.
 libs/data_structures/all: libs/data_structures/CMakeFiles/data_structures.dir/all
+libs/data_structures/all: libs/data_structures/string_/all
 .PHONY : libs/data_structures/all
 
 # Recursive "preinstall" directory target.
-libs/data_structures/preinstall:
+libs/data_structures/preinstall: libs/data_structures/string_/preinstall
 .PHONY : libs/data_structures/preinstall
 
 # Recursive "clean" directory target.
 libs/data_structures/clean: libs/data_structures/CMakeFiles/data_structures.dir/clean
+libs/data_structures/clean: libs/data_structures/string_/clean
 .PHONY : libs/data_structures/clean
+
+#=============================================================================
+# Directory level rules for directory libs/data_structures/string_
+
+# Recursive "all" directory target.
+libs/data_structures/string_/all: libs/data_structures/string_/CMakeFiles/string_.dir/all
+.PHONY : libs/data_structures/string_/all
+
+# Recursive "preinstall" directory target.
+libs/data_structures/string_/preinstall:
+.PHONY : libs/data_structures/string_/preinstall
+
+# Recursive "clean" directory target.
+libs/data_structures/string_/clean: libs/data_structures/string_/CMakeFiles/string_.dir/clean
+.PHONY : libs/data_structures/string_/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/course.dir
 
 # All Build rule for target.
 CMakeFiles/course.dir/all: libs/data_structures/CMakeFiles/data_structures.dir/all
+CMakeFiles/course.dir/all: libs/data_structures/string_/CMakeFiles/string_.dir/all
 CMakeFiles/course.dir/all: libs/algorithms/CMakeFiles/algorithms.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\course.dir\build.make CMakeFiles/course.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\course.dir\build.make CMakeFiles/course.dir/build
@@ -136,7 +154,7 @@ CMakeFiles/course.dir/all: libs/algorithms/CMakeFiles/algorithms.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/course.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/course.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/course.dir/rule
@@ -175,6 +193,32 @@ data_structures: libs/data_structures/CMakeFiles/data_structures.dir/rule
 libs/data_structures/CMakeFiles/data_structures.dir/clean:
 	$(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/clean
 .PHONY : libs/data_structures/CMakeFiles/data_structures.dir/clean
+
+#=============================================================================
+# Target rules for target libs/data_structures/string_/CMakeFiles/string_.dir
+
+# All Build rule for target.
+libs/data_structures/string_/CMakeFiles/string_.dir/all:
+	$(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/depend
+	$(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=20,21,22,23,24 "Built target string_"
+.PHONY : libs/data_structures/string_/CMakeFiles/string_.dir/all
+
+# Build rule for subdir invocation for target.
+libs/data_structures/string_/CMakeFiles/string_.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/string_/CMakeFiles/string_.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles 0
+.PHONY : libs/data_structures/string_/CMakeFiles/string_.dir/rule
+
+# Convenience name for target.
+string_: libs/data_structures/string_/CMakeFiles/string_.dir/rule
+.PHONY : string_
+
+# clean rule for target.
+libs/data_structures/string_/CMakeFiles/string_.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/clean
+.PHONY : libs/data_structures/string_/CMakeFiles/string_.dir/clean
 
 #=============================================================================
 # Target rules for target libs/algorithms/CMakeFiles/algorithms.dir

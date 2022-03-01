@@ -5,7 +5,7 @@
 		<Option title="course"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\libs\;CMake Files\libs\data_structures\;CMake Files\libs\algorithms\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libs\;CMake Files\libs\data_structures\;CMake Files\libs\data_structures\string_\;CMake Files\libs\algorithms\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/user/CLionProjects/course/cmake-build-debug"/>
@@ -109,6 +109,42 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="string_">
+				<Option output="C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/libstring_.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/Makefile&quot;  VERBOSE=1 string_"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_/fast">
+				<Option output="C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/libstring_.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/Makefile&quot;  VERBOSE=1 string_/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="algorithms">
 				<Option output="C:/Users/user/CLionProjects/course/cmake-build-debug/libs/algorithms/libalgorithms.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/user/CLionProjects/course/cmake-build-debug/libs/algorithms"/>
@@ -196,9 +232,29 @@
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.c">
 			<Option target="data_structures"/>
+			<Option target="string_"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h">
 			<Option target="data_structures"/>
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.c">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.c">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.h">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.c">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.h">
+			<Option target="string_"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/test_string_.c">
 			<Option target="data_structures"/>
@@ -247,6 +303,9 @@
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libs\data_structures\"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\data_structures\string_\"/>
 		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/algorithms/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libs\algorithms\"/>

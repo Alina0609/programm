@@ -15,8 +15,11 @@ add_library(data_structures
         matrix/tasks.c
 
         string_/string_.c
-        string_/test_string_.c )
+        string_/test_string_.c
+        )
 
+add_subdirectory(string_)
 target_link_libraries(data_structures algorithms)
+
 
 

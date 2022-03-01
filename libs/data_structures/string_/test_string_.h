@@ -66,5 +66,10 @@ void test_copyIfReverse2();
 
 void test_copyIfReverse();
 
+void test_getEndOfString1();
+
+void test_getEndOfString2();
+
+void test_getEndOfString();
 
 #endif //COURSE_TEST_STRING__H
