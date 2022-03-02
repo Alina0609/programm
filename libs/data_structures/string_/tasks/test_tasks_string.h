@@ -16,6 +16,7 @@
 #include "digitToEndRevers.h"
 #include "replaceNumbersWithSpaces.h"
 #include "getCountPalindromWords.h"
+#include "replaceNumbersWithSpaces.h"
 
 void test_removeNonLetters1();
 
@@ -49,4 +50,9 @@ void test_getCountPalindromWords2();
 
 void test_getCountPalindromWords();
 
+void test_replaceNumberWithSpaces1();
+
+void test_replaceNumberWithSpaces2();
+
+void test_replaceNumberWithSpaces();
 #endif //COURSE_TEST_TASKS_STRING_H

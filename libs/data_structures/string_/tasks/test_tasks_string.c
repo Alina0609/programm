@@ -154,7 +154,7 @@ void test_digitToEndRevers() {
 void test_getCountPalindromWords1() {
     char str[] = "f33f, rey423, hhhhhh, ui55iu";
 
-   int res = 3;
+    int res = 3;
 
     assert(res == getCountPalindromWords(str));
 }
@@ -172,6 +172,30 @@ void test_getCountPalindromWords() {
     test_getCountPalindromWords2();
 }
 
+void test_replaceNumberWithSpaces1() {
+    char str[] = "2mme";
+
+    replaceNumberWithSpaces(str);
+
+    char res[] = "  mme";
+
+    ASSERT_STRING(res, str);
+}
+
+void test_replaceNumberWithSpaces2() {
+    char str[] = "1pwn3tf 1";
+
+    replaceNumberWithSpaces(str);
+
+    char res[] = " pwn   tf  ";
+
+    ASSERT_STRING(res, str);
+}
+
+void test_replaceNumberWithSpaces() {
+    test_replaceNumberWithSpaces1();
+    test_replaceNumberWithSpaces2();
+}
 
 void test_tasks_string() {
     test_removeNonLetters();
@@ -180,5 +204,5 @@ void test_tasks_string() {
     test_digitToStart();
     test_digitToEndRevers();
     test_getCountPalindromWords();
-
+    test_replaceNumberWithSpaces();
 }
