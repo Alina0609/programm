@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/string_.dir/tasks/digitToEndRevers.c.obj"
   "CMakeFiles/string_.dir/tasks/digitToStart.c.obj"
   "CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.obj"
+  "CMakeFiles/string_.dir/tasks/printWordsRevers.c.obj"
   "CMakeFiles/string_.dir/tasks/removeAdjacentEqualLetters.c.obj"
   "CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj"
   "CMakeFiles/string_.dir/tasks/removeNonLetters.c.obj"

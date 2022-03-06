@@ -224,6 +224,9 @@ void test_wordsOrdered() {
     test_wordsOrdered2();
 }
 
+void test_(){
+
+}
 void test_tasks_string() {
     test_removeNonLetters();
     test_removeAdjacentEqualLetters();

@@ -18,6 +18,7 @@
 #include "getCountPalindromWords.h"
 #include "replaceNumbersWithSpaces.h"
 #include "wordsOrdered.h"
+#include "printWordsRevers.h"
 
 void test_removeNonLetters1();
 

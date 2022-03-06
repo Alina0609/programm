@@ -225,6 +225,30 @@ tasks/getCountPalindromWords.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.s
 .PHONY : tasks/getCountPalindromWords.c.s
 
+tasks/printWordsRevers.obj: tasks/printWordsRevers.c.obj
+.PHONY : tasks/printWordsRevers.obj
+
+# target to build an object file
+tasks/printWordsRevers.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordsRevers.c.obj
+.PHONY : tasks/printWordsRevers.c.obj
+
+tasks/printWordsRevers.i: tasks/printWordsRevers.c.i
+.PHONY : tasks/printWordsRevers.i
+
+# target to preprocess a source file
+tasks/printWordsRevers.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordsRevers.c.i
+.PHONY : tasks/printWordsRevers.c.i
+
+tasks/printWordsRevers.s: tasks/printWordsRevers.c.s
+.PHONY : tasks/printWordsRevers.s
+
+# target to generate assembly for a file
+tasks/printWordsRevers.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordsRevers.c.s
+.PHONY : tasks/printWordsRevers.c.s
+
 tasks/removeAdjacentEqualLetters.obj: tasks/removeAdjacentEqualLetters.c.obj
 .PHONY : tasks/removeAdjacentEqualLetters.obj
 
@@ -414,6 +438,9 @@ help:
 	@echo ... tasks/getCountPalindromWords.obj
 	@echo ... tasks/getCountPalindromWords.i
 	@echo ... tasks/getCountPalindromWords.s
+	@echo ... tasks/printWordsRevers.obj
+	@echo ... tasks/printWordsRevers.i
+	@echo ... tasks/printWordsRevers.s
 	@echo ... tasks/removeAdjacentEqualLetters.obj
 	@echo ... tasks/removeAdjacentEqualLetters.i
 	@echo ... tasks/removeAdjacentEqualLetters.s
