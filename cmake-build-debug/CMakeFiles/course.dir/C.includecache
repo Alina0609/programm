@@ -32,6 +32,18 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPa
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+stdbool.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdbool.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordsRevers.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+stdio.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdio.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeExtraSpaces.h
@@ -71,6 +83,10 @@ replaceNumbersWithSpaces.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h
 wordsOrdered.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h
+printWordsRevers.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordsRevers.h
+getStringWithMixWords.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h
 stdbool.h

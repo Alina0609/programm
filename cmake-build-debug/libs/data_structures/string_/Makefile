@@ -225,6 +225,30 @@ tasks/getCountPalindromWords.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.s
 .PHONY : tasks/getCountPalindromWords.c.s
 
+tasks/getStringWithMixWords.obj: tasks/getStringWithMixWords.c.obj
+.PHONY : tasks/getStringWithMixWords.obj
+
+# target to build an object file
+tasks/getStringWithMixWords.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getStringWithMixWords.c.obj
+.PHONY : tasks/getStringWithMixWords.c.obj
+
+tasks/getStringWithMixWords.i: tasks/getStringWithMixWords.c.i
+.PHONY : tasks/getStringWithMixWords.i
+
+# target to preprocess a source file
+tasks/getStringWithMixWords.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getStringWithMixWords.c.i
+.PHONY : tasks/getStringWithMixWords.c.i
+
+tasks/getStringWithMixWords.s: tasks/getStringWithMixWords.c.s
+.PHONY : tasks/getStringWithMixWords.s
+
+# target to generate assembly for a file
+tasks/getStringWithMixWords.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getStringWithMixWords.c.s
+.PHONY : tasks/getStringWithMixWords.c.s
+
 tasks/printWordsRevers.obj: tasks/printWordsRevers.c.obj
 .PHONY : tasks/printWordsRevers.obj
 
@@ -438,6 +462,9 @@ help:
 	@echo ... tasks/getCountPalindromWords.obj
 	@echo ... tasks/getCountPalindromWords.i
 	@echo ... tasks/getCountPalindromWords.s
+	@echo ... tasks/getStringWithMixWords.obj
+	@echo ... tasks/getStringWithMixWords.i
+	@echo ... tasks/getStringWithMixWords.s
 	@echo ... tasks/printWordsRevers.obj
 	@echo ... tasks/printWordsRevers.i
 	@echo ... tasks/printWordsRevers.s

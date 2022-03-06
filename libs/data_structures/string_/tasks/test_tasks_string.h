@@ -19,6 +19,7 @@
 #include "replaceNumbersWithSpaces.h"
 #include "wordsOrdered.h"
 #include "printWordsRevers.h"
+#include "getStringWithMixWords.h"
 
 void test_removeNonLetters1();
 
@@ -64,5 +65,10 @@ void test_wordsOrdered2();
 
 void test_wordsOrdered();
 
+void test_getStringWithMixWords1();
+
+void test_getStringWithMixWords2();
+
+void test_getStringWithMixWords();
 
 #endif //COURSE_TEST_TASKS_STRING_H

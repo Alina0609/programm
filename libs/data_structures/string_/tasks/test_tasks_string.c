@@ -224,9 +224,37 @@ void test_wordsOrdered() {
     test_wordsOrdered2();
 }
 
-void test_(){
+void test_getStringWithMixWords1(){
+    char str1[] ="cat work snow";
+    char str2[] = "delta dog well";
 
+    char str3[MAX_STRING_SIZE];
+
+    getStringWithMixWords(str1, str2, str3);
+
+    char res[] = "cat delta work dog snow well";
+
+    ASSERT_STRING(res, str3);
 }
+
+void test_getStringWithMixWords2(){
+    char str1[] ="i you very much";
+    char str2[] = "love";
+
+    char str3[MAX_STRING_SIZE];
+
+    getStringWithMixWords(str1, str2, str3);
+
+    char res[] = "i love you very much";
+
+    ASSERT_STRING(res, str3);
+}
+
+void test_getStringWithMixWords(){
+    test_getStringWithMixWords1();
+    test_getStringWithMixWords2();
+}
+
 void test_tasks_string() {
     test_removeNonLetters();
     test_removeAdjacentEqualLetters();
@@ -236,4 +264,5 @@ void test_tasks_string() {
     test_getCountPalindromWords();
     test_replaceNumberWithSpaces();
     test_wordsOrdered();
+    test_getStringWithMixWords();
 }
