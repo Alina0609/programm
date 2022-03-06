@@ -26,6 +26,10 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeNonLetters.c.obj
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.c
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replace.c.obj
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replace.c
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replace.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.obj
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.c
@@ -41,3 +45,8 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.ob
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.c
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.h
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/wordsOrdered.c.obj
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.c
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h

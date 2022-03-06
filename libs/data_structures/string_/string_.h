@@ -91,4 +91,8 @@ char *findComma(char *begin);
 //будут записаны позиции начала слова, и первого символа после конца слова
 int getWordSeparatedByComma(char *beginSearch, WordDescriptor *word);
 
+//вернёт значение 0, если слово w1 не совпадает со словом w2 иначе 1
+int areWordsEqual(WordDescriptor w1,
+                  WordDescriptor w2);
+
 #endif //COURSE_STRING__H

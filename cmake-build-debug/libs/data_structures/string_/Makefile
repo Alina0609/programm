@@ -297,6 +297,30 @@ tasks/removeNonLetters.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeNonLetters.c.s
 .PHONY : tasks/removeNonLetters.c.s
 
+tasks/replace.obj: tasks/replace.c.obj
+.PHONY : tasks/replace.obj
+
+# target to build an object file
+tasks/replace.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replace.c.obj
+.PHONY : tasks/replace.c.obj
+
+tasks/replace.i: tasks/replace.c.i
+.PHONY : tasks/replace.i
+
+# target to preprocess a source file
+tasks/replace.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replace.c.i
+.PHONY : tasks/replace.c.i
+
+tasks/replace.s: tasks/replace.c.s
+.PHONY : tasks/replace.s
+
+# target to generate assembly for a file
+tasks/replace.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replace.c.s
+.PHONY : tasks/replace.c.s
+
 tasks/replaceNumbersWithSpaces.obj: tasks/replaceNumbersWithSpaces.c.obj
 .PHONY : tasks/replaceNumbersWithSpaces.obj
 
@@ -345,6 +369,30 @@ tasks/test_tasks_string.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.s
 .PHONY : tasks/test_tasks_string.c.s
 
+tasks/wordsOrdered.obj: tasks/wordsOrdered.c.obj
+.PHONY : tasks/wordsOrdered.obj
+
+# target to build an object file
+tasks/wordsOrdered.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/wordsOrdered.c.obj
+.PHONY : tasks/wordsOrdered.c.obj
+
+tasks/wordsOrdered.i: tasks/wordsOrdered.c.i
+.PHONY : tasks/wordsOrdered.i
+
+# target to preprocess a source file
+tasks/wordsOrdered.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/wordsOrdered.c.i
+.PHONY : tasks/wordsOrdered.c.i
+
+tasks/wordsOrdered.s: tasks/wordsOrdered.c.s
+.PHONY : tasks/wordsOrdered.s
+
+# target to generate assembly for a file
+tasks/wordsOrdered.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/wordsOrdered.c.s
+.PHONY : tasks/wordsOrdered.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -375,12 +423,18 @@ help:
 	@echo ... tasks/removeNonLetters.obj
 	@echo ... tasks/removeNonLetters.i
 	@echo ... tasks/removeNonLetters.s
+	@echo ... tasks/replace.obj
+	@echo ... tasks/replace.i
+	@echo ... tasks/replace.s
 	@echo ... tasks/replaceNumbersWithSpaces.obj
 	@echo ... tasks/replaceNumbersWithSpaces.i
 	@echo ... tasks/replaceNumbersWithSpaces.s
 	@echo ... tasks/test_tasks_string.obj
 	@echo ... tasks/test_tasks_string.i
 	@echo ... tasks/test_tasks_string.s
+	@echo ... tasks/wordsOrdered.obj
+	@echo ... tasks/wordsOrdered.i
+	@echo ... tasks/wordsOrdered.s
 .PHONY : help
 
 

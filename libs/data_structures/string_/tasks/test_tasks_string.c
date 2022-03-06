@@ -157,6 +157,8 @@ void test_getCountPalindromWords1() {
     int res = 3;
 
     assert(res == getCountPalindromWords(str));
+
+    printf("test_getCountPalindromWords1 - OK\n");
 }
 
 void test_getCountPalindromWords2() {
@@ -165,6 +167,8 @@ void test_getCountPalindromWords2() {
     int res = 2;
 
     assert(res == getCountPalindromWords(str));
+
+    printf("test_getCountPalindromWords2 - OK\n");
 }
 
 void test_getCountPalindromWords() {
@@ -197,6 +201,29 @@ void test_replaceNumberWithSpaces() {
     test_replaceNumberWithSpaces2();
 }
 
+void test_wordsOrdered1() {
+    char str[] = "alina daddy mom";
+    bool res = true;
+
+    assert(wordOrdered(str) == res);
+
+    printf("test_wordsOrdered1 - OK\n");
+}
+
+void test_wordsOrdered2() {
+    char str[] = "alina home babby";
+    bool res = true;
+
+    assert(!wordOrdered(str) == res);
+
+    printf("test_wordsOrdered2 - OK\n");
+}
+
+void test_wordsOrdered() {
+    test_wordsOrdered1();
+    test_wordsOrdered2();
+}
+
 void test_tasks_string() {
     test_removeNonLetters();
     test_removeAdjacentEqualLetters();
@@ -205,4 +232,5 @@ void test_tasks_string() {
     test_digitToEndRevers();
     test_getCountPalindromWords();
     test_replaceNumberWithSpaces();
+    test_wordsOrdered();
 }

@@ -6,8 +6,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/string_.dir/tasks/removeAdjacentEqualLetters.c.obj"
   "CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj"
   "CMakeFiles/string_.dir/tasks/removeNonLetters.c.obj"
+  "CMakeFiles/string_.dir/tasks/replace.c.obj"
   "CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.obj"
   "CMakeFiles/string_.dir/tasks/test_tasks_string.c.obj"
+  "CMakeFiles/string_.dir/tasks/wordsOrdered.c.obj"
   "libstring_.a"
   "libstring_.pdb"
 )

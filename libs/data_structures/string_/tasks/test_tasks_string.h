@@ -17,6 +17,7 @@
 #include "replaceNumbersWithSpaces.h"
 #include "getCountPalindromWords.h"
 #include "replaceNumbersWithSpaces.h"
+#include "wordsOrdered.h"
 
 void test_removeNonLetters1();
 
@@ -55,4 +56,12 @@ void test_replaceNumberWithSpaces1();
 void test_replaceNumberWithSpaces2();
 
 void test_replaceNumberWithSpaces();
+
+void test_wordsOrdered1();
+
+void test_wordsOrdered2();
+
+void test_wordsOrdered();
+
+
 #endif //COURSE_TEST_TASKS_STRING_H

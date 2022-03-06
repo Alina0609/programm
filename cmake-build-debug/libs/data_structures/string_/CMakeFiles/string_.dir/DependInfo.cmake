@@ -15,8 +15,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeAdjacentEqualLetters.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeExtraSpaces.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeExtraSpaces.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeNonLetters.c.obj"
+  "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replace.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replace.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.obj"
+  "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/wordsOrdered.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

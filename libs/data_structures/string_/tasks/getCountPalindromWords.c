@@ -33,5 +33,6 @@ int getCountPalindromWords(char *str) {
             count++;
         lastWriten = word.end + 1;
     }
+
     return count;
 }

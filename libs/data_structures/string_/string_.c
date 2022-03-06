@@ -20,14 +20,14 @@ char *find(char *begin, char *end, int ch) {
 }
 
 char *findNonSpace(char *begin) {
-    while (isspace(*begin) && *begin != '\0')
+    while (*begin != '\0' && isspace(*begin))
         begin++;
 
     return begin;
 }
 
 char *findSpace(char *begin) {
-    while (!isspace(*begin) && *begin != '\0')
+    while (*begin != '\0' && !isspace(*begin))
         begin++;
 
     return begin;
@@ -67,24 +67,23 @@ char *copy(const char *beginSource, const char *endSource,
 char *copyIf(char *beginSource, const char *endSource,
              char *beginDestination, int (*f)(int)) {
     while (endSource > beginSource) {
-        if (f(*beginSource)) {
-            memcpy(beginDestination, beginSource, sizeof(char));
-            beginDestination++;
-        }
+        if (f(*beginSource))
+            *beginDestination++ = *beginSource;
+
         beginSource++;
     }
+
     return beginDestination;
 }
 
 char *copyIfReverse(char *rbeginSource, const char *rendSource,
                     char *beginDestination, int (*f)(int)) {
     while (rbeginSource > rendSource) {
-        if (f(*rbeginSource)) {
-            memcpy(beginDestination, rbeginSource, sizeof(char));
-            beginDestination++;
-        }
+        if (f(*rbeginSource))
+            *beginDestination++ = *rbeginSource;
         rbeginSource--;
     }
+
     return beginDestination;
 }
 
@@ -136,4 +135,12 @@ int getWordSeparatedByComma(char *beginSearch, WordDescriptor *word) {
     word->end = findComma(word->begin);
 
     return 1;
+}
+
+int areWordsEqual(WordDescriptor w1,
+                  WordDescriptor w2) {
+    if (w1.end - w1.begin != w2.end - w2.begin)
+        return 0;
+
+    return !memcmp(w1.begin, w2.begin, w1.end - w1.begin);
 }

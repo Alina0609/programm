@@ -26,6 +26,10 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/removeNonLetters.c.obj
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/removeNonLetters.c \
  ../libs/data_structures/string_/tasks/removeNonLetters.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replace.c.obj: \
+ ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/replace.c \
+ ../libs/data_structures/string_/tasks/replace.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.obj: \
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/replaceNumbersWithSpaces.c \
@@ -40,4 +44,9 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.ob
  ../libs/data_structures/string_/tasks/removeNonLetters.h \
  ../libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h \
  ../libs/data_structures/string_/tasks/test_tasks_string.c \
- ../libs/data_structures/string_/tasks/test_tasks_string.h
+ ../libs/data_structures/string_/tasks/test_tasks_string.h \
+ ../libs/data_structures/string_/tasks/wordsOrdered.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/wordsOrdered.c.obj: \
+ ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/wordsOrdered.c \
+ ../libs/data_structures/string_/tasks/wordsOrdered.h
