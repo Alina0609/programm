@@ -20,6 +20,7 @@
 #include "wordsOrdered.h"
 #include "printWordsRevers.h"
 #include "getStringWithMixWords.h"
+#include "reversString.h"
 
 void test_removeNonLetters1();
 
@@ -70,5 +71,11 @@ void test_getStringWithMixWords1();
 void test_getStringWithMixWords2();
 
 void test_getStringWithMixWords();
+
+void test_reversString1();
+
+void test_reversString2();
+
+void test_reversString();
 
 #endif //COURSE_TEST_TASKS_STRING_H

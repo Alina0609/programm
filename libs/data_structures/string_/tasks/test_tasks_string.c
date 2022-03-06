@@ -224,8 +224,8 @@ void test_wordsOrdered() {
     test_wordsOrdered2();
 }
 
-void test_getStringWithMixWords1(){
-    char str1[] ="cat work snow";
+void test_getStringWithMixWords1() {
+    char str1[] = "cat work snow";
     char str2[] = "delta dog well";
 
     char str3[MAX_STRING_SIZE];
@@ -237,8 +237,8 @@ void test_getStringWithMixWords1(){
     ASSERT_STRING(res, str3);
 }
 
-void test_getStringWithMixWords2(){
-    char str1[] ="i you very much";
+void test_getStringWithMixWords2() {
+    char str1[] = "i you very much";
     char str2[] = "love";
 
     char str3[MAX_STRING_SIZE];
@@ -250,9 +250,30 @@ void test_getStringWithMixWords2(){
     ASSERT_STRING(res, str3);
 }
 
-void test_getStringWithMixWords(){
+void test_getStringWithMixWords() {
     test_getStringWithMixWords1();
     test_getStringWithMixWords2();
+}
+
+void test_reversString1() {
+    char str[] = "cat work snow";
+    char res1[] = "snow work cat";
+    reversString(str);
+
+    ASSERT_STRING(str, res1);
+}
+
+void test_reversString2() {
+    char str[] = " sk cat";
+    char res1[] = "cat sk";
+    reversString(str);
+
+    ASSERT_STRING(str, res1);
+}
+
+void test_reversString() {
+    test_reversString1();
+    test_reversString2();
 }
 
 void test_tasks_string() {
@@ -265,4 +286,5 @@ void test_tasks_string() {
     test_replaceNumberWithSpaces();
     test_wordsOrdered();
     test_getStringWithMixWords();
+    test_reversString();
 }

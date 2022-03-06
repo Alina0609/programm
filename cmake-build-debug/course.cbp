@@ -298,6 +298,12 @@
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h">
 			<Option target="string_"/>
 		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/reversString.c">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/reversString.h">
+			<Option target="string_"/>
+		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.c">
 			<Option target="string_"/>
 		</Unit>

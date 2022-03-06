@@ -393,6 +393,30 @@ tasks/replaceNumbersWithSpaces.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpaces.c.s
 .PHONY : tasks/replaceNumbersWithSpaces.c.s
 
+tasks/reversString.obj: tasks/reversString.c.obj
+.PHONY : tasks/reversString.obj
+
+# target to build an object file
+tasks/reversString.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/reversString.c.obj
+.PHONY : tasks/reversString.c.obj
+
+tasks/reversString.i: tasks/reversString.c.i
+.PHONY : tasks/reversString.i
+
+# target to preprocess a source file
+tasks/reversString.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/reversString.c.i
+.PHONY : tasks/reversString.c.i
+
+tasks/reversString.s: tasks/reversString.c.s
+.PHONY : tasks/reversString.s
+
+# target to generate assembly for a file
+tasks/reversString.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/reversString.c.s
+.PHONY : tasks/reversString.c.s
+
 tasks/test_tasks_string.obj: tasks/test_tasks_string.c.obj
 .PHONY : tasks/test_tasks_string.obj
 
@@ -483,6 +507,9 @@ help:
 	@echo ... tasks/replaceNumbersWithSpaces.obj
 	@echo ... tasks/replaceNumbersWithSpaces.i
 	@echo ... tasks/replaceNumbersWithSpaces.s
+	@echo ... tasks/reversString.obj
+	@echo ... tasks/reversString.i
+	@echo ... tasks/reversString.s
 	@echo ... tasks/test_tasks_string.obj
 	@echo ... tasks/test_tasks_string.i
 	@echo ... tasks/test_tasks_string.s

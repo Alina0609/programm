@@ -42,6 +42,9 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/replaceNumbersWithSpac
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/replaceNumbersWithSpaces.c \
  ../libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/reversString.c.obj: \
+ ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/reversString.c
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.obj: \
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/digitToEndRevers.h \
@@ -53,6 +56,7 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.ob
  ../libs/data_structures/string_/tasks/removeExtraSpaces.h \
  ../libs/data_structures/string_/tasks/removeNonLetters.h \
  ../libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h \
+ ../libs/data_structures/string_/tasks/reversString.h \
  ../libs/data_structures/string_/tasks/test_tasks_string.c \
  ../libs/data_structures/string_/tasks/test_tasks_string.h \
  ../libs/data_structures/string_/tasks/wordsOrdered.h
