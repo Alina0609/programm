@@ -262,6 +262,12 @@
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.h">
 			<Option target="string_"/>
 		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.c">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h">
+			<Option target="string_"/>
+		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordsRevers.c">
 			<Option target="string_"/>
 		</Unit>

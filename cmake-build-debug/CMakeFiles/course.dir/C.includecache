@@ -38,6 +38,14 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 stdbool.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdbool.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+stdbool.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdbool.h
+stdio.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdio.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordsRevers.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
@@ -93,6 +101,8 @@ getStringWithMixWords.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.h
 reversString.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/reversString.h
+printWordBeforeFirstWordWithA.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h
 stdbool.h

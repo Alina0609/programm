@@ -21,6 +21,7 @@
 #include "printWordsRevers.h"
 #include "getStringWithMixWords.h"
 #include "reversString.h"
+#include "printWordBeforeFirstWordWithA.h"
 
 void test_removeNonLetters1();
 

@@ -249,6 +249,30 @@ tasks/getStringWithMixWords.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getStringWithMixWords.c.s
 .PHONY : tasks/getStringWithMixWords.c.s
 
+tasks/printWordBeforeFirstWordWithA.obj: tasks/printWordBeforeFirstWordWithA.c.obj
+.PHONY : tasks/printWordBeforeFirstWordWithA.obj
+
+# target to build an object file
+tasks/printWordBeforeFirstWordWithA.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordBeforeFirstWordWithA.c.obj
+.PHONY : tasks/printWordBeforeFirstWordWithA.c.obj
+
+tasks/printWordBeforeFirstWordWithA.i: tasks/printWordBeforeFirstWordWithA.c.i
+.PHONY : tasks/printWordBeforeFirstWordWithA.i
+
+# target to preprocess a source file
+tasks/printWordBeforeFirstWordWithA.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordBeforeFirstWordWithA.c.i
+.PHONY : tasks/printWordBeforeFirstWordWithA.c.i
+
+tasks/printWordBeforeFirstWordWithA.s: tasks/printWordBeforeFirstWordWithA.c.s
+.PHONY : tasks/printWordBeforeFirstWordWithA.s
+
+# target to generate assembly for a file
+tasks/printWordBeforeFirstWordWithA.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordBeforeFirstWordWithA.c.s
+.PHONY : tasks/printWordBeforeFirstWordWithA.c.s
+
 tasks/printWordsRevers.obj: tasks/printWordsRevers.c.obj
 .PHONY : tasks/printWordsRevers.obj
 
@@ -489,6 +513,9 @@ help:
 	@echo ... tasks/getStringWithMixWords.obj
 	@echo ... tasks/getStringWithMixWords.i
 	@echo ... tasks/getStringWithMixWords.s
+	@echo ... tasks/printWordBeforeFirstWordWithA.obj
+	@echo ... tasks/printWordBeforeFirstWordWithA.i
+	@echo ... tasks/printWordBeforeFirstWordWithA.s
 	@echo ... tasks/printWordsRevers.obj
 	@echo ... tasks/printWordsRevers.i
 	@echo ... tasks/printWordsRevers.s

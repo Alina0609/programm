@@ -20,6 +20,10 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getStringWithMixWords.
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/getStringWithMixWords.c \
  ../libs/data_structures/string_/tasks/getStringWithMixWords.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordBeforeFirstWordWithA.c.obj: \
+ ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.c \
+ ../libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordsRevers.c.obj: \
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/printWordsRevers.c \
@@ -51,6 +55,7 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.ob
  ../libs/data_structures/string_/tasks/digitToStart.h \
  ../libs/data_structures/string_/tasks/getCountPalindromWords.h \
  ../libs/data_structures/string_/tasks/getStringWithMixWords.h \
+ ../libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h \
  ../libs/data_structures/string_/tasks/printWordsRevers.h \
  ../libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h \
  ../libs/data_structures/string_/tasks/removeExtraSpaces.h \

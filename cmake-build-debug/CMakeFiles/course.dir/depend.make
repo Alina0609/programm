@@ -10,6 +10,7 @@ CMakeFiles/course.dir/main.c.obj: \
  ../libs/data_structures/string_/tasks/digitToStart.h \
  ../libs/data_structures/string_/tasks/getCountPalindromWords.h \
  ../libs/data_structures/string_/tasks/getStringWithMixWords.h \
+ ../libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h \
  ../libs/data_structures/string_/tasks/printWordsRevers.h \
  ../libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h \
  ../libs/data_structures/string_/tasks/removeExtraSpaces.h \

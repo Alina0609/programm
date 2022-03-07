@@ -276,6 +276,25 @@ void test_reversString() {
     test_reversString2();
 }
 
+void testAll_getWordBeforeFirstWordWithA() {
+WordDescriptor w;
+
+    char s1[] = "";
+
+    assert (getWordBeforeFirstWordWithA(s1, &w) == EMPTY_STRING);
+
+    char s2[] = " ABC";
+    assert (getWordBeforeFirstWordWithA(s2, &w)
+            == FIRST_WORD_WITH_A);
+
+    char s3[] = "B Q WE YR OW IUWR ";
+    assert (getWordBeforeFirstWordWithA(s3, &w) ==
+            NOT_FOUND_A_WORD_WITH_A);
+
+    printf("testAll_getWordBeforeFirstWordWithA - OK\n");
+}
+
+
 void test_tasks_string() {
     test_removeNonLetters();
     test_removeAdjacentEqualLetters();
@@ -287,4 +306,5 @@ void test_tasks_string() {
     test_wordsOrdered();
     test_getStringWithMixWords();
     test_reversString();
+    testAll_getWordBeforeFirstWordWithA();
 }
