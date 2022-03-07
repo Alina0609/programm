@@ -20,6 +20,10 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getStringWithMixWords.
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.c
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordBeforeFirstWordWithA.c.obj
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.c
@@ -55,6 +59,7 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.ob
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.h
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordsRevers.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h

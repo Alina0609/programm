@@ -6,29 +6,63 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.c
+string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 ctype.h
 -
 memory.h
 -
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.c
+digitToEndRevers.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.c
+digitToStart.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.c
+getCountPalindromWords.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.c
+getStringWithMixWords.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 stdbool.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdbool.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c
+lastWordsOfTheStr1WhichIsInTheStr2.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+stdbool.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdbool.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.c
+printWordBeforeFirstWordWithA.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h
 ../../string_/string_.h
@@ -37,6 +71,10 @@ stdbool.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdbool.h
 stdio.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdio.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordsRevers.c
+printWordsRevers.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordsRevers.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordsRevers.h
 ../../string_/string_.h
@@ -50,12 +88,32 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeExtr
 ctype.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/ctype.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.c
+removeNonLetters.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replace.c
+replace.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replace.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replace.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.c
+replaceNumbersWithSpaces.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h
 ../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/reversString.c
+../string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/reversString.h
@@ -99,6 +157,12 @@ reversString.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/reversString.h
 printWordBeforeFirstWordWithA.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h
+lastWordsOfTheStr1WhichIsInTheStr2.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.h
+
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.c
+wordsOrdered.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h
 stdbool.h

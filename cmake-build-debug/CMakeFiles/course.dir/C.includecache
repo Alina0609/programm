@@ -38,6 +38,12 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 stdbool.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdbool.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+stdbool.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdbool.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
@@ -103,6 +109,8 @@ reversString.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/reversString.h
 printWordBeforeFirstWordWithA.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/printWordBeforeFirstWordWithA.h
+lastWordsOfTheStr1WhichIsInTheStr2.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h
 stdbool.h

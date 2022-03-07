@@ -277,7 +277,7 @@ void test_reversString() {
 }
 
 void testAll_getWordBeforeFirstWordWithA() {
-WordDescriptor w;
+    WordDescriptor w;
 
     char s1[] = "";
 
@@ -294,6 +294,41 @@ WordDescriptor w;
     printf("testAll_getWordBeforeFirstWordWithA - OK\n");
 }
 
+void test_lastWordsOfTheStr1WhichIsInTheStr2_1() {
+    char str1[] = "";
+    char str2[] = "last read qdca";
+
+    WordDescriptor w;
+
+    bool res = lastWordsOfTheStr1WhichIsInTheStr2(str1, str2, &w);
+
+    assert(false == res);
+
+    printf("test_lastWordsOfTheStr1WhichIsInTheStr2_1 - OK\n");
+}
+
+void test_lastWordsOfTheStr1WhichIsInTheStr2_2() {
+    char str1[] = "last read qdca";
+    char str2[] = "last love efkjecia read dkxnk dwiwd";
+
+    WordDescriptor w;
+
+    bool res = lastWordsOfTheStr1WhichIsInTheStr2(str1, str2, &w);
+
+    assert(true == res);
+
+    char got[MAX_STRING_SIZE];
+    wordDescriptorToString(w, got);
+
+    char resWord[] = "read";
+
+    ASSERT_STRING(resWord, got);
+}
+
+void test_lastWordsOfTheStr1WhichIsInTheStr2() {
+test_lastWordsOfTheStr1WhichIsInTheStr2_1();
+test_lastWordsOfTheStr1WhichIsInTheStr2_2();
+}
 
 void test_tasks_string() {
     test_removeNonLetters();
@@ -307,4 +342,5 @@ void test_tasks_string() {
     test_getStringWithMixWords();
     test_reversString();
     testAll_getWordBeforeFirstWordWithA();
+    test_lastWordsOfTheStr1WhichIsInTheStr2();
 }

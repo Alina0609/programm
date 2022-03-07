@@ -22,6 +22,7 @@
 #include "getStringWithMixWords.h"
 #include "reversString.h"
 #include "printWordBeforeFirstWordWithA.h"
+#include "lastWordsOfTheStr1WhichIsInTheStr2.h"
 
 void test_removeNonLetters1();
 
@@ -78,5 +79,13 @@ void test_reversString1();
 void test_reversString2();
 
 void test_reversString();
+
+void testAll_getWordBeforeFirstWordWithA();
+
+void test_lastWordsOfTheStr1WhichIsInTheStr2_1();
+
+void test_lastWordsOfTheStr1WhichIsInTheStr2_2();
+
+void test_lastWordsOfTheStr1WhichIsInTheStr2();
 
 #endif //COURSE_TEST_TASKS_STRING_H

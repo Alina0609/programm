@@ -249,6 +249,30 @@ tasks/getStringWithMixWords.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getStringWithMixWords.c.s
 .PHONY : tasks/getStringWithMixWords.c.s
 
+tasks/lastWordsOfTheStr1WhichIsInTheStr2.obj: tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj
+.PHONY : tasks/lastWordsOfTheStr1WhichIsInTheStr2.obj
+
+# target to build an object file
+tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj
+.PHONY : tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj
+
+tasks/lastWordsOfTheStr1WhichIsInTheStr2.i: tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.i
+.PHONY : tasks/lastWordsOfTheStr1WhichIsInTheStr2.i
+
+# target to preprocess a source file
+tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.i
+.PHONY : tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.i
+
+tasks/lastWordsOfTheStr1WhichIsInTheStr2.s: tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.s
+.PHONY : tasks/lastWordsOfTheStr1WhichIsInTheStr2.s
+
+# target to generate assembly for a file
+tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.s
+.PHONY : tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.s
+
 tasks/printWordBeforeFirstWordWithA.obj: tasks/printWordBeforeFirstWordWithA.c.obj
 .PHONY : tasks/printWordBeforeFirstWordWithA.obj
 
@@ -513,6 +537,9 @@ help:
 	@echo ... tasks/getStringWithMixWords.obj
 	@echo ... tasks/getStringWithMixWords.i
 	@echo ... tasks/getStringWithMixWords.s
+	@echo ... tasks/lastWordsOfTheStr1WhichIsInTheStr2.obj
+	@echo ... tasks/lastWordsOfTheStr1WhichIsInTheStr2.i
+	@echo ... tasks/lastWordsOfTheStr1WhichIsInTheStr2.s
 	@echo ... tasks/printWordBeforeFirstWordWithA.obj
 	@echo ... tasks/printWordBeforeFirstWordWithA.i
 	@echo ... tasks/printWordBeforeFirstWordWithA.s

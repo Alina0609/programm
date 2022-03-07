@@ -260,6 +260,19 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordBeforeFirstWo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/string_.dir/tasks/printWordBeforeFirstWordWithA.c.s"
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\printWordBeforeFirstWordWithA.c -o CMakeFiles\string_.dir\tasks\printWordBeforeFirstWordWithA.c.s
 
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj: libs/data_structures/string_/CMakeFiles/string_.dir/flags.make
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj: ../libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object libs/data_structures/string_/CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\string_.dir\tasks\lastWordsOfTheStr1WhichIsInTheStr2.c.obj -c C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\lastWordsOfTheStr1WhichIsInTheStr2.c
+
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.i"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\lastWordsOfTheStr1WhichIsInTheStr2.c > CMakeFiles\string_.dir\tasks\lastWordsOfTheStr1WhichIsInTheStr2.c.i
+
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.s"
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\user\CLionProjects\course\libs\data_structures\string_\tasks\lastWordsOfTheStr1WhichIsInTheStr2.c -o CMakeFiles\string_.dir\tasks\lastWordsOfTheStr1WhichIsInTheStr2.c.s
+
 # Object files for target string_
 string__OBJECTS = \
 "CMakeFiles/string_.dir/string_.c.obj" \
@@ -276,7 +289,8 @@ string__OBJECTS = \
 "CMakeFiles/string_.dir/tasks/printWordsRevers.c.obj" \
 "CMakeFiles/string_.dir/tasks/getStringWithMixWords.c.obj" \
 "CMakeFiles/string_.dir/tasks/reversString.c.obj" \
-"CMakeFiles/string_.dir/tasks/printWordBeforeFirstWordWithA.c.obj"
+"CMakeFiles/string_.dir/tasks/printWordBeforeFirstWordWithA.c.obj" \
+"CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj"
 
 # External object files for target string_
 string__EXTERNAL_OBJECTS =
@@ -296,9 +310,10 @@ libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFil
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getStringWithMixWords.c.obj
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/reversString.c.obj
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/printWordBeforeFirstWordWithA.c.obj
+libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/build.make
 libs/data_structures/string_/libstring_.a: libs/data_structures/string_/CMakeFiles/string_.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library libstring_.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\CLionProjects\course\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C static library libstring_.a"
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && $(CMAKE_COMMAND) -P CMakeFiles\string_.dir\cmake_clean_target.cmake
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug\libs\data_structures\string_ && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\string_.dir\link.txt --verbose=$(VERBOSE)
 
