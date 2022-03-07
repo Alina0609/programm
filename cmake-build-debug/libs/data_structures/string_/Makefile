@@ -153,6 +153,30 @@ string_.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/string_.c.s
 .PHONY : string_.c.s
 
+tasks/allWordsAreUnique.obj: tasks/allWordsAreUnique.c.obj
+.PHONY : tasks/allWordsAreUnique.obj
+
+# target to build an object file
+tasks/allWordsAreUnique.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allWordsAreUnique.c.obj
+.PHONY : tasks/allWordsAreUnique.c.obj
+
+tasks/allWordsAreUnique.i: tasks/allWordsAreUnique.c.i
+.PHONY : tasks/allWordsAreUnique.i
+
+# target to preprocess a source file
+tasks/allWordsAreUnique.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allWordsAreUnique.c.i
+.PHONY : tasks/allWordsAreUnique.c.i
+
+tasks/allWordsAreUnique.s: tasks/allWordsAreUnique.c.s
+.PHONY : tasks/allWordsAreUnique.s
+
+# target to generate assembly for a file
+tasks/allWordsAreUnique.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allWordsAreUnique.c.s
+.PHONY : tasks/allWordsAreUnique.c.s
+
 tasks/digitToEndRevers.obj: tasks/digitToEndRevers.c.obj
 .PHONY : tasks/digitToEndRevers.obj
 
@@ -525,6 +549,9 @@ help:
 	@echo ... string_.obj
 	@echo ... string_.i
 	@echo ... string_.s
+	@echo ... tasks/allWordsAreUnique.obj
+	@echo ... tasks/allWordsAreUnique.i
+	@echo ... tasks/allWordsAreUnique.s
 	@echo ... tasks/digitToEndRevers.obj
 	@echo ... tasks/digitToEndRevers.i
 	@echo ... tasks/digitToEndRevers.s

@@ -330,6 +330,42 @@ test_lastWordsOfTheStr1WhichIsInTheStr2_1();
 test_lastWordsOfTheStr1WhichIsInTheStr2_2();
 }
 
+void test_allWordsAreUnique1(){
+    char str[] = "";
+
+    bool res = allWordsAreUnique(str);
+
+    assert(res == true);
+
+    printf("test_allWordsAreUnique1 - OK\n");
+}
+
+void test_allWordsAreUnique2(){
+    char str[] = "reteb wql fie";
+
+    bool res = allWordsAreUnique(str);
+
+    assert(res == true);
+
+    printf("test_allWordsAreUnique2 - OK\n");
+}
+
+void test_allWordsAreUnique3(){
+    char str[] = "reteb wql fie dwwk sd reteb ei";
+
+    bool res = allWordsAreUnique(str);
+
+    assert(res == false);
+
+    printf("test_allWordsAreUnique3 - OK\n");
+}
+
+void test_allWordsAreUnique(){
+test_allWordsAreUnique1();
+test_allWordsAreUnique2();
+test_allWordsAreUnique3();
+
+}
 void test_tasks_string() {
     test_removeNonLetters();
     test_removeAdjacentEqualLetters();
@@ -343,4 +379,5 @@ void test_tasks_string() {
     test_reversString();
     testAll_getWordBeforeFirstWordWithA();
     test_lastWordsOfTheStr1WhichIsInTheStr2();
+    test_allWordsAreUnique();
 }

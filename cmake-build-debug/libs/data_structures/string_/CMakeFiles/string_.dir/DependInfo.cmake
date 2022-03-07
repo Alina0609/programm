@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/string_.c.obj"
+  "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/allWordsAreUnique.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allWordsAreUnique.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToEndRevers.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToStart.c.obj"
   "C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.obj"

@@ -23,6 +23,7 @@
 #include "reversString.h"
 #include "printWordBeforeFirstWordWithA.h"
 #include "lastWordsOfTheStr1WhichIsInTheStr2.h"
+#include "allWordsAreUnique.h"
 
 void test_removeNonLetters1();
 
@@ -87,5 +88,13 @@ void test_lastWordsOfTheStr1WhichIsInTheStr2_1();
 void test_lastWordsOfTheStr1WhichIsInTheStr2_2();
 
 void test_lastWordsOfTheStr1WhichIsInTheStr2();
+
+void test_allWordsAreUnique1();
+
+void test_allWordsAreUnique2();
+
+void test_allWordsAreUnique3();
+
+void test_allWordsAreUnique();
 
 #endif //COURSE_TEST_TASKS_STRING_H
