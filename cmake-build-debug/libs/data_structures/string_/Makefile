@@ -273,6 +273,30 @@ tasks/getStringWithMixWords.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getStringWithMixWords.c.s
 .PHONY : tasks/getStringWithMixWords.c.s
 
+tasks/getWordsOtherThanLast.obj: tasks/getWordsOtherThanLast.c.obj
+.PHONY : tasks/getWordsOtherThanLast.obj
+
+# target to build an object file
+tasks/getWordsOtherThanLast.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getWordsOtherThanLast.c.obj
+.PHONY : tasks/getWordsOtherThanLast.c.obj
+
+tasks/getWordsOtherThanLast.i: tasks/getWordsOtherThanLast.c.i
+.PHONY : tasks/getWordsOtherThanLast.i
+
+# target to preprocess a source file
+tasks/getWordsOtherThanLast.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getWordsOtherThanLast.c.i
+.PHONY : tasks/getWordsOtherThanLast.c.i
+
+tasks/getWordsOtherThanLast.s: tasks/getWordsOtherThanLast.c.s
+.PHONY : tasks/getWordsOtherThanLast.s
+
+# target to generate assembly for a file
+tasks/getWordsOtherThanLast.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getWordsOtherThanLast.c.s
+.PHONY : tasks/getWordsOtherThanLast.c.s
+
 tasks/lastWordsOfTheStr1WhichIsInTheStr2.obj: tasks/lastWordsOfTheStr1WhichIsInTheStr2.c.obj
 .PHONY : tasks/lastWordsOfTheStr1WhichIsInTheStr2.obj
 
@@ -564,6 +588,9 @@ help:
 	@echo ... tasks/getStringWithMixWords.obj
 	@echo ... tasks/getStringWithMixWords.i
 	@echo ... tasks/getStringWithMixWords.s
+	@echo ... tasks/getWordsOtherThanLast.obj
+	@echo ... tasks/getWordsOtherThanLast.i
+	@echo ... tasks/getWordsOtherThanLast.s
 	@echo ... tasks/lastWordsOfTheStr1WhichIsInTheStr2.obj
 	@echo ... tasks/lastWordsOfTheStr1WhichIsInTheStr2.i
 	@echo ... tasks/lastWordsOfTheStr1WhichIsInTheStr2.s

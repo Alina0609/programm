@@ -24,6 +24,7 @@
 #include "printWordBeforeFirstWordWithA.h"
 #include "lastWordsOfTheStr1WhichIsInTheStr2.h"
 #include "allWordsAreUnique.h"
+#include "getWordsOtherThanLast.h"
 
 void test_removeNonLetters1();
 
@@ -96,5 +97,11 @@ void test_allWordsAreUnique2();
 void test_allWordsAreUnique3();
 
 void test_allWordsAreUnique();
+
+void test_getWordsOtherThanLast1();
+
+void test_getWordsOtherThanLast2();
+
+void test_getWordsOtherThanLast();
 
 #endif //COURSE_TEST_TASKS_STRING_H

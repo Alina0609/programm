@@ -326,11 +326,11 @@ void test_lastWordsOfTheStr1WhichIsInTheStr2_2() {
 }
 
 void test_lastWordsOfTheStr1WhichIsInTheStr2() {
-test_lastWordsOfTheStr1WhichIsInTheStr2_1();
-test_lastWordsOfTheStr1WhichIsInTheStr2_2();
+    test_lastWordsOfTheStr1WhichIsInTheStr2_1();
+    test_lastWordsOfTheStr1WhichIsInTheStr2_2();
 }
 
-void test_allWordsAreUnique1(){
+void test_allWordsAreUnique1() {
     char str[] = "";
 
     bool res = allWordsAreUnique(str);
@@ -340,7 +340,7 @@ void test_allWordsAreUnique1(){
     printf("test_allWordsAreUnique1 - OK\n");
 }
 
-void test_allWordsAreUnique2(){
+void test_allWordsAreUnique2() {
     char str[] = "reteb wql fie";
 
     bool res = allWordsAreUnique(str);
@@ -350,7 +350,7 @@ void test_allWordsAreUnique2(){
     printf("test_allWordsAreUnique2 - OK\n");
 }
 
-void test_allWordsAreUnique3(){
+void test_allWordsAreUnique3() {
     char str[] = "reteb wql fie dwwk sd reteb ei";
 
     bool res = allWordsAreUnique(str);
@@ -360,12 +360,37 @@ void test_allWordsAreUnique3(){
     printf("test_allWordsAreUnique3 - OK\n");
 }
 
-void test_allWordsAreUnique(){
-test_allWordsAreUnique1();
-test_allWordsAreUnique2();
-test_allWordsAreUnique3();
-
+void test_allWordsAreUnique() {
+    test_allWordsAreUnique1();
+    test_allWordsAreUnique2();
+    test_allWordsAreUnique3();
 }
+
+void test_getWordsOtherThanLast1() {
+    char str[] = "dfe dfe dfe dfe";
+
+    getWordsOtherThanLast(str);
+
+    char res[] = "";
+
+    ASSERT_STRING(res, str);
+}
+
+void test_getWordsOtherThanLast2() {
+    char str[] = "ersb kos dwhw kos duweb tre kos";
+
+    getWordsOtherThanLast(str);
+
+    char res[] = "ersb dwhw duweb tre";
+
+    ASSERT_STRING(res, str);
+}
+
+void test_getWordsOtherThanLast() {
+    test_getWordsOtherThanLast1();
+    test_getWordsOtherThanLast2();
+}
+
 void test_tasks_string() {
     test_removeNonLetters();
     test_removeAdjacentEqualLetters();
@@ -380,4 +405,5 @@ void test_tasks_string() {
     testAll_getWordBeforeFirstWordWithA();
     test_lastWordsOfTheStr1WhichIsInTheStr2();
     test_allWordsAreUnique();
+    test_getWordsOtherThanLast();
 }

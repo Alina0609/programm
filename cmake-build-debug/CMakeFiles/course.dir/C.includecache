@@ -44,6 +44,10 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 stdbool.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdbool.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getWordsOtherThanLast.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
@@ -119,6 +123,8 @@ lastWordsOfTheStr1WhichIsInTheStr2.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/lastWordsOfTheStr1WhichIsInTheStr2.h
 allWordsAreUnique.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/allWordsAreUnique.h
+getWordsOtherThanLast.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getWordsOtherThanLast.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h
 stdbool.h
