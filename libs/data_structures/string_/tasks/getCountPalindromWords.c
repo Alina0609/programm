@@ -8,7 +8,7 @@ int isPalindromeWord(WordDescriptor word) {
     char *left = word.begin;
     char *right = word.end - 1;
 
-    while (right - left > 0) {
+    while (left < right) {
         if (*left != *right)
             return 0;
 

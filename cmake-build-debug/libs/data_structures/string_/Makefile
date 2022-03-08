@@ -177,6 +177,30 @@ tasks/allWordsAreUnique.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allWordsAreUnique.c.s
 .PHONY : tasks/allWordsAreUnique.c.s
 
+tasks/deleteWordsPalindroses.obj: tasks/deleteWordsPalindroses.c.obj
+.PHONY : tasks/deleteWordsPalindroses.obj
+
+# target to build an object file
+tasks/deleteWordsPalindroses.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/deleteWordsPalindroses.c.obj
+.PHONY : tasks/deleteWordsPalindroses.c.obj
+
+tasks/deleteWordsPalindroses.i: tasks/deleteWordsPalindroses.c.i
+.PHONY : tasks/deleteWordsPalindroses.i
+
+# target to preprocess a source file
+tasks/deleteWordsPalindroses.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/deleteWordsPalindroses.c.i
+.PHONY : tasks/deleteWordsPalindroses.c.i
+
+tasks/deleteWordsPalindroses.s: tasks/deleteWordsPalindroses.c.s
+.PHONY : tasks/deleteWordsPalindroses.s
+
+# target to generate assembly for a file
+tasks/deleteWordsPalindroses.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/deleteWordsPalindroses.c.s
+.PHONY : tasks/deleteWordsPalindroses.c.s
+
 tasks/digitToEndRevers.obj: tasks/digitToEndRevers.c.obj
 .PHONY : tasks/digitToEndRevers.obj
 
@@ -600,6 +624,9 @@ help:
 	@echo ... tasks/allWordsAreUnique.obj
 	@echo ... tasks/allWordsAreUnique.i
 	@echo ... tasks/allWordsAreUnique.s
+	@echo ... tasks/deleteWordsPalindroses.obj
+	@echo ... tasks/deleteWordsPalindroses.i
+	@echo ... tasks/deleteWordsPalindroses.s
 	@echo ... tasks/digitToEndRevers.obj
 	@echo ... tasks/digitToEndRevers.i
 	@echo ... tasks/digitToEndRevers.s

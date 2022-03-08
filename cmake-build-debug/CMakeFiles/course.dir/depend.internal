@@ -7,6 +7,7 @@ CMakeFiles/course.dir/main.c.obj
  C:/Users/user/CLionProjects/course/libs/data_structures/matrix/test_matrix.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/allWordsAreUnique.h
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/deleteWordsPalindroses.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.h

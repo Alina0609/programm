@@ -26,6 +26,7 @@
 #include "allWordsAreUnique.h"
 #include "getWordsOtherThanLast.h"
 #include "findWordPrecedingTheFirstOccurrence.h"
+#include "deleteWordsPalindroses.h"
 
 void test_removeNonLetters1();
 
@@ -112,5 +113,11 @@ void test_findWordPrecedingTheFirstOccurrence2();
 void test_findWordPrecedingTheFirstOccurrence3();
 
 void test_findWordPrecedingTheFirstOccurrence();
+
+void test_deleteWordsPalindroses1();
+
+void test_deleteWordsPalindroses2();
+
+void test_deleteWordsPalindroses();
 
 #endif //COURSE_TEST_TASKS_STRING_H

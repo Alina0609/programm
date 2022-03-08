@@ -8,6 +8,11 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allWordsAreUnique.c.ob
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/allWordsAreUnique.c \
  ../libs/data_structures/string_/tasks/allWordsAreUnique.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/deleteWordsPalindroses.c.obj: \
+ ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/deleteWordsPalindroses.c \
+ ../libs/data_structures/string_/tasks/deleteWordsPalindroses.h \
+ ../libs/data_structures/string_/tasks/getCountPalindromWords.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToEndRevers.c.obj: \
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/digitToEndRevers.c \
@@ -68,6 +73,7 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/reversString.c.obj: \
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.obj: \
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/allWordsAreUnique.h \
+ ../libs/data_structures/string_/tasks/deleteWordsPalindroses.h \
  ../libs/data_structures/string_/tasks/digitToEndRevers.h \
  ../libs/data_structures/string_/tasks/digitToStart.h \
  ../libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.h \

@@ -18,6 +18,12 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 stdbool.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/stdbool.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/deleteWordsPalindroses.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+getCountPalindromWords.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
@@ -129,6 +135,8 @@ getWordsOtherThanLast.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getWordsOtherThanLast.h
 findWordPrecedingTheFirstOccurrence.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.h
+deleteWordsPalindroses.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/deleteWordsPalindroses.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h
 stdbool.h

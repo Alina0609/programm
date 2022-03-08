@@ -442,6 +442,27 @@ void test_findWordPrecedingTheFirstOccurrence() {
     test_findWordPrecedingTheFirstOccurrence3();
 }
 
+void test_deleteWordsPalindroses1(){
+    char str[] = "led";
+
+    deleteWordsPalindroses(str);
+
+    char res[] = "led";
+
+    ASSERT_STRING(str, res);
+}
+
+
+void test_deleteWordsPalindroses2(){
+
+}
+
+void test_deleteWordsPalindroses(){
+    test_deleteWordsPalindroses1();
+    test_deleteWordsPalindroses2();
+}
+
+
 void test_tasks_string() {
     test_removeNonLetters();
     test_removeAdjacentEqualLetters();
@@ -458,4 +479,5 @@ void test_tasks_string() {
     test_allWordsAreUnique();
     test_getWordsOtherThanLast();
     test_findWordPrecedingTheFirstOccurrence();
+    test_deleteWordsPalindroses();
 }
