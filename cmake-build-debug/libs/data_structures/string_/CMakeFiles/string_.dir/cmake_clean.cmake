@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/string_.dir/string_.c.obj"
+  "CMakeFiles/string_.dir/tasks/allLettersInString.c.obj"
   "CMakeFiles/string_.dir/tasks/allWordsAreUnique.c.obj"
   "CMakeFiles/string_.dir/tasks/deleteWordsPalindroses.c.obj"
   "CMakeFiles/string_.dir/tasks/digitToEndRevers.c.obj"

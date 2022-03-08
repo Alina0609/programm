@@ -3,6 +3,7 @@
 //
 
 #include "string_.h"
+#include "stdbool.h"
 
 size_t strlen_(const char *begin) {
     char *end = begin;
@@ -54,6 +55,16 @@ int strcmp(const char *lhs, const char *rhs) {
     }
 
     return *lhs - *rhs;
+}
+
+bool cmpWord(WordDescriptor w1, WordDescriptor w2) {
+    char *start1 = w1.begin;
+    char *start2 = w2.begin;
+    unsigned long size = w1.end - start1;
+    if (size != w2.end - start2)
+        return false;
+
+    return memcmp(start1, start2, size) == 0;
 }
 
 char *copy(const char *beginSource, const char *endSource,

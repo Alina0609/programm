@@ -17,6 +17,7 @@
 #include "replaceNumbersWithSpaces.h"
 #include "getCountPalindromWords.h"
 #include "replaceNumbersWithSpaces.h"
+#include "replace.h"
 #include "wordsOrdered.h"
 #include "printWordsRevers.h"
 #include "getStringWithMixWords.h"
@@ -65,6 +66,12 @@ void test_replaceNumberWithSpaces1();
 void test_replaceNumberWithSpaces2();
 
 void test_replaceNumberWithSpaces();
+
+void test_replace1();
+
+void test_replace2();
+
+void test_replace();
 
 void test_wordsOrdered1();
 

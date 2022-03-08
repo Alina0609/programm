@@ -4,6 +4,10 @@
 libs/data_structures/string_/CMakeFiles/string_.dir/string_.c.obj: \
  ../libs/data_structures/string_/string_.c \
  ../libs/data_structures/string_/string_.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allLettersInString.c.obj: \
+ ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/allLettersInString.c \
+ ../libs/data_structures/string_/tasks/allLettersInString.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allWordsAreUnique.c.obj: \
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/allWordsAreUnique.c \
@@ -86,6 +90,7 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.ob
  ../libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h \
  ../libs/data_structures/string_/tasks/removeExtraSpaces.h \
  ../libs/data_structures/string_/tasks/removeNonLetters.h \
+ ../libs/data_structures/string_/tasks/replace.h \
  ../libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h \
  ../libs/data_structures/string_/tasks/reversString.h \
  ../libs/data_structures/string_/tasks/test_tasks_string.c \

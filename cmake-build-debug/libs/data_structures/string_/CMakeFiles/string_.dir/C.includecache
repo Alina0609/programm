@@ -11,6 +11,8 @@ ctype.h
 -
 memory.h
 -
+stdbool.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/stdbool.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/allWordsAreUnique.h
 ../../string_/string_.h
@@ -82,6 +84,10 @@ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonL
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replace.h
+../../string_/string_.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h
 ../../string_/string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
@@ -117,6 +123,8 @@ getCountPalindromWords.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.h
 replaceNumbersWithSpaces.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h
+replace.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replace.h
 wordsOrdered.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/wordsOrdered.h
 printWordsRevers.h

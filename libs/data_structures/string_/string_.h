@@ -7,6 +7,7 @@
 
 #include <ctype.h>
 #include <memory.h>
+#include "stdbool.h"
 
 #define MAX_STRING_SIZE 100
 #define MAX_N_WORDS_IN_STRING 100
@@ -73,6 +74,8 @@ char *findSpaceReverse(char *rbegin, const char *rend);
 //в лексикографическом порядке (как в словаре), значение 0, если lhs и rhs
 //равны, иначе – положительное значение
 int strcmp(const char *lhs, const char *rhs);
+
+bool cmpWord(WordDescriptor w1, WordDescriptor w2);
 
 //записывает по адресу beginDestination
 //фрагмент памяти, начиная с адреса beginSource до endSource

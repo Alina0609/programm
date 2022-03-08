@@ -201,6 +201,37 @@ void test_replaceNumberWithSpaces() {
     test_replaceNumberWithSpaces2();
 }
 
+void test_replace1() {
+    char str[] = "wdjn dwh wu iwdxjn widc";
+
+    char word1[] = "sksk";
+    char word2[] = "ejkds";
+
+    replace(str, word1, word2);
+
+    char res[]="wdjn dwh wu iwdxjn widc";
+
+    ASSERT_STRING(res, str);
+}
+
+void test_replace2() {
+    char str[] = "wdjn iwdxj dekdjeoj nwidc";
+
+    char word1[] = "iwdxj";
+    char word2[] = "dej";
+
+    replace(str, word1, word2);
+
+    char res[]="wdjndej dekdjeoj nwidc";
+
+    ASSERT_STRING(res, str);
+}
+
+void test_replace() {
+    test_replace1();
+    test_replace2();
+}
+
 void test_wordsOrdered1() {
     char str[] = "alina daddy mom";
     bool res = true;
@@ -442,22 +473,27 @@ void test_findWordPrecedingTheFirstOccurrence() {
     test_findWordPrecedingTheFirstOccurrence3();
 }
 
-void test_deleteWordsPalindroses1(){
-    char str[] = "led";
+void test_deleteWordsPalindroses1() {
+    char str[] = "";
 
     deleteWordsPalindroses(str);
 
-    char res[] = "led";
+    char res[] = "";
 
     ASSERT_STRING(str, res);
 }
 
+void test_deleteWordsPalindroses2() {
+    char str[] = "led ded yui";
 
-void test_deleteWordsPalindroses2(){
+    deleteWordsPalindroses(str);
 
+    char res[] = "led yui";
+
+    ASSERT_STRING(str, res);
 }
 
-void test_deleteWordsPalindroses(){
+void test_deleteWordsPalindroses() {
     test_deleteWordsPalindroses1();
     test_deleteWordsPalindroses2();
 }
@@ -471,6 +507,7 @@ void test_tasks_string() {
     test_digitToEndRevers();
     test_getCountPalindromWords();
     test_replaceNumberWithSpaces();
+    test_replace();
     test_wordsOrdered();
     test_getStringWithMixWords();
     test_reversString();

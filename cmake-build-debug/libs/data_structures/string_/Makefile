@@ -153,6 +153,30 @@ string_.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/string_.c.s
 .PHONY : string_.c.s
 
+tasks/allLettersInString.obj: tasks/allLettersInString.c.obj
+.PHONY : tasks/allLettersInString.obj
+
+# target to build an object file
+tasks/allLettersInString.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allLettersInString.c.obj
+.PHONY : tasks/allLettersInString.c.obj
+
+tasks/allLettersInString.i: tasks/allLettersInString.c.i
+.PHONY : tasks/allLettersInString.i
+
+# target to preprocess a source file
+tasks/allLettersInString.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allLettersInString.c.i
+.PHONY : tasks/allLettersInString.c.i
+
+tasks/allLettersInString.s: tasks/allLettersInString.c.s
+.PHONY : tasks/allLettersInString.s
+
+# target to generate assembly for a file
+tasks/allLettersInString.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allLettersInString.c.s
+.PHONY : tasks/allLettersInString.c.s
+
 tasks/allWordsAreUnique.obj: tasks/allWordsAreUnique.c.obj
 .PHONY : tasks/allWordsAreUnique.obj
 
@@ -621,6 +645,9 @@ help:
 	@echo ... string_.obj
 	@echo ... string_.i
 	@echo ... string_.s
+	@echo ... tasks/allLettersInString.obj
+	@echo ... tasks/allLettersInString.i
+	@echo ... tasks/allLettersInString.s
 	@echo ... tasks/allWordsAreUnique.obj
 	@echo ... tasks/allWordsAreUnique.i
 	@echo ... tasks/allWordsAreUnique.s

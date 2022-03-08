@@ -14,16 +14,24 @@ void replace(char *source, char *w1, char *w2) {
     if (w1Size >= w2Size) {
         readPtr = source;
     } else {
-        copy(source, getEndOfString(source) + 1, _stringBuffer);
+        char *endBuff = copy(source, getEndOfString(source) + 1, _stringBuffer);
+        endBuff = '\0';
         readPtr = _stringBuffer;
     }
 
     WordDescriptor word;
 
     while (getWord(readPtr, &word)) {
+        if (cmpWord(word, word1))
+            recPtr = copy(word2.begin, word2.end, readPtr);
+        else
+            recPtr = copy(word.begin, word.end, recPtr);
 
-
-        }
-
-
+        *recPtr = ' ';
+        recPtr++;
+        readPtr = word.end;
     }
+
+    if (recPtr != source)
+    *--recPtr = '\0';
+}

@@ -8,20 +8,20 @@ void deleteWordsPalindroses(char *str) {
     if (*str == '\0')
         return;
 
-    char *iRead = str;
-    char *iWrite = str;
+    char *begin = str;
+    char *end = str;
 
     WordDescriptor w;
 
-    while (getWord(iRead, &w)) {
+    while (getWord(begin, &w)) {
         if (!isPalindromeWord(w)) {
-            iWrite = copy(w.begin, w.end, iWrite);
-            *iWrite = ' ';
-            iWrite++;
+            end = copy(w.begin, w.end, end);
+            *end = ' ';
+            end++;
         }
-        iRead = w.end;
+        begin = w.end;
     }
 
-    iWrite -= str != iWrite;
-    *iWrite = '\0';
+    end -= str != end;
+    *end = '\0';
 }

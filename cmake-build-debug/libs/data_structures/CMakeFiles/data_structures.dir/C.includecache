@@ -9,12 +9,16 @@
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.c
 string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+stdbool.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/stdbool.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
 ctype.h
 -
 memory.h
 -
+stdbool.h
+C:/Users/user/CLionProjects/course/libs/data_structures/string_/stdbool.h
 
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/test_string_.c
 test_string_.h

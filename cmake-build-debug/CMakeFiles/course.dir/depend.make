@@ -20,6 +20,7 @@ CMakeFiles/course.dir/main.c.obj: \
  ../libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h \
  ../libs/data_structures/string_/tasks/removeExtraSpaces.h \
  ../libs/data_structures/string_/tasks/removeNonLetters.h \
+ ../libs/data_structures/string_/tasks/replace.h \
  ../libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h \
  ../libs/data_structures/string_/tasks/reversString.h \
  ../libs/data_structures/string_/tasks/test_tasks_string.h \

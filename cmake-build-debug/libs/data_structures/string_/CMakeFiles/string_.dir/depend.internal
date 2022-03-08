@@ -4,6 +4,10 @@
 libs/data_structures/string_/CMakeFiles/string_.dir/string_.c.obj
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.c
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allLettersInString.c.obj
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/allLettersInString.c
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/allLettersInString.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/allWordsAreUnique.c.obj
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/allWordsAreUnique.c
@@ -86,6 +90,7 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.ob
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeAdjacentEqualLetters.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeExtraSpaces.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/removeNonLetters.h
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replace.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/replaceNumbersWithSpaces.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/reversString.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.c
