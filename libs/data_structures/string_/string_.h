@@ -34,6 +34,12 @@ typedef enum WordBeforeFirstWordWithAReturnCode {
     EMPTY_STRING
 } WordBeforeFirstWordWithAReturnCode;
 
+typedef enum  WordPrecedingTheFirstOccurrence{
+    FIRST_WORD,
+    NOT_FOUND,
+    PREVIOUS_WORD_FOUND,
+} WordPrecedingTheFirstOccurrence;
+
 //возвращает количество символов в строке (не считая ноль-символ)
 size_t strlen_(const char *begin);
 

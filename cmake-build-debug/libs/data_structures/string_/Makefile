@@ -225,6 +225,30 @@ tasks/digitToStart.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToStart.c.s
 .PHONY : tasks/digitToStart.c.s
 
+tasks/findWordPrecedingTheFirstOccurrence.obj: tasks/findWordPrecedingTheFirstOccurrence.c.obj
+.PHONY : tasks/findWordPrecedingTheFirstOccurrence.obj
+
+# target to build an object file
+tasks/findWordPrecedingTheFirstOccurrence.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/findWordPrecedingTheFirstOccurrence.c.obj
+.PHONY : tasks/findWordPrecedingTheFirstOccurrence.c.obj
+
+tasks/findWordPrecedingTheFirstOccurrence.i: tasks/findWordPrecedingTheFirstOccurrence.c.i
+.PHONY : tasks/findWordPrecedingTheFirstOccurrence.i
+
+# target to preprocess a source file
+tasks/findWordPrecedingTheFirstOccurrence.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/findWordPrecedingTheFirstOccurrence.c.i
+.PHONY : tasks/findWordPrecedingTheFirstOccurrence.c.i
+
+tasks/findWordPrecedingTheFirstOccurrence.s: tasks/findWordPrecedingTheFirstOccurrence.c.s
+.PHONY : tasks/findWordPrecedingTheFirstOccurrence.s
+
+# target to generate assembly for a file
+tasks/findWordPrecedingTheFirstOccurrence.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\string_\CMakeFiles\string_.dir\build.make libs/data_structures/string_/CMakeFiles/string_.dir/tasks/findWordPrecedingTheFirstOccurrence.c.s
+.PHONY : tasks/findWordPrecedingTheFirstOccurrence.c.s
+
 tasks/getCountPalindromWords.obj: tasks/getCountPalindromWords.c.obj
 .PHONY : tasks/getCountPalindromWords.obj
 
@@ -582,6 +606,9 @@ help:
 	@echo ... tasks/digitToStart.obj
 	@echo ... tasks/digitToStart.i
 	@echo ... tasks/digitToStart.s
+	@echo ... tasks/findWordPrecedingTheFirstOccurrence.obj
+	@echo ... tasks/findWordPrecedingTheFirstOccurrence.i
+	@echo ... tasks/findWordPrecedingTheFirstOccurrence.s
 	@echo ... tasks/getCountPalindromWords.obj
 	@echo ... tasks/getCountPalindromWords.i
 	@echo ... tasks/getCountPalindromWords.s

@@ -9,6 +9,7 @@ CMakeFiles/course.dir/main.c.obj: \
  ../libs/data_structures/string_/tasks/allWordsAreUnique.h \
  ../libs/data_structures/string_/tasks/digitToEndRevers.h \
  ../libs/data_structures/string_/tasks/digitToStart.h \
+ ../libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.h \
  ../libs/data_structures/string_/tasks/getCountPalindromWords.h \
  ../libs/data_structures/string_/tasks/getStringWithMixWords.h \
  ../libs/data_structures/string_/tasks/getWordsOtherThanLast.h \

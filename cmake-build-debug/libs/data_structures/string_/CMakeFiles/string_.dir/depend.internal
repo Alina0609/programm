@@ -16,6 +16,10 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToStart.c.obj
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.c
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/findWordPrecedingTheFirstOccurrence.c.obj
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.c
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.obj
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/string_.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.c
@@ -66,6 +70,7 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.ob
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/allWordsAreUnique.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToEndRevers.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h
+ C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getStringWithMixWords.h
  C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getWordsOtherThanLast.h

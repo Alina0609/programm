@@ -391,6 +391,57 @@ void test_getWordsOtherThanLast() {
     test_getWordsOtherThanLast2();
 }
 
+void test_findWordPrecedingTheFirstOccurrence1() {
+    char str1[] = "";
+    char str2[] = "djdj euw";
+
+    WordDescriptor w;
+
+    int res = findWordPrecedingTheFirstOccurrence(str1, str2, &w);
+
+    assert(res == NOT_FOUND);
+
+    printf("test_findWordPrecedingTheFirstOccurrence1 - OK\n");
+
+}
+
+void test_findWordPrecedingTheFirstOccurrence2() {
+    char str1[] = "euw dwkdma wiwkd";
+    char str2[] = "djdj euw";
+
+    WordDescriptor w;
+
+    int res = findWordPrecedingTheFirstOccurrence(str1, str2, &w);
+
+    assert(res == FIRST_WORD);
+
+    printf("test_findWordPrecedingTheFirstOccurrence2 - OK\n");
+}
+
+void test_findWordPrecedingTheFirstOccurrence3() {
+    char str1[] = "iewn euw dwkdma wiwkd";
+    char str2[] = "djdj euw";
+
+    WordDescriptor w;
+    int res1 = findWordPrecedingTheFirstOccurrence(str1, str2, &w);
+
+    char word[MAX_STRING_SIZE];
+
+    wordDescriptorToString(w, word);
+
+    char res2[] = "iewn";
+
+    assert(res1 == WORD_FOUND);
+
+    ASSERT_STRING(res2, word);
+}
+
+void test_findWordPrecedingTheFirstOccurrence() {
+    test_findWordPrecedingTheFirstOccurrence1();
+    test_findWordPrecedingTheFirstOccurrence2();
+    test_findWordPrecedingTheFirstOccurrence3();
+}
+
 void test_tasks_string() {
     test_removeNonLetters();
     test_removeAdjacentEqualLetters();
@@ -406,4 +457,5 @@ void test_tasks_string() {
     test_lastWordsOfTheStr1WhichIsInTheStr2();
     test_allWordsAreUnique();
     test_getWordsOtherThanLast();
+    test_findWordPrecedingTheFirstOccurrence();
 }

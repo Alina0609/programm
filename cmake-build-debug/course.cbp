@@ -256,6 +256,12 @@
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/digitToStart.h">
 			<Option target="string_"/>
 		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.c">
+			<Option target="string_"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.h">
+			<Option target="string_"/>
+		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/getCountPalindromWords.c">
 			<Option target="string_"/>
 		</Unit>

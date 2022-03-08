@@ -16,6 +16,10 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/digitToStart.c.obj: \
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/digitToStart.c \
  ../libs/data_structures/string_/tasks/digitToStart.h
+libs/data_structures/string_/CMakeFiles/string_.dir/tasks/findWordPrecedingTheFirstOccurrence.c.obj: \
+ ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.c \
+ ../libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.h
 libs/data_structures/string_/CMakeFiles/string_.dir/tasks/getCountPalindromWords.c.obj: \
  ../libs/data_structures/string_/string_.h \
  ../libs/data_structures/string_/tasks/getCountPalindromWords.c \
@@ -66,6 +70,7 @@ libs/data_structures/string_/CMakeFiles/string_.dir/tasks/test_tasks_string.c.ob
  ../libs/data_structures/string_/tasks/allWordsAreUnique.h \
  ../libs/data_structures/string_/tasks/digitToEndRevers.h \
  ../libs/data_structures/string_/tasks/digitToStart.h \
+ ../libs/data_structures/string_/tasks/findWordPrecedingTheFirstOccurrence.h \
  ../libs/data_structures/string_/tasks/getCountPalindromWords.h \
  ../libs/data_structures/string_/tasks/getStringWithMixWords.h \
  ../libs/data_structures/string_/tasks/getWordsOtherThanLast.h \
