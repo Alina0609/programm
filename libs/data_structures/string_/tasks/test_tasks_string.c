@@ -209,7 +209,7 @@ void test_replace1() {
 
     replace(str, word1, word2);
 
-    char res[]="wdjn dwh wu iwdxjn widc";
+    char res[] = "wdjn dwh wu iwdxjn widc";
 
     ASSERT_STRING(res, str);
 }
@@ -222,7 +222,7 @@ void test_replace2() {
 
     replace(str, word1, word2);
 
-    char res[]="wdjndej dekdjeoj nwidc";
+    char res[] = "wdjndej dekdjeoj nwidc";
 
     ASSERT_STRING(res, str);
 }
@@ -498,6 +498,56 @@ void test_deleteWordsPalindroses() {
     test_deleteWordsPalindroses2();
 }
 
+void test_allLettersInString1() {
+    char str[] = "";
+    char word[] = "eijf";
+
+    WordDescriptor symbols;
+
+    getWord(word, &symbols);
+
+    bool res = allLettersInString(str, symbols);
+
+    assert(res == false);
+
+    printf("test_allLettersInString1 - OK\n");
+}
+
+void test_allLettersInString2() {
+    char str[] = "odwjo wodj wodkc";
+    char word[] = "eijf";
+
+    WordDescriptor symbols;
+
+    getWord(word, &symbols);
+
+    bool res = allLettersInString(str, symbols);
+
+    assert(res == false);
+
+    printf("test_allLettersInString2 - OK\n");
+}
+
+void test_allLettersInString3() {
+    char str[] = "aurkm rtgs owuygd wijdf";
+    char word[] = "asdf";
+
+    WordDescriptor symbols;
+
+    getWord(word, &symbols);
+
+    bool res = allLettersInString(str, symbols);
+
+    assert(res == true);
+
+    printf("test_allLettersInString3 - OK\n");
+}
+
+void test_allLettersInString() {
+    test_allLettersInString1();
+    test_allLettersInString2();
+    test_allLettersInString3();
+}
 
 void test_tasks_string() {
     test_removeNonLetters();
@@ -517,4 +567,5 @@ void test_tasks_string() {
     test_getWordsOtherThanLast();
     test_findWordPrecedingTheFirstOccurrence();
     test_deleteWordsPalindroses();
+    test_allLettersInString();
 }

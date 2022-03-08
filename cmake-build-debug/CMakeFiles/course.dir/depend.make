@@ -6,6 +6,7 @@ CMakeFiles/course.dir/main.c.obj: \
  ../libs/data_structures/matrix/tasks.h \
  ../libs/data_structures/matrix/test_matrix.h \
  ../libs/data_structures/string_/string_.h \
+ ../libs/data_structures/string_/tasks/allLettersInString.h \
  ../libs/data_structures/string_/tasks/allWordsAreUnique.h \
  ../libs/data_structures/string_/tasks/deleteWordsPalindroses.h \
  ../libs/data_structures/string_/tasks/digitToEndRevers.h \
