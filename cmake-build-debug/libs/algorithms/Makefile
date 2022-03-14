@@ -177,6 +177,78 @@ array/array.c.s:
 	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/array/array.c.s
 .PHONY : array/array.c.s
 
+sort/generating.obj: sort/generating.c.obj
+.PHONY : sort/generating.obj
+
+# target to build an object file
+sort/generating.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/sort/generating.c.obj
+.PHONY : sort/generating.c.obj
+
+sort/generating.i: sort/generating.c.i
+.PHONY : sort/generating.i
+
+# target to preprocess a source file
+sort/generating.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/sort/generating.c.i
+.PHONY : sort/generating.c.i
+
+sort/generating.s: sort/generating.c.s
+.PHONY : sort/generating.s
+
+# target to generate assembly for a file
+sort/generating.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/sort/generating.c.s
+.PHONY : sort/generating.c.s
+
+sort/sort.obj: sort/sort.c.obj
+.PHONY : sort/sort.obj
+
+# target to build an object file
+sort/sort.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/sort/sort.c.obj
+.PHONY : sort/sort.c.obj
+
+sort/sort.i: sort/sort.c.i
+.PHONY : sort/sort.i
+
+# target to preprocess a source file
+sort/sort.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/sort/sort.c.i
+.PHONY : sort/sort.c.i
+
+sort/sort.s: sort/sort.c.s
+.PHONY : sort/sort.s
+
+# target to generate assembly for a file
+sort/sort.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/sort/sort.c.s
+.PHONY : sort/sort.c.s
+
+sort/timeOfSort.obj: sort/timeOfSort.c.obj
+.PHONY : sort/timeOfSort.obj
+
+# target to build an object file
+sort/timeOfSort.c.obj:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/sort/timeOfSort.c.obj
+.PHONY : sort/timeOfSort.c.obj
+
+sort/timeOfSort.i: sort/timeOfSort.c.i
+.PHONY : sort/timeOfSort.i
+
+# target to preprocess a source file
+sort/timeOfSort.c.i:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/sort/timeOfSort.c.i
+.PHONY : sort/timeOfSort.c.i
+
+sort/timeOfSort.s: sort/timeOfSort.c.s
+.PHONY : sort/timeOfSort.s
+
+# target to generate assembly for a file
+sort/timeOfSort.c.s:
+	cd /d C:\Users\user\CLionProjects\course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/sort/timeOfSort.c.s
+.PHONY : sort/timeOfSort.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -192,6 +264,15 @@ help:
 	@echo ... array/array.obj
 	@echo ... array/array.i
 	@echo ... array/array.s
+	@echo ... sort/generating.obj
+	@echo ... sort/generating.i
+	@echo ... sort/generating.s
+	@echo ... sort/sort.obj
+	@echo ... sort/sort.i
+	@echo ... sort/sort.s
+	@echo ... sort/timeOfSort.obj
+	@echo ... sort/timeOfSort.i
+	@echo ... sort/timeOfSort.s
 .PHONY : help
 
 

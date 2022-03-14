@@ -7,3 +7,16 @@ libs/algorithms/CMakeFiles/algorithms.dir/algorithm.c.obj
 libs/algorithms/CMakeFiles/algorithms.dir/array/array.c.obj
  C:/Users/user/CLionProjects/course/libs/algorithms/array/array.c
  C:/Users/user/CLionProjects/course/libs/algorithms/array/array.h
+libs/algorithms/CMakeFiles/algorithms.dir/sort/generating.c.obj
+ C:/Users/user/CLionProjects/course/libs/algorithms/sort/generating.c
+ C:/Users/user/CLionProjects/course/libs/algorithms/sort/generating.h
+libs/algorithms/CMakeFiles/algorithms.dir/sort/sort.c.obj
+ C:/Users/user/CLionProjects/course/libs/algorithms/array/array.h
+ C:/Users/user/CLionProjects/course/libs/algorithms/sort/sort.c
+ C:/Users/user/CLionProjects/course/libs/algorithms/sort/sort.h
+libs/algorithms/CMakeFiles/algorithms.dir/sort/timeOfSort.c.obj
+ C:/Users/user/CLionProjects/course/libs/algorithms/array/array.h
+ C:/Users/user/CLionProjects/course/libs/algorithms/sort/generating.h
+ C:/Users/user/CLionProjects/course/libs/algorithms/sort/sort.h
+ C:/Users/user/CLionProjects/course/libs/algorithms/sort/timeOfSort.c
+ C:/Users/user/CLionProjects/course/libs/algorithms/sort/timeOfSort.h

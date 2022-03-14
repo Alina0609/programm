@@ -35,7 +35,7 @@ typedef enum WordBeforeFirstWordWithAReturnCode {
     EMPTY_STRING
 } WordBeforeFirstWordWithAReturnCode;
 
-typedef enum  WordPrecedingTheFirstOccurrence{
+typedef enum WordPrecedingTheFirstOccurrence {
     FIRST_WORD,
     NOT_FOUND,
     PREVIOUS_WORD_FOUND,
@@ -122,6 +122,6 @@ int areWordsEqual(WordDescriptor w1,
 //
 void getBagOfWords(BagOfWords *bag, char *s);
 
-void wordDescriptorToString(WordDescriptor word, char* destination);
+void wordDescriptorToString(WordDescriptor word, char *destination);
 
 #endif //COURSE_STRING__H

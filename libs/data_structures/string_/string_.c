@@ -117,12 +117,12 @@ int getWord(char *beginSearch, WordDescriptor *word) {
 }
 
 int getWordRevers(char *rbegin, char *rend, WordDescriptor *word) {
-    char* word_end = findNonSpaceReverse(rbegin, rend);
+    char *word_end = findNonSpaceReverse(rbegin, rend);
 
     if (word_end == rend)
         return 0;
 
-    char* word_begin = findSpaceReverse(word_end, rend);
+    char *word_begin = findSpaceReverse(word_end, rend);
 
     word->begin = word_begin + 1;
     word->end = word_end + 1;
@@ -170,7 +170,7 @@ void getBagOfWords(BagOfWords *bag, char *s) {
     }
 }
 
-void wordDescriptorToString(WordDescriptor word, char* destination) {
+void wordDescriptorToString(WordDescriptor word, char *destination) {
     destination = copy(word.begin, word.end, destination);
     *destination = '\0';
 }

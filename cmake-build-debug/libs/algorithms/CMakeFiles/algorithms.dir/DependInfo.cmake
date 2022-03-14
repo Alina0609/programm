@@ -10,6 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/user/CLionProjects/course/libs/algorithms/algorithm.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/algorithm.c.obj"
   "C:/Users/user/CLionProjects/course/libs/algorithms/array/array.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/array/array.c.obj"
+  "C:/Users/user/CLionProjects/course/libs/algorithms/sort/generating.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/sort/generating.c.obj"
+  "C:/Users/user/CLionProjects/course/libs/algorithms/sort/sort.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/sort/sort.c.obj"
+  "C:/Users/user/CLionProjects/course/libs/algorithms/sort/timeOfSort.c" "C:/Users/user/CLionProjects/course/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/sort/timeOfSort.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

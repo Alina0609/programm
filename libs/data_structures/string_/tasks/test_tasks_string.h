@@ -128,11 +128,12 @@ void test_deleteWordsPalindroses2();
 
 void test_deleteWordsPalindroses();
 
-void test_allLettersInString1();
+void test_allLettersInaString1();
 
 void test_allLettersInString2();
 
 void test_allLettersInString3();
 
 void test_allLettersInString();
+
 #endif //COURSE_TEST_TASKS_STRING_H

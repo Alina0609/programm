@@ -162,4 +162,7 @@ bool isNonDescendingSorted(int *a, int n);
 int countValues(const int *a, int n, int value);
 
 int maximum(int a, int b);
+
+bool isOrdered(int *a, size_t n);
+
 #endif

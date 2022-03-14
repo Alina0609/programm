@@ -33,5 +33,5 @@ void replace(char *source, char *w1, char *w2) {
     }
 
     if (recPtr != source)
-    *--recPtr = '\0';
+        *--recPtr = '\0';
 }

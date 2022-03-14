@@ -194,6 +194,24 @@
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/algorithms/array/array.h">
 			<Option target="algorithms"/>
 		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/algorithms/sort/generating.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/algorithms/sort/generating.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/algorithms/sort/sort.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/algorithms/sort/sort.h">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/algorithms/sort/timeOfSort.c">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/user/CLionProjects/course/libs/algorithms/sort/timeOfSort.h">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="C:/Users/user/CLionProjects/course/libs/data_structures/bitset/bitset.c">
 			<Option target="data_structures"/>
 		</Unit>

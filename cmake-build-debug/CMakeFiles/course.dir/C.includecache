@@ -6,6 +6,46 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/user/CLionProjects/course/libs/algorithms/array/array.h
+stddef.h
+-
+stdbool.h
+-
+stdlib.h
+-
+
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/generating.h
+stdlib.h
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/stdlib.h
+time.h
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/time.h
+limits.h
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/limits.h
+
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/sort.h
+stdlib.h
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/stdlib.h
+../../algorithms/array/array.h
+C:/Users/user/CLionProjects/course/libs/algorithms/array/array.h
+memory.h
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/memory.h
+
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/timeOfSort.h
+stdlib.h
+-
+stdio.h
+-
+stdbool.h
+-
+time.h
+-
+generating.h
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/generating.h
+../../algorithms/array/array.h
+C:/Users/user/CLionProjects/course/libs/algorithms/array/array.h
+sort.h
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/sort.h
+
 C:/Users/user/CLionProjects/course/libs/data_structures/matrix/matrix.h
 stdbool.h
 -
@@ -187,4 +227,6 @@ libs/data_structures/string_/test_string_.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/test_string_.h
 libs/data_structures/string_/tasks/test_tasks_string.h
 C:/Users/user/CLionProjects/course/libs/data_structures/string_/tasks/test_tasks_string.h
+libs/algorithms/sort/timeOfSort.h
+C:/Users/user/CLionProjects/course/libs/algorithms/sort/timeOfSort.h
 

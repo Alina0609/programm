@@ -5,7 +5,7 @@
 #include "getStringWithMixWords.h"
 
 void getStringWithMixWords(char *str1, char *str2, char *res) {
-    if(*str1 == '\0' && *str2 == '\0')
+    if (*str1 == '\0' && *str2 == '\0')
         return;
 
     WordDescriptor word1, word2;
