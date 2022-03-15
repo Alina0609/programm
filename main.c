@@ -11,7 +11,9 @@ int main() {
 //    test_str();
 //    test_tasks_string();
 
-timeExperiment();
+    timeExperiment();
+    compsExperiment();
+
     return 0;
 }
 

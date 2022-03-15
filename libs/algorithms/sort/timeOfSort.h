@@ -43,4 +43,10 @@ void checkTime(void (*sortFunc )(int *, size_t),
 
 void timeExperiment();
 
+void checkNComps(long long (*sortFunc )(int *, size_t),
+                 void (*generateFunc )(int *, size_t),
+                 size_t size, char *experimentName);
+
+void compsExperiment();
+
 #endif //COURSE_TIMEOFSORT_H
